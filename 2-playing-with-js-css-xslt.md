@@ -31,7 +31,7 @@ nemo = Nemo(
 )
 ```
 
-**Warning**: a bug in Nemo (1.0.1) requires you to put your css into subfolder of your current app (it would not have
+**Warning**: a limitation in Nemo (1.0.1) requires you to put your css into subfolder of your current app (it would not have
 worked if `theme.css` was in the same folder as `app.py`.
 You can track this issue [here](https://github.com/Capitains/flask-capitains-nemo/issues/108)
 
