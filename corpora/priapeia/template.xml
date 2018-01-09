@@ -1,0 +1,63 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
+  schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>{title}</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Thibault Clérice</publisher>
+                <!-- This data has been produced in the context of Thibault's
+                    Clérice's PhD at the University of Lyon 3 and under contract at the École Nationale des Chartes -->
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title type="collection">Corpus Inscriptionum Latinarum</title>
+                    <idno>Vol IV</idno>
+                    <title type="volume">Inscriptiones parietariae Pompeianae, Herculanenses Stabianae</title>
+                    <editor role="editor"><name>Schöne</name>, <forename>Richard</forename></editor>
+                    <editor role="editor"><name>Zangemeister</name>, <forename>Karl Friedrich Wilhelm</forename></editor>
+                    <pubPlace>Leipzig</pubPlace>
+                    <date>1925/1976</date>
+                </bibl>
+                <bibl>
+                    <title>Epigraphische Datenbank Clauss - Slaby</title>
+                    <editor><forename>Manfred</forename> <name>Klaus</name></editor>
+                    <date>12-06-2017</date>
+                    <ref>http://manfredclauss.de/gb/index.html</ref>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <refsDecl n="CTS">
+            <cRefPattern n="line"
+                         matchPattern="(\w+).(\w+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+                <p>This pointer pattern extracts line</p>
+            </cRefPattern>
+            <cRefPattern n="poem"
+                         matchPattern="(\w+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+                <p>This pointer pattern extracts poem</p>
+            </cRefPattern>
+        </refsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage default="false">
+                <language ident="lat">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2017-06-12" who="Thibault Clérice">Converted to EpiDoc/CapiTainS</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" n="{urn}" xml:lang="{lang}">
+                {xml}
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<work groupUrn="urn:cts:latinLit:stoa0186" xml:lang="lat" urn="urn:cts:latinLit:stoa0186.stoa001" 
+    xmlns:cpt="http://purl.org/capitains/ns/1.0#"
+    xmlns:saws="http://purl.org/saws/ontology#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns="http://chs.harvard.edu/xmlns/cts" 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:scm="http://schema.org/">
+    
+    <title xml:lang="fre">Saturnales</title>
+    <title xml:lang="lat">Saturnalia</title>
+    <edition xml:lang="lat" urn="urn:cts:latinLit:stoa0186.stoa001.thayer-lat1" workUrn="urn:cts:latinLit:stoa0186.stoa001">
+        
+        <label xml:lang="fre">Saturnales</label>
+        <label xml:lang="lat">Saturnalia</label>
+        <description xml:lang="mul">Ludwig von Jan, published by Gottfried Bass, Quedlinburg and Leipzig, 1852 (Transcribed by Bill Thayer)</description>
+        <cpt:structured-metadata>
+            <dc:creator xml:lang="eng">Macrobe</dc:creator>
+            <dc:creator>urn:cts:latinLit:stoa0186</dc:creator>
+            <dc:title xml:lang="eng">Saturnalia</dc:title>
+            <dc:contributor xml:lang="eng">Bill Thayer</dc:contributor>
+            <dc:contributor xml:lang="eng">Ludwig von Jan</dc:contributor>
+            <dc:contributor xml:lang="fre">Thibault Clérice</dc:contributor>
+            <dc:publisher xml:lang="eng">Gottfried Bass</dc:publisher>
+            <dct:dateCopyrighted >1852</dct:dateCopyrighted>
+            <dct:isFormatOf>http://penelope.uchicago.edu/Thayer/E/Roman/Texts/Macrobius/Saturnalia/home.html</dct:isFormatOf>
+            <dct:license>https://creativecommons.org/licenses/by/4.0/</dct:license>
+            <dct:isFormatOf>https://archive.org/details/macrobiiambrosii02macr</dct:isFormatOf>
+        </cpt:structured-metadata>
+    </edition>
+</work>

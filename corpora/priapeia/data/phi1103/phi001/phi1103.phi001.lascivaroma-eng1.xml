@@ -1,0 +1,1099 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
+  schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>Priapeia</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Thibault Clérice</publisher>
+                <!-- This data has been produced in the context of Thibault's
+                    Clérice's PhD at the University of Lyon 3 and under contract at the École Nationale des Chartes -->
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>SPORTIVE EPIGRAMS ON PRIAPUS</title>
+                    <title>by divers poets in English verse and prose</title>
+                    <editor role="editor"><name>Smithers</name>, <forename>Leonard <abbr>C.</abbr></forename></editor>
+                    <editor role="editor"><roleName>Sir</roleName> <name>Burton</name>, <forename>Richard</forename></editor>
+                    <pubPlace>Leipzig</pubPlace>
+                    <date>1890</date>
+                </bibl>
+                <bibl>
+                    <title>Sacred Text</title>
+                    <date>2000</date>
+                    <ref>http://www.sacred-texts.com/cla/priap/priapeia.htm</ref>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <refsDecl n="CTS">
+                <cRefPattern n="line" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+                    <p>This pointer pattern extracts line</p>
+                </cRefPattern>
+                <cRefPattern n="poem" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+                    <p>This pointer pattern extracts poem</p>
+                </cRefPattern>
+            </refsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage default="false">
+                <language ident="lat">Latin</language>
+                <language ident="eng">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2017-06-12" who="Thibault Clérice">Converted to EpiDoc/CapiTainS</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body n="urn:cts:latinLit:phi1103.phi001.lascivaroma-eng1" xml:lang="eng">
+            <div type="translation" n="" xml:lang="eng">
+                <div type="textpart" subtype="poem" n="1">
+                    <l n="1">Thou, who be ready to read these cultureless sallies of singing,</l>
+                    <l n="2">Lower awhile yon brow suiting the Latian pride:</l>
+                    <l n="3">Here in this fane dwells not or Phoebus' sister or Vesta,</l>
+                    <l n="4">Neither the deity sprung forth of the patrial poll;</l>
+                    <l n="5">But the red guard of our garths, with organ grosser than rightful</l>
+                    <l n="6">Aye of his privities nude, guiltless of covering gear.</l>
+                    <l n="7">So with thy tunic hide what part is made to be hidden,</l>
+                    <l n="8">Or with what eyes see the parts deign these my lines to peruse.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="2">
+                    <l n="1">In play, Priapus (thou canst testify),</l>
+                    <l n="2">Songs, fit for garden not for book-work, I</l>
+                    <l n="3">Wrote and none over-care applied thereto.</l>
+                    <l n="4">No Muses dared I (like the verseful crew)</l>
+                    <l n="5">Invite to visit such unvirginal site.</l>
+                    <l n="6">For heart and senses did forbid me quite</l>
+                    <l n="7">To set the choir Pïérian, chaste and fair,</l>
+                    <l n="8">Before Priapus' tool--such deed to dare.</l>
+                    <l n="9">Then whatsoe'er I wrote when idly gay,</l>
+                    <l n="10">And on this Temple-wall for note I lay,</l>
+                    <l n="11">Take in good part--such is the prayer I pray.</l>
+                </div>
+                
+                <div type="textpart" subtype="poem" n="3"><l n="1">Darkly might I to thee say: Oh give me for ever and ever</l>
+                    <l n="2">What thou may'st constantly give while of it nothing be lost:</l>
+                    <l n="3">Give me what vainly thou'lt long to bestow in the days that are coming</l>
+                    <l n="4">When that invidious beard either soft cheek shall invade;</l>
+                    <l n="5">What unto Jove gave he who, borne by the worshipful flyer,</l>
+                    <l n="6">Mixes the gratefullest cups, ever his leman's delight;</l>
+                    <l n="7">What on the primal night maid gives to her love-longing bridegroom</l>
+                    <l n="8">Dreading ineptly the hurt dealt to a different part.</l>
+                    <l n="9">Simpler far to declare in our Latin, Lend me thy buttocks;</l>
+                    <l n="10">What shall I say to thee else? Dull's the Minerva of me.</l></div>
+                
+                <div type="textpart" subtype="poem" n="4">
+                    <l n="1">These tablets, sacred to the Rigid God,</l>
+                    <l n="2">From Elephantis' obscene booklets drawn,</l>
+                    <l n="3">Lalage offers and she prays thee try</l>
+                    <l n="4">To ply the painted figures' every part.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="5">
+                    <l n="1">All the conditions (they say) Priapus made with the youngling</l>
+                    <l n="2">Written in verses twain mortals hereunder can read:</l>
+                    <l n="3">'Whatso my garden contains to thee shall be lawfullest plunder</l>
+                    <l n="4">If unto us thou give whatso thy garden contains.'</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="6">
+                    <l n="1">Though I be wooden Priapus (as thou see'st),</l>
+                    <l n="2">With wooden sickle and a prickle of wood,</l>
+                    <l n="3">Yet will I seize thee, girl! and hold thee seized</l>
+                    <l n="4">And This, however gross, withouten fraud</l>
+                    <l n="5">Stiffer than lyre-string or than twisted rope</l>
+                    <l n="6">I'll thrust and bury to thy seventh rib.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="7">
+                    <l n="1">Oft in my speech one letter is lost; for Predicate always</l>
+                    <l n="2">Pedicate I pronounce. Reason--a trip of the tongue!</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="8">
+                    <l n="1">Matrons avoid this site, for your chaste breed</l>
+                    <l n="2">'Twere vile these verses impudique to read.</l>
+                    <l n="3">They still come on and not a doit they heed!</l>
+                    <l n="4">O'ermuch these matrons know and they regard</l>
+                    <l n="5">With willing glances this my vasty yard.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="9">
+                    <l n="1">'Why be my parts obscene displayed without cover?' thou askest:</l>
+                    <l n="2">Ask I wherefore no God careth his sign to conceal?</l>
+                    <l n="3">Wieldeth the Lord of the World his thunderbolt ever unhidden,</l>
+                    <l n="4">Nor is trident a-sheath given to the Watery God:</l>
+                    <l n="5">Mars never veileth that blade whose might is his prevalent power,</l>
+                    <l n="6">Nor in her tepid lap Pallas concealeth the spear:</l>
+                    <l n="7">Say me, is Phoebus ashamed his gold-tipt arrows to carry?</l>
+                    <l n="8">Or is her quiver wont Dian in secret to bear?</l>
+                    <l n="9">Say, doth Alcides hide his war-club doughtily knotted?</l>
+                    <l n="10">Or hath the God with the wings rod hidden under his robe?</l>
+                    <l n="11">When did Bacchus endue with dress his willowy Thyrsus?</l>
+                    <l n="12">Who ever spied thee, Love! wilfully hiding thy torch?</l>
+                    <l n="13">Ne'er be reproach to myself this mentule ever uncover'd:</l>
+                    <l n="14">Lacking my missile's defence I shall be wholly unarm'd.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="10">
+                    <l n="1">Why laugh such laughter, O most silly maid?</l>
+                    <l n="2">My form Praxiteles nor Scopas hewed;</l>
+                    <l n="3">To me no Phidian handwork finish gave;</l>
+                    <l n="4">But me a bailiff hacked from shapeless log,</l>
+                    <l n="5">And quoth my maker, 'Thou Priapus be!'</l>
+                    <l n="6">Yet on me gazing forthright gigglest thou</l>
+                    <l n="7">And holdest funny matter to deride</l>
+                    <l n="8">The pillar perking from the groin of me.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="11">
+                    <l n="1">'Ware of my catching! If caught, with rod I never will harm thee</l>
+                    <l n="2">Nor to thee deal sore wound using my sickle that curves.</l>
+                    <l n="3">Pierced with a foot-long pole thy skin shall be stretched in such fashion</l>
+                    <l n="4">Thou shalt be fain to believe ne'er had a wrinkle thine arse.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="12">
+                    <l n="1">A she (than Hector's parent longer aged,</l>
+                    <l n="2">Sister to Cumae's Sibyl seemeth me;</l>
+                    <l n="3">Equal to thee whom, to his home returned,</l>
+                    <l n="4">Theseus found lying in the fosse a-cold!)</l>
+                    <l n="5">Hither with tottering gait is wont to come;</l>
+                    <l n="6">And, wrinkled hands upraising to the stars,</l>
+                    <l n="7">Begs that she'll never fail a yard to find;</l>
+                    <l n="8">And, as yester'een she prayed ere daylight fled</l>
+                    <l n="9">One of three teeth she happened out to crache.</l>
+                    <l n="10">'Bear it afar (cried I) and let it lurk</l>
+                    <l n="11">Beneath thy tattered robe and tawny stole;</l>
+                    <l n="12">(Fen as 'tis ever wont); and dread the fight</l>
+                    <l n="13">Of meagre jaws which ope with such a gape--</l>
+                    <l n="14">By hairy nostrils capped and eminent nose--</l>
+                    <l n="15">Thou hadst deemed to see an Epicurean yawn.'</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="13">
+                    <l n="1">Thou shalt be pedicate (lad!), thou also (lass!) shalt be rogered;</l>
+                    <l n="2">While for the bearded thief is the third penalty kept.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="14">
+                    <l n="1">Here' Here! nor dare expect (whoe'er thou be)</l>
+                    <l n="2">To 'scape the Lecher God's fane venerand;</l>
+                    <l n="3">And, if a damsel lay the night with thee,</l>
+                    <l n="4">From this my presence fear not to be bann'd</l>
+                    <l n="5">Fen as the sterner Gods of Heaven command.</l>
+                    <l n="6">The Ne'er-do-wells and paltry gods are we</l>
+                    <l n="7">Of rural worship and 'spite modesty</l>
+                    <l n="8">Aye under Jove with balls a-bare we stand:</l>
+                    <l n="9">Then enter whoso hither entry seek</l>
+                    <l n="10">Reckless of bawdy-house's blackened reek!</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="15">
+                    <l n="1">Charged to my charge the fieldlet who shall dare</l>
+                    <l n="2">With hand not modest anywise molest,</l>
+                    <l n="3">Me fox no eunuch he shall know and feet.</l>
+                    <l n="4">Here in a distant place the hurst amid</l>
+                    <l n="5">He peradventure to himself shall say--</l>
+                    <l n="6">'None! saw me so misused.' But he is wrong:</l>
+                    <l n="7">These huge attestors shall the cause maintain.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="16">
+                    <l n="1">Rare as those apples wherewith Hippomenes Schoeneïs ravished;</l>
+                    <l n="2">Fair as the fruits that enfam'd Garths of the Hesperid maids;</l>
+                    <l n="3">Fen as one fancies the lot which, pacing her patrial vergers,</l>
+                    <l n="4">Nausicaä full oft bare in her well-fillèd lap;</l>
+                    <l n="5">Sweet as the pome whereon Acontius limnèd the letters</l>
+                    <l n="6">Which being read his Fair pledged to her love-longing swain;</l>
+                    <l n="7">Such be the fruits that youth who owneth the flourishing fieldlet</l>
+                    <l n="8">Placed on the table of stone, naked Priapus! for thee.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="17">
+                    <l n="1">What hast thou, meddling watch, with me to do?</l>
+                    <l n="2">Why baulk the robber who to me would come?</l>
+                    <l n="3">Let him draw nigh: the laxer shall he go.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="18">
+                    <l n="1">Aye in this prickle of ours the bonniest boon to be found is,</l>
+                    <l n="2">Loose for my daily use never a woman can be.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="19">
+                    <l n="1">Will ever Telethusa, posture-mime,</l>
+                    <l n="2">Who with no tunic veiling hinder cheeks</l>
+                    <l n="3">Higher than her vitals heaves with apter geste</l>
+                    <l n="4">Wriggle to please thee with her wavy loins?</l>
+                    <l n="5">So thee, Priapus, not alone she'll move</l>
+                    <l n="6">E'en Phaedra's stepson shall her movement rouse.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="20">
+                    <l n="1">Thunders are under Jove; with the trident weaponed is Neptune;</l>
+                    <l n="2">Forceful is Mars with brand, spear, O Minerva, is thine;</l>
+                    <l n="3">Liber engages in fray, confiding on sheaflets of Thyrsi;</l>
+                    <l n="4">By th' Apollinean hand shafts (they assure us) are shot;</l>
+                    <l n="5">Hercules' right is armed with the club that cannot be conquer'd;</l>
+                    <l n="6">But a distended yard makes me an object of awe.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="21">
+                    <l n="1">Wealth is my loss! Do thou vouchsafe lend aid to my prayer,</l>
+                    <l n="2">Nor, by thy signal shown, me, O Priapus, betray:</l>
+                    <l n="3">Whatso before thee I laid, of home-grown apples the firstlings,</l>
+                    <l n="4">(Prithee, be pleased not to tell!) from Via Sacra be ta'en.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="22">
+                    <l n="1">An fro' me woman shall thieve or plunder me man or a man-child,</l>
+                    <l n="2">She shall pay me with coynte, that with his mouth, this with arse.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="23">
+                    <l n="1">Whoso of violets here shall pluck or rose,</l>
+                    <l n="2">Or furtive greens or apples never bought,</l>
+                    <l n="3">May he in want of woman or of boy</l>
+                    <l n="4">By the same tension you in me behold</l>
+                    <l n="5">Go burst, I ever pray, and may his yard</l>
+                    <l n="6">Against his navel throb and rap in vain.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="24">
+                    <l n="1">Here has the bailiff, now of this plentiful garden the guardian,</l>
+                    <l n="2">Bidden me care for the place he to my service entrusts.</l>
+                    <l n="3">Thief! thou shalt suffer the pain albeit crying in anger--</l>
+                    <l n="4">'What! for a cabbage all this? This for a cabbage I bear?'</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="25">
+                    <l n="1">This staff of office cut from tree as 'tis,</l>
+                    <l n="2">No more with leafage green for aye to bloom;</l>
+                    <l n="3">Staff by the pathic damsels fondly loved,</l>
+                    <l n="4">Which e'en the kings delight in hand to hold</l>
+                    <l n="5">And oft by noble catamites bekissed--</l>
+                    <l n="6">This staff in robbers' vitals deep shall plunge</l>
+                    <l n="7">Up to its bushy base and bag of balls.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="26">
+                    <l n="1">Hither, Quirites! (here what limit is?)</l>
+                    <l n="2">Either my member seminal lop ye off</l>
+                    <l n="3">Which thro' the livelong nights for aye fatigue</l>
+                    <l n="4">The neighbour-women rutting endlessly,</l>
+                    <l n="5">Lewder than sparrows in the lusty spring;</l>
+                    <l n="6">Or I shall burst and ye Priapus lose.</l>
+                    <l n="7">How I be futtered-out yourselves espy</l>
+                    <l n="8">Used-up, bejaded, lean and pallid grown,</l>
+                    <l n="9">Who erstwhile ruddy, in my doughtiness wont</l>
+                    <l n="10">To kill with poking thieves however doughty.</l>
+                    <l n="11">My side has failed me and poor I with cough</l>
+                    <l n="12">The perilous spittle ever must outspew.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="27">
+                    <l n="1">Well-known darling of folk in the Circus Maximus far famed,</l>
+                    <l n="2">Quinctia, tremulous hips trainèd and artful to wag,</l>
+                    <l n="3">Cymbals and castanets (the wanton arms) to Priapus</l>
+                    <l n="4">Offers and tambourine struck with the hand to self drawn.</l>
+                    <l n="5">Wherefore prays she that aye she please her mob of admirers;</l>
+                    <l n="6">Let one and all stand stiff after the wont of her god.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="28">
+                    <l n="1">Thou, of unrighteous thought, that hardly canst</l>
+                    <l n="2">Refrain from robbing this my garden-plot,</l>
+                    <l n="3">With foot-long fascinum shalt bulghar'd be:</l>
+                    <l n="4">Yet if so mighty grievous punishment</l>
+                    <l n="5">Profit thee naught, at higher stead I'll strike.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="29">
+                    <l n="1">Priapus! perish I an words obscene</l>
+                    <l n="2">And wicked terms to use I'm not ashamed:</l>
+                    <l n="3">But whenas thou, a god (bylaying shame),</l>
+                    <l n="4">To me displayest bollocks evident,</l>
+                    <l n="5">With Coynte the Prickle I must baldly name.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="30">
+                    <l n="1">Dreadful wi' sickle and dire with thy greater part, O Priapus!</l>
+                    <l n="2">Prithee to me point out which be the way to the fount?</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="31">
+                    <l n="1">Hie thee amid these vines whereof an thou gather a grape-bunch</l>
+                    <l n="2">Guest! of the water shalt drink serving for different use.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="32">
+                    <l n="1">Long as thy wanton hand to pluck refrain</l>
+                    <l n="2">Chaster than Vesta's self thou may'st remain</l>
+                    <l n="3">Else thee my belly's arm shall loosen so</l>
+                    <l n="4">Out of thy proper anus thou shalt flow.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="33">
+                    <l n="1">A damsel drier than the raisin'd grape,</l>
+                    <l n="2">Warmer than boxwood or than virgin wax,</l>
+                    <l n="3">Who pismires clustering on her every limb</l>
+                    <l n="4">Maketh a bulky-corpulent folk appear;</l>
+                    <l n="5">One whose unopened bowels through her skin</l>
+                    <l n="6">The Tuscan wizard can at will prospect;</l>
+                    <l n="7">One who like rotten pounce so lacking juice</l>
+                    <l n="8">None ever saw her with a slavering lip;</l>
+                    <l n="9">One whom for blood her arteries within</l>
+                    <l n="10">To have sand or sawdust differing leeches deem--</l>
+                    <l n="11">Such one to visit me anights is wont</l>
+                    <l n="12">Bringing with ghostly leanness ghastly hue;</l>
+                    <l n="13">Whist I (like island iron-forger) seem</l>
+                    <l n="14">To rub and rasp me on a lanthorn's horn</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="34">
+                    <l n="1">Wont the Priapi of old were to have both Naiads and Dryads</l>
+                    <l n="2">And the stiff vein of the God all had what causes to droop;</l>
+                    <l n="3">Now there's naught of the kind; now so fulfilled my desire is</l>
+                    <l n="4">Fain am I left to believe every Nymph to be dead.</l>
+                    <l n="5">Vile thing 'twere to be done, but lest I burst me with straining</l>
+                    <l n="6">Sickle unhanding I mistress must make of my hand.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="35">
+                    <l n="1">At holy offering to the Lustful God</l>
+                    <l n="2">Hired was a harlot for a slender price</l>
+                    <l n="3">To meet the common wants of commonweal;</l>
+                    <l n="4">And for as many men one night outworked</l>
+                    <l n="5">So many willow yards she'll give to thee.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="36">
+                    <l n="1">Thief, for first thieving shalt be swived, but an</l>
+                    <l n="2">Again arrested shalt be irrumate;</l>
+                    <l n="3">And, shouldst attempt to plunder time the third,</l>
+                    <l n="4">This and that penalty thou shalt endure,</l>
+                    <l n="5">Being both pedicate and irrumate.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="37">
+                    <l n="1">We all show special notes of bodily shape:</l>
+                    <l n="2">Long-haired is Phoebus, arm-strong Hercules,</l>
+                    <l n="3">And tender Bacchus owneth virginal form;</l>
+                    <l n="4">Pallas hath grey-blue eyes, Venus a cast;</l>
+                    <l n="5">Th' Arcadian Fauns thou seest bloody-browed</l>
+                    <l n="6">And the Gods' Messenger shows proper feet;</l>
+                    <l n="7">The Guard of Lemnos moves unequal steps;</l>
+                    <l n="8">Ever untrimmed is Aesculapius' beard;</l>
+                    <l n="9">None hath a broader breast than bully Mars;</l>
+                    <l n="10">But, an Priapus' rank 'mid these remain,</l>
+                    <l n="11">There be no better-membered deity.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="38">
+                    <l n="1">Why on memorial tablet do they limn</l>
+                    <l n="2">(You ask) the member which begets us all?</l>
+                    <l n="3">Whenas by accident my yard was hurt</l>
+                    <l n="4">And I (unhappy!) feared the surgeon's hand</l>
+                    <l n="5">To such legitimate almighty gods--</l>
+                    <l n="6">Phoebus for instance take or Phoebus' son--</l>
+                    <l n="7">I blushed to offer for a cure my cock</l>
+                    <l n="8">And prayed--'Priapus, an thou heal the part,</l>
+                    <l n="9">O Sire, whose very counterpart thou seem'st</l>
+                    <l n="10">And without hacking make it whole again,</l>
+                    <l n="11">One linmed on tablet shall to thee be given</l>
+                    <l n="12">Like-sized, like-coloured and alike of shape.'</l>
+                    <l n="13">The God to promise deigning wagged his yard,</l>
+                    <l n="14">By way of nod divine, and did my bede.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="39">
+                    <l n="1">Simply to thee I say whatever to say shall behove me,</l>
+                    <l n="2">Since my 'nature' alway openly showeth to fight;</l>
+                    <l n="3">Fain would I pedicate thee who'rt Fain to plunder my apples;</l>
+                    <l n="4">An my want thou shalt grant, eke shall be granted thy want.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="40">
+                    <l n="1">Form-charms in Mercury have might to please;</l>
+                    <l n="2">Form in Apollo is conspicuous charm;</l>
+                    <l n="3">Formose in picture is Lyaeus limned</l>
+                    <l n="4">And Cupid most formose of all is shown.</l>
+                    <l n="5">Freely of lovely form the lack I own;</l>
+                    <l n="6">Yet is our mentule a resplendent gem;</l>
+                    <l n="7">And this to th'erst-named gods shall aye prefer</l>
+                    <l n="8">The damsel dowered with no fatuous coynte.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="41">
+                    <l n="1">Yon Telethusa befamèd amid the damsels Suburran</l>
+                    <l n="2">(Who by her gains I hold freedwoman now is become)</l>
+                    <l n="3">Girds with a gilded crown, O Holy! thine inguinal organ,</l>
+                    <l n="4">Held by the pathic girls like in degree to a god.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="42">
+                    <l n="1">Whoso comes hither shall a bard become</l>
+                    <l n="2">And to me dedicate facetious verse;</l>
+                    <l n="3">But who thiswise doth not, 'mid learnèd poets</l>
+                    <l n="4">Shall pace with fundament fulfilled of 'figs'.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="43">
+                    <l n="1">Bailiff Aristagoras of his grapes high-pedigree'd boasting</l>
+                    <l n="2">Apples moulded in wax giveth, O Godhead, to thee:</l>
+                    <l n="3">But thou, pleased with the fruit in effigy placed on thine altar,</l>
+                    <l n="4">Genuine 'fruit' vouchsafe he, O Priapus! shall bear.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="44">
+                    <l n="1">Refrain from deeming all my sayings be</l>
+                    <l n="2">In sport bespoken for mine own disport;</l>
+                    <l n="3">Thieves taken thrice or four tunes in the fact</l>
+                    <l n="4">(Believe my word) I'll surely irrumate.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="45">
+                    <l n="1">What shouldest say this spear (although I'm wooden) be wishing</l>
+                    <l n="2">Whenas a maiden chance me in the middle to kiss?</l>
+                    <l n="3">Here none augur we: need: believe my word she is saying -</l>
+                    <l n="4">'Let the rude spear in me work with its natural wont!'</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="46">
+                    <l n="1">Whenas the Rigid God espied a wight</l>
+                    <l n="2">Crisping his head with curling-tongs aglow</l>
+                    <l n="3">That he be likest to a Moorish maid,</l>
+                    <l n="4">'Ho thou! (cried he) we tell thee, catamite;</l>
+                    <l n="5">However much thou toast and curl thyself</l>
+                    <l n="6">Is then a damsel more of worth, I ask,</l>
+                    <l n="7">Than are the hairy honours of thy yard?'</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="47">
+                    <l n="1">Ho girl! no whiter-skinned than Moorish man</l>
+                    <l n="2">Yet, Oh! than every pathic softer far;</l>
+                    <l n="3">Squatter than Pygmey fearful of the crane;</l>
+                    <l n="4">Harsher and hairier than pelt of bear;</l>
+                    <l n="5">Looser than Median or than Indian hose;</l>
+                    <l n="6">Remain as please thee or at will depart.</l>
+                    <l n="7">For, though full ready seem I, yet I want</l>
+                    <l n="8">Of rockets half-score bundles at the least,</l>
+                    <l n="9">Ere I that ditch-like groin can scrub and crush</l>
+                    <l n="10">The swarming wormlets of thy privy parts.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="48">
+                    <l n="1">Who of you people here shall come to sup</l>
+                    <l n="2">Yet bring no verses suited to my taste;</l>
+                    <l n="3">I pray his wife or punk, hot-wantoning,</l>
+                    <l n="4">Reduce his rival to most languid state;</l>
+                    <l n="5">While he, all lonely through the livelong night,</l>
+                    <l n="6">Lie, by the lustful rockets sore disturbed.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="49">
+                    <l n="1">Tho' see you drenchèd wet that part of me</l>
+                    <l n="2">Whereby Priapus I am signified;</l>
+                    <l n="3">Nor dew (believe me!) 'twas nor hoary frost,</l>
+                    <l n="4">But whatso gusheth of its own accord</l>
+                    <l n="5">When I bethink me of a pathic god.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="50">
+                    <l n="1">Thou, who art 'customed to view around the walls of our temple</l>
+                    <l n="2">Verse of a strain jocose rather than modest and chaste,</l>
+                    <l n="3">Cease to be hurt by the song obscene, for verily ne'er was</l>
+                    <l n="4">Wont our mentule to wear eyebrow up-drawn in surprise.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="51">
+                    <l n="1">A certain person, an thou please (Priapus!),</l>
+                    <l n="2">Plays me, a girl with piles full many piled;</l>
+                    <l n="3">And nor she gives me nor denies her gift,</l>
+                    <l n="4">While for deferring ever finds she cause.</l>
+                    <l n="5">But, if to 'joy her shall our lot befall,</l>
+                    <l n="6">We will (Priapus!) gird thy total yard</l>
+                    <l n="7">With the twin garlands to thy favours due.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="52">
+                    <l n="1">What be this pother? For what cause suspects</l>
+                    <l n="2">My mind so many thieves will rob my garth,</l>
+                    <l n="3">When all pay forfeit (as on us they light)</l>
+                    <l n="4">Of being diggèd deep to bending loins?</l>
+                    <l n="5">Here be no better Figs than neighbours, figs</l>
+                    <l n="6">Nor Grapes as pluckt by blond-haired Areté,</l>
+                    <l n="7">Nor Apples grafted on Picenian stock,</l>
+                    <l n="8">Nor Pear-fruits worthy such a risk to run,</l>
+                    <l n="9">Nor Plum though yellower than wax virginal,</l>
+                    <l n="10">Nor Sorb that stayeth slippery stomach-flux.</l>
+                    <l n="11">My branches bear not best of Mulberries,</l>
+                    <l n="12">Or oval Filbert men 'Avellan' clepe,</l>
+                    <l n="13">Or Almond gleaming with a rosy flame.</l>
+                    <l n="14">I greed not Coleworts or fine greens to grow,</l>
+                    <l n="15">Or Beets of bigness by no garden borne,</l>
+                    <l n="16">Or Scallion ever shooting at the head,</l>
+                    <l n="17">Ne'er deem I any for the seed-full Gourd,</l>
+                    <l n="18">Basil or Cucumbers aground bestrown,</l>
+                    <l n="19">Come to my garth; or sessile Lettuces;</l>
+                    <l n="20">Or that one nightly lustful Rockets rob,</l>
+                    <l n="21">The Mint strong-smelling and the healthful Rue,</l>
+                    <l n="22">The fibrous Garlic and the Onion sharp--</l>
+                    <l n="23">Which all though safely fenced and hedged by us</l>
+                    <l n="24">Not less are cultured in the neighbouring garths.</l>
+                    <l n="25">Yet, these abandoning, to what grounds I worked</l>
+                    <l n="26">(Most villainous of thieves!), you're fain to flock.</l>
+                    <l n="27">Doubtless for open penalty ye come</l>
+                    <l n="28">And that attracts you wherewithal we threat.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="53">
+                    <l n="1">Ho thou, which hardly thy rapacious hand</l>
+                    <l n="2">Canst from the garden in my charge contain,</l>
+                    <l n="3">First shall this watchman, ever lustful loon,</l>
+                    <l n="4">Entering and exiting alternate-wise</l>
+                    <l n="5">Widen thy portal to its fullest stretch</l>
+                    <l n="6">Then shall the couple guarding either flank,</l>
+                    <l n="7">Grandly provided with those pensile parts,</l>
+                    <l n="8">After they've sorely pierced thee prostrate thrown</l>
+                    <l n="9">Bring to the self-same part an ass-foal lewd</l>
+                    <l n="10">Gifted with pizzle not a whit the worse.</l>
+                    <l n="11">Then who is wise beware of working ill,</l>
+                    <l n="12">Knowing so much of pego waits him here.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="54">
+                    <l n="1">Bacchus often is wont with a moderate bunch to be sated,</l>
+                    <l n="2">When the deep brim-full vats hardly the must shall contain;</l>
+                    <l n="3">So when the threshing-floors all fail for the plentiful harvest</l>
+                    <l n="4">Ceres' ringlets to crown only one garland we bring.</l>
+                    <l n="5">Thou too, a minor god, example borrow from the major--</l>
+                    <l n="6">Though few apples we give, take thou our gift in good part.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="55">
+                    <l n="1">E, D, an thou write, conjoining the two with a hyphen,</l>
+                    <l n="2">What middle D would bisect this shall be painted to view.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="56">
+                    <l n="1">Who could believe my words? 'Tis shame to confess that the sickle</l>
+                    <l n="2">Yon thief-folk have availed e'en from my fingers to thieve.</l>
+                    <l n="3">Nor doth its loss so much affect my mind or dishonour</l>
+                    <l n="4">As the just, natural dread other my weapons to lose,</l>
+                    <l n="5">Which lost shall I stand mulcted of country, and he that was erewhile</l>
+                    <l n="6">Son of the city to thee, Lampsacus! Gaul shall become.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="57">
+                    <l n="1">Thou too dost mock me, Thief! and the infamous</l>
+                    <l n="2">Finger dost point when menacèd by me!</l>
+                    <l n="3">Ah hapless I, that should be only wood</l>
+                    <l n="4">What makes me ever formidable seem!</l>
+                    <l n="5">Yet will I charge my garden's lustful lord</l>
+                    <l n="6">For me deign robber-folk to irrumate.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="58">
+                    <l n="1">A chough, a caries, an eld-worn grave,</l>
+                    <l n="2">By lapse of crowding centuries rotten grown,</l>
+                    <l n="3">Who as a wetnurse haply may have fed</l>
+                    <l n="4">Tithonus, Priam, Nestor, and perchance</l>
+                    <l n="5">When they were little lads was agèd crone,</l>
+                    <l n="6">Sues me for swiver she may never lack!</l>
+                    <l n="7">How if she pray me to be girl again?</l>
+                    <l n="8">Yet, if she's moneyed, she's again a girl.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="59">
+                    <l n="1">Whatever thief shall trick my faith may he</l>
+                    <l n="2">Wither, far banisht from th' effeminate bum!</l>
+                    <l n="3">Whatever damsel plucks with wanton hand</l>
+                    <l n="4">This fruitage, never find she one to strum!</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="60">
+                    <l n="1">Know, lest due warning be denied by thee,</l>
+                    <l n="2">An thief thou come male whore shalt surely flee.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="61">
+                    <l n="1">Hadst thou as many of apples as offers of verses (Priapus!),</l>
+                    <l n="2">Richer than Alcinous ancient of days were thy lot.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="62">
+                    <l n="1">Why, cultivator, vainly moan to me</l>
+                    <l n="2">That I, a fruitful apple-tree whilom,</l>
+                    <l n="3">For two autumnal seasons barren stand?</l>
+                    <l n="4">Weighs me not down (as deemest thou) old age</l>
+                    <l n="5">Nor am I floggèd by the hailstone hard,</l>
+                    <l n="6">Nor yet my burgeon-gems a-budding new</l>
+                    <l n="7">Are burnt by rigours of a wintry spring:</l>
+                    <l n="8">Neither the winds nor rains nor yet the droughts</l>
+                    <l n="9">Caused just complaining to the apple-tree;</l>
+                    <l n="10">Nor me the starling or the robber 'Daw</l>
+                    <l n="11">Or crow as crone old-grown or watery goose</l>
+                    <l n="12">Or thirsty raven e'er endamagèd.</l>
+                    <l n="13">No! but from bearing scribblers' rubbish verse</l>
+                    <l n="14">On labouring branches comes mine every woe.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="63">
+                    <l n="1">Sleep, O ye watchdogs! safe, while aid in guarding the garden</l>
+                    <l n="2">Lover his leman beloved, Seirius Erigone.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="64">
+                    <l n="1">'Tis not enough, my friends, I set my seat</l>
+                    <l n="2">Where earth gapes chinky under Canicule,</l>
+                    <l n="3">Ever enduring thirsty summer's drought.</l>
+                    <l n="4">'Tis not enough the showers flow down my breast</l>
+                    <l n="5">And beat the hail-storms on my naked hair,</l>
+                    <l n="6">With beard fast frozen, rigid by the rime.</l>
+                    <l n="7">'Tis not enough that days in labour spent</l>
+                    <l n="8">Sleepless I lengthen through the nights as long.</l>
+                    <l n="9">Add that a godhead terrible of staff</l>
+                    <l n="10">Hewed me the rustic's rude unartful hand</l>
+                    <l n="11">And made me vilest of all deities,</l>
+                    <l n="12">Invoked as wooden guardian of the gourds.</l>
+                    <l n="13">And more, for shameless note to me was 'signed</l>
+                    <l n="14">With lustful nerve a pyramid distent,</l>
+                    <l n="15">Whereto a damsel (whom well nigh I'd named)</l>
+                    <l n="16">Is with her fornicator wont to come</l>
+                    <l n="17">And save in every mode Philaenis tells</l>
+                    <l n="18">Futtered, in furious lust her way she wends.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="65">
+                    <l n="1">One than a goose's marrow softer far,</l>
+                    <l n="2">Comes hither stealing for its penalty's sake:</l>
+                    <l n="3">Steal he as please him: I will see him not.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="66">
+                    <l n="1">This, with his snout aye alert to uproot the lilies a-blowing,</l>
+                    <l n="2">Slain for thy victim 's the pig bred in the stye's tepid reek.</l>
+                    <l n="3">But, an thy will be not to murther the herd, O Priapus,</l>
+                    <l n="4">Grant of thy grace yon gate into the garden be shut.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="67">
+                    <l n="1">Thou, who lest manly mark thy glances meet,</l>
+                    <l n="2">Hence fain avertest thee as suits the pure;</l>
+                    <l n="3">No wonder 'twere if that to see thou fear'st</l>
+                    <l n="4">Within thy vitals thou desire to feel.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="68">
+                    <l n="1">PEnelope's first syllable followed by firstling of DIdo</l>
+                    <l n="2">Take, and of CAmus--the front also of REmus the head.</l>
+                    <l n="3">Whatso thou makest of these unto me when caught in my orchard</l>
+                    <l n="4">Thief thou shalt give, such pain shall for thy thieving atone.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="69">
+                    <l n="1">An I rustical seem to have spoken somewhat unlearned,</l>
+                    <l n="2">Pardon me: apples I pluck, pluck I no matter of books;</l>
+                    <l n="3">Yet in my rudeness ok when hearing the dominie reading,</l>
+                    <l n="4">Stood I storing in mind much of Homerical lore.</l>
+                    <l n="5">'Psoleon' fain he calls what we 'Psoloenta' be calling;</l>
+                    <l n="6">What we 'Culum' name, 'Culeon' loves he to term;</l>
+                    <l n="7">'Smerdaleos' forsure designs what is nothing too cleanly</l>
+                    <l n="8">And is the Pedicon's yard rightly 'Smerdalea' hight.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="70">
+                    <l n="1">What then? Had Trojan yard Taenerian dame and her Cunnus</l>
+                    <l n="2">Never delighted, of song never a subject had he;</l>
+                    <l n="3">But for the Tantalid's tool being known to Fame and well noted</l>
+                    <l n="4">Old man Chryses had naught left him for making his moan.</l>
+                    <l n="5">This did his mate dispoil of a fond affectionate mistress</l>
+                    <l n="6">And of a prize not his plunderèd Aeacides,</l>
+                    <l n="7">He that aye chaunted his dirge of distress to the lyre Pelethronian,</l>
+                    <l n="8">Lyre of the stiff taut string, stiffer the string of himself.</l>
+                    <l n="9">Ilias, noble poem, was gotten and born of such direful</l>
+                    <l n="10">Ire, of that Sacred Song such was original cause.</l>
+                    <l n="11">Matter of different kind was the wander of crafty Ulysses:</l>
+                    <l n="12">An thou would verity know Love too was motor of this.</l>
+                    <l n="13">Hence does he gather the root whence springs that aureate blossom</l>
+                    <l n="14">Which whenas 'Moly' hight, 'Moly' but 'Mentula' means.</l>
+                    <l n="15">Here too of Circe we read and Calypso, daughter of Atlas,</l>
+                    <l n="16">Bearing the mighty commands dealt by Dulichian Brave</l>
+                    <l n="17">Whom did Alcinous' maiden admire by cause of his member</l>
+                    <l n="18">For with a leafy branch hardly that yard could be dad.</l>
+                    <l n="19">Yet was he hasting, his way to regain his little old woman:</l>
+                    <l n="20">Thy coynte (Penelope!) claiming his every thought;</l>
+                    <l n="21">Thou who bidest so chaste with mind ever set upon banquets</l>
+                    <l n="22">And with a futtering crew alway thy palace was filled:</l>
+                    <l n="23">Then that thou learn of these which were most potent of swiving,</l>
+                    <l n="24">Wont wast thou to bespeak, saying to suitors erect--</l>
+                    <l n="25">'Than my Ulysses none was better at drawing the bowstring</l>
+                    <l n="26">Whether by muscles of side or by superior skill;</l>
+                    <l n="27">And, as he now is deceased, do ye all draw and inform me</l>
+                    <l n="28">Which of ye men be the best so that my man he become.'</l>
+                    <l n="29">Thy heart, Penelope, right sure by such pow'r I had pleasèd,</l>
+                    <l n="30">But at the time not yet had I been made of mankind.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="71">
+                    <l n="1">When the fig's honied sweet thy taste shall catch</l>
+                    <l n="2">And hither tempt thee hand of thee to stretch;</l>
+                    <l n="3">Glance at my nature, Thief! and estimate</l>
+                    <l n="4">The mentule thou must cack and what's it weight.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="72">
+                    <l n="1">A starveling stranger made me laughing-stock,</l>
+                    <l n="2">Bringing me cakes and spelt with salt bestrown;</l>
+                    <l n="3">Then, having scattered part upon the fire,</l>
+                    <l n="4">Forthright he hied him, duty duly done.</l>
+                    <l n="5">Hereat a neighbour's bitch incontinent comes--</l>
+                    <l n="6">Led by the savour of the smoke, I ween--</l>
+                    <l n="7">And gobbling all that offering to my yard</l>
+                    <l n="8">Atones by lusting through the livelong night.</l>
+                    <l n="9">But you, be wary of this place, nor give</l>
+                    <l n="10">More of like offerings lest of hungry hounds</l>
+                    <l n="11">A pack come hurrying here to visit me;</l>
+                    <l n="12">And, when you worship me and godhead mine,</l>
+                    <l n="13">Ye have your very guardians irrumate.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="73">
+                    <l n="1">An thou pluck of this orchard fruit to my guarding committed,</l>
+                    <l n="2">How for losing the sweets grieve I thou quickly shalt learn.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="74">
+                    <l n="1">Of vergers diligent guard (Priapus!), threat</l>
+                    <l n="2">These robbing loons with thy red amulet.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="75">
+                    <l n="1">Not to be moved am I; shouldst thou, Thief, venture on thieving</l>
+                    <l n="2">These big apples, to thee pommes de bragues I will give.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="76">
+                    <l n="1">Why, O ye pathic girls, with sidelong oglings observe me?</l>
+                    <l n="2">Never this mentule of mine riseth erect from my groin.</l>
+                    <l n="3">Yet though lifeless now and a pole to no one of service,</l>
+                    <l n="4">Build me an altar and it shall be of service to all.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="77">
+                    <l n="1">Right through the middle of lads and of lasses a passage shall pierce</l>
+                    <l n="2">This yard, yet shall it touch bearded ones only aloft.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="78">
+                    <l n="1">Dodona is hallowed, Jupiter, to thee;</l>
+                    <l n="2">To Juno Samos and to Dis Mykenae;</l>
+                    <l n="3">While Taenarus' billowy seas confess the King.</l>
+                    <l n="4">Pallas preserveth the Cecropian towers;</l>
+                    <l n="5">Pythius Delphos, navel of the world;</l>
+                    <l n="6">Delia the Cretan Isle and Cynthian hills;</l>
+                    <l n="7">Faunus hath Maenalos and Arcadian groves.</l>
+                    <l n="8">Rhodos is happy protégé of Sol;</l>
+                    <l n="9">Gades and Tibur dank of Hercules;</l>
+                    <l n="10">Snowy Cyllene of the swift-paced God</l>
+                    <l n="11">And seething Lemnos of the limping Sire;</l>
+                    <l n="12">Ennéan matrons unto Ceres flock,</l>
+                    <l n="13">To the raped Goddess oystery Cyzicus;</l>
+                    <l n="14">Gnidos and Paphos lovely Venus hail</l>
+                    <l n="15">While mortals dedicate Lampsacus to thee.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="79">
+                    <l n="1">Though I be agèd now, though head and chin</l>
+                    <l n="2">Now show them hoary-hue'd with grizzling hair,</l>
+                    <l n="3">Still can I perforate those caught by me,</l>
+                    <l n="4">Tithonus, Priam, Nestor--every one.</l>
+                    <l n="5">You see how mightily my rage ye rouse</l>
+                    <l n="6">Who hem me ever with a bullfinch hedge</l>
+                    <l n="7">Forbidding robbers from approaching me.</l>
+                    <l n="8">This is to hurt while helping, this is but</l>
+                    <l n="9">To scare the birdies from the birder's snare.</l>
+                    <l n="10">The way is closèd nor prone-fallen thief</l>
+                    <l n="11">Can with his backside expiate his crime.</l>
+                    <l n="12">Thus I who erstwhile ever, ever and aye</l>
+                    <l n="13">Buttocks of plundering wights was wont to cleave,</l>
+                    <l n="14">For many a night and day in idlesse stand.</l>
+                    <l n="15">I also, suffering pains enough and more,</l>
+                    <l n="16">Flow off in semen and a lecher whiles</l>
+                    <l n="17">Unlive my life-tide. Who could ever think</l>
+                    <l n="18">From lute the lutanist should cut him clear?</l>
+                    <l n="19">But you, ereeld's marasmus do me dead,</l>
+                    <l n="20">Desist, I pray you from vain diligence,</l>
+                    <l n="21">Nor hang a buckle on Priapus' yard.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="80">
+                    <l n="1">The Gods and Goddesses deny thy teeth</l>
+                    <l n="2">A bait, a whetting, neighbour cunnilinge!</l>
+                    <l n="3">Thro' whom my girl (once strong and never false,</l>
+                    <l n="4">But with her swift untiring paces wont</l>
+                    <l n="5">To visit us), that hapless Labdacé,</l>
+                    <l n="6">Swears for her ditches she can hardly crawl.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="81">
+                    <l n="1">Although with yard distent (Priapus!) weighted</l>
+                    <l n="2">(Wherewith our poet did reprove thee here</l>
+                    <l n="3">In verse), on no wise deign thereat to blush;</l>
+                    <l n="4">Thou be not heavier than our poet hung.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="82">
+                    <l n="1">Know that this crass coarse yard nor lengthens nor stands as becomes it;</l>
+                    <l n="2">Though an thou handle the same unto fair growth will it grow.</l>
+                    <l n="3">Woe's me! how lustful girls are gulled by its seeming dimensions</l>
+                    <l n="4">Than which bigger of bulk never a prickle was seen.</l>
+                    <l n="5">Usefuller Tydeus was albeit (an trust we to Homer)</l>
+                    <l n="6">In his diminutive frame dwelt a pugnacious soul.</l>
+                    <l n="7">Yet from this strangeness and shame could nothing ever avail us</l>
+                    <l n="8">And such damage I deem better it were to repel.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="83">
+                    <l n="1">While there is life 'tis fitting to hope, O rustical guardian!</l>
+                    <l n="2">Here be thou present and thou aid us, Priapus stiff-nerved.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="84">
+                    <l n="1">Bailiff of house whilom, now I of fieldlet the tiller;</l>
+                    <l n="2">Perspectus, these fanes give (O Priapus!) to thee.</l>
+                    <l n="3">So for such offices make I pact (if lawful, O Holy)</l>
+                    <l n="4">Thou of this farm shalt bide ever-assiduous guard.</l>
+                    <l n="5">And if a rogue come rob our field or venture to trespass</l>
+                    <l n="6">Him thou may'st--Hush! for I know whatso shall follow thou know'st.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="85">
+                    <l n="1">What news be here? what send those angry gods?</l>
+                    <l n="2">Whenas in silent night that snow-hued boy</l>
+                    <l n="3">To my warm bosom claspèd lay concealed,</l>
+                    <l n="4">Venus was dormant nor in manly guise</l>
+                    <l n="5">My sluggard prickle raised his senile head.</l>
+                    <l n="6">Art pleased (Priapus!) under leafy tree</l>
+                    <l n="7">Wont with vine-tendrils sacred sconce to wreathe</l>
+                    <l n="8">And seat thee ruddy with thy ruddled yard?</l>
+                    <l n="9">But, O Triphallus, oft with freshest flowers</l>
+                    <l n="10">Artlessly garlanded thy brow we crowned</l>
+                    <l n="11">And with loud shouting often drove from thee</l>
+                    <l n="12">What agèd Raven or what agile 'Daw</l>
+                    <l n="13">Would peck thy holy face with horny beak.</l>
+                    <l n="14">Farewell, Priapus! naught to thee owe I</l>
+                    <l n="15">Farewell, forsaker damn'd of private parts!</l>
+                    <l n="16">Pale with neglect amid the fields shalt he</l>
+                    <l n="17">Where savage bandog shall bepiss thee or</l>
+                    <l n="18">Wild boar shall rub thee with his ribs mud-caked.</l>
+                    <l n="19">Accursèd Penis! Oh, by whom my pains</l>
+                    <l n="20">Shall with sore righteous penalty be paid?</l>
+                    <l n="21">Howe'er thou 'plain, no more shall tender boy</l>
+                    <l n="22">Ope to thy bidding, nor on groaning bed</l>
+                    <l n="23">His mobile buttocks writhe with aiding art:</l>
+                    <l n="24">Nor shall the wanton damsel's legier hand</l>
+                    <l n="25">Stroke thee, or rub on thee her lubric thigh.</l>
+                    <l n="26">A two-fanged mistress, Romulus old remembering,</l>
+                    <l n="27">Awaits thee; middlemost whose sable groin</l>
+                    <l n="28">And hide time-loosened thou with coynte-rime bewrayed</l>
+                    <l n="29">And hung in cobwebs fain shalt block the way.</l>
+                    <l n="30">Such prize is thine who thrice and four times shalt</l>
+                    <l n="31">Engulf thy lecherous head in fosse profound.</l>
+                    <l n="32">Though sick or languid lie thou, still thou must</l>
+                    <l n="33">Rasp her till wretched, wretched thou shalt fill</l>
+                    <l n="34">Thrice or e'en fourfold times her cavernous gape;</l>
+                    <l n="35">And naught this haughty sprite shall 'vail thee when</l>
+                    <l n="36">Plunging thine errant head in plashing mire.</l>
+                    <l n="37">Why lies it lazy? Doth its sloth displease thee?</l>
+                    <l n="38">For once thou mayest weaken it unavenged;</l>
+                    <l n="39">But when that golden boy again shall come,</l>
+                    <l n="40">Soon as his patter on the path shalt hear,</l>
+                    <l n="41">Grant that a restless swelling rouse my nerve</l>
+                    <l n="42">Lustful a-sudden and upraise it high,</l>
+                    <l n="43">Nor cease excite it and excite it more</l>
+                    <l n="44">Till wanton Venus burst my weakened side.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="86">
+                    <l n="1">Neither of garden nor of blessèd vine</l>
+                    <l n="2">But of a little holt (Priapus!) guard,</l>
+                    <l n="3">Wherein wast born and may'st be born again;</l>
+                    <l n="4">I warn thee plundering hand alway repel</l>
+                    <l n="5">And keep the fuel for thy master's fire--</l>
+                    <l n="6">An this be wanting, mind! of wood thou art.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="87">
+                    <l n="1">Roses in spring in the autumn fruits and in summer they bring me</l>
+                    <l n="2">Wheat-ears, while to my mind winter is horrible pest;</l>
+                    <l n="3">For that the cold I dread lest I being god made of timber</l>
+                    <l n="4">End me as fuel for fire chopped by those ignorant boors.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="88">
+                    <l n="1">I thuswise fashioned I by rustic art</l>
+                    <l n="2">And from dried poplar-trunk (O traveller!) hewn,</l>
+                    <l n="3">This fieldlet, leftwards as thy glances fall,</l>
+                    <l n="4">And my lord's cottage with his pauper garth</l>
+                    <l n="5">Protect, repelling thieves' rapacious hands.</l>
+                    <l n="6">In spring with vari-coloured wreaths I'm crown'd,</l>
+                    <l n="7">In fervid summer with the glowing grain,</l>
+                    <l n="8">Then with green vine-shoot and the luscious bunch,</l>
+                    <l n="9">And glaucous olive-tree in bitter cold.</l>
+                    <l n="10">The dainty she-goat from my pasture bears</l>
+                    <l n="11">Her milk-distended udders to the town:</l>
+                    <l n="12">Out of my sheep-cotes ta'en the fatted lamb</l>
+                    <l n="13">Sends home with silver right-hand heavily charged;</l>
+                    <l n="14">And, while its mother lows, the tender calf</l>
+                    <l n="15">Before the temples of the Gods must bleed.</l>
+                    <l n="16">Hence of such Godhead (traveller!), stand in awe;</l>
+                    <l n="17">Best it befits thee off to keep thy hands.</l>
+                    <l n="18">Thy cross is ready, shaped as artless yard;</l>
+                    <l n="19">'I'm willing 'faith' (thou say'st) but 'faith here comes</l>
+                    <l n="20">The boor and plucking forth with bended arm</l>
+                    <l n="21">Makes of this tool a club for doughty hand.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="89">
+                    <l n="1">This place, O youths, I protect, nor less this turf-builded cottage,</l>
+                    <l n="2">Roofed with its osier-twigs and thatched with its bundles of sedges;</l>
+                    <l n="3">I from the dried oak hewn and fashioned with rustical hatchet</l>
+                    <l n="4">Guarding them year by year while more are they evermore thriving.</l>
+                    <l n="5">For here be owners twain who greet and worship my Godship,</l>
+                    <l n="6">He of the poor hut lord and his son, the pair of them peasants:</l>
+                    <l n="7">This with assiduous toil aye works the thicketty herbage</l>
+                    <l n="8">And the coarse water-grass to clear afar from my chapel:</l>
+                    <l n="9">That with his open hand ever brings me offerings humble.</l>
+                    <l n="10">Hung up in honour mine are flowery firstlings of spring-tide,</l>
+                    <l n="11">Wreaths with their ears still soft the tender stalklets a-crowning;</l>
+                    <l n="12">Violets pale are mine by side of the poppy-head pallid;</l>
+                    <l n="13">With the dull yellow gourd and apples sweetest of savour;</l>
+                    <l n="14">Lastly the blushing grape disposed in shade of the vine-tree.</l>
+                    <l n="15">Anon mine altar (this same) with blood (but you will be silent!)</l>
+                    <l n="16">Bearded kid and anon some horny-hoofed nanny shall sprinkle.</l>
+                    <l n="17">Wherefore Priapus is bound to requite such honours by service,</l>
+                    <l n="18">Doing his duty to guard both vineyard and garth of his lordling.</l>
+                    <l n="19">Here then, O lads, reftain from ill-mannered picking and stealing;</l>
+                    <l n="20">Rich be the neighbour-hind and negligent eke his Priapus;</l>
+                    <l n="21">Take what be his: this path hence leadeth straight to his ownings.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="90">
+                    <l n="1">This grove to thee devote I give, Priapus!</l>
+                    <l n="2">Whose home be Lampsacus and holt, Priapus!</l>
+                    <l n="3">For thee in cities worship most the shores</l>
+                    <l n="4">Of Hellespont the richest oystery strand.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="91">
+                    <l n="1">Thou who with prickle affrightest men and passives with sickle!</l>
+                    <l n="2">Of the secluded spot deign the few acres to guard;</l>
+                    <l n="3">So may the veteran thieves ne'er force their way to thine orchards;</l>
+                    <l n="4">Only come lad or lass lovely with longest of locks.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="92">
+                    <l n="1">I am not hewèd of the fragile elm</l>
+                    <l n="2">Nor is this post supine with rigid vein</l>
+                    <l n="3">Carved out of any wood thou please to take;</l>
+                    <l n="4">But 'tis engendered by live cypress-tree</l>
+                    <l n="5">Which fears nor hundred ages fully told</l>
+                    <l n="6">Nor the decaying of long, drawn-out eld.</l>
+                    <l n="7">Dread this (O evil one!) whoe'er thou be!</l>
+                    <l n="8">For an thou injure with thy greedy hand</l>
+                    <l n="9">The least of bunches by this vine-stock borne</l>
+                    <l n="10">Shall spring (howe'er thou may oppose) for thee</l>
+                    <l n="11">A fig-tree grafted from this cypress-stem.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="93">
+                    <l n="1">A robber famed for greed exceeding wonder</l>
+                    <l n="2">(Eke a Cilician) would this garden plunder;</l>
+                    <l n="3">Yet in its vasty space, Fabullus, naught</l>
+                    <l n="4">Save a Priapus stood in marble wrought</l>
+                    <l n="5">So the Cilician, who with hand sans pelf</l>
+                    <l n="6">Scornèd departing, stole Priapus' self.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="94">
+                    <l n="1">Carved me no rustic boor his artless sickle a-plying:</l>
+                    <l n="2">Here of the bailiff thou see'st noble and notable work;</l>
+                    <l n="3">For that the wealthiest swain who owns the lands Caërétan</l>
+                    <l n="4">(Hilarus) holds these hills sloping in sunniest folds.</l>
+                    <l n="5">See with my well-shaped face how seem I not to be wooden,</l>
+                    <l n="6">Nor do I bear belly-tools fitted for kitchen or fire:</l>
+                    <l n="7">Nay; my perpetual yard of cypress perishing never</l>
+                    <l n="8">Rises for ever and aye worthy the Phidian hand.</l>
+                    <l n="9">You, O ye neighbours, I warn to adore me, holy Priapus,</l>
+                    <l n="10">And to these acres twice seven show ye the highest respect.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="95">
+                    <l n="1">An thou would fain go filled thou mayest devour our Priapus;</l>
+                    <l n="2">Even consume his yard--pure thou shalt ever remain.</l>
+                </div>
+
+                <div type="textpart" subtype="poem" n="96">
+                    <l n="1">First a wild-fig-tree trunk was I, not useful as timber,</l>
+                    <l n="2">When the mechanic in doubt anent making me stool or Priapus</l>
+                    <l n="3">Chose me for being a god; so a god to the thieves and the birdies</l>
+                    <l n="4">Direst of dreads I became, my right the robbers restraining,</l>
+                    <l n="5">Eke with a ruddy pole from parts obscenely projected,</l>
+                    <l n="6">While th' importunate fowls affrights a reed on my head-poll</l>
+                    <l n="7">Planted, and hinders their flock from 'lighting in newly made gardens.</l>
+                    <l n="8">Erst to be hither borne from narrow cellules ejected</l>
+                    <l n="9">Corpses by fellow-slaves were coffined in biers of the vilest.</l>
+                    <l n="10">This was the common yard to ensepulchre wretched plebeians,</l>
+                    <l n="11">Pantolabus the buffoon and Nomentanus the rake-hell.</l>
+                    <l n="12">Frontage a thousand feet, three hundred fieldwards, a land mark</l>
+                    <l n="13">Here assigned, lest the ground monumental follow the heir folk.</l>
+                    <l n="14">Now 'tis salubrious made: one fives in th' Esquiliae, also</l>
+                    <l n="15">Walks on the sunny mound, where erstwhile showed to folk sad-eyed</l>
+                    <l n="16">Fields by bones deformed a-glistening ghostly and ghastly;</l>
+                    <l n="17">Yet for me never was aught, or thieves or ferals accustomed</l>
+                    <l n="18">This foul spot to behaunt, a cause of such care and such trouble</l>
+                    <l n="19">As are the hags who by spells and poisons upset and envenom</l>
+                    <l n="20">Spirits and minds of mankind; these nowise bring to perdition</l>
+                    <l n="21">Nor even hinder can I; no sooner doth wandering Luna</l>
+                    <l n="22">Show her full face than bones and ill herbs they hasten to gather.</l>
+                    <l n="23">I with these eyes espied in sables kilted a-pacing</l>
+                    <l n="24">Canidia, nude-foot, long hair bestrewing her shoulders,</l>
+                    <l n="25">Howling with Sagana th' elder (and paleness had rendered the couple</l>
+                    <l n="26">Horrid of mien); anon both the ground with their talons</l>
+                    <l n="27">Clawing, and black-fleeced lamb with teeth a-tearing to tatters</l>
+                    <l n="28">Either began; its gore in a ditch was spillèd, so thereby</l>
+                    <l n="29">Ghosts might be raised from graves and answers give to their queries.</l>
+                    <l n="30">Images too there were, this of wool, that of wax, and the greater</l>
+                    <l n="31">Woollen that seemed with pains about to punish the lesser</l>
+                    <l n="32">Suppliant standing in wax as one foredoomèd to perish</l>
+                    <l n="33">After a servile way. One calls on Hecate, th' other</l>
+                    <l n="34">Summons fell Tisiphone; then mightest thou look upon serpents</l>
+                    <l n="35">Wriggling with Hell-sluts around, whilst Luna ruddily blushing</l>
+                    <l n="36">Hid her behind the tall tombs lest she these doings might witness.</l>
+                    <l n="37">Now if I false in aught be, my head bewrayed with white mutings</l>
+                    <l n="38">Dropt by the crows and hither repair to bepiss and conskite me</l>
+                    <l n="39">Julius, frail Pediatia and eke Voranus the robber.</l>
+                    <l n="40">Why should I mention all and each? how chattered alternate</l>
+                    <l n="41">With Sagana these ghosts, now sad-toned then in sharp treble.</l>
+                    <l n="42">How too the head of a wolf with fangs of variegate adder</l>
+                    <l n="43">Furtive they buried in earth, whereat for the waxen imago</l>
+                    <l n="44">Fiercelier flamed the fire and how (no unavenged witness!)</l>
+                    <l n="45">I was o'erwhelmed by the words and the deeds of these Furies
+                        well-coupled;</l>
+                    <l n="46">For that like bladder that bursts with a loud explosion I farted</l>
+                    <l n="47">From my cleft buttocks of fig. Hereat they ran to the city,</l>
+                    <l n="48">Canidia's false teeth with Sagana's towering hair-tour</l>
+                    <l n="49">Falling aground and herbs and magical armlets on forearms</l>
+                    <l n="50">Showed to beholder's sight with many a joke and much laughter.</l>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

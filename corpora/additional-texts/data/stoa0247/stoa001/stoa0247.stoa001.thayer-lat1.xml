@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
+     schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
+     schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="lat">De Reditu suo</title>
+            <author xml:lang="lat">Rutilius Namatianus</author>
+            <editor xml:id="thayer">Thayer</editor>
+            <editor xml:id="clerice">Thibault Clérice</editor>
+            <editor xml:lang="eng">J. Wight Duff</editor>
+            <editor xml:lang="eng">Arnold M. Duff</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <editor>J. Wight Duff</editor>
+               <editor>Arnold M. Duff</editor>
+               <title>Latin Minor Poets</title>
+               <publisher>Loeb Classical Library</publisher>
+               <date>1935</date>
+            </bibl>
+            <bibl>
+               <editor ref="#thayer">Thayer</editor>
+               <title>Rutilius Namatianus - De Redito Suo</title>
+               <pubPlace>LacusCurtius</pubPlace>
+               <ref target="http://penelope.uchicago.edu/Thayer/E/Roman/Texts/Rutilius_Namatianus/home.html"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <refsDecl n="CTS">
+            <cRefPattern n="line" matchPattern="(\d+).(\d+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+               <p>This pattern extracts lines in books</p>
+            </cRefPattern>
+            <cRefPattern n="book" matchPattern="(\d+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+               <p>This pattern extracts books</p>
+            </cRefPattern>
+         </refsDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#clerice" when="2017-08-17">Original transformation into Capitains
+            Epidoc</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition" n="urn:cts:latinLit:stoa0247.stoa001.thayer-lat1" xml:lang="lat">
+            <div type="textpart" subtype="book" n="1">
+               <l n="1">Velocem potius reditum mirabere, lector,</l>
+               <l n="2">tam cito Romuleis posse carere bonis.</l>
+               <l n="3">quid longum toto Romam venerantibus aevo?</l>
+               <l n="4">nil umquam longum est quod sine fine placet,</l>
+               <l n="5">o quantum<note n="1"/> et quotiens possum numerare beatos</l>
+               <l n="6">nasci felici qui meruere solo!</l>
+               <l n="7">qui Romanorum procerum generosa propago</l>
+               <l n="8">ingenitum cumulant urbis honore decus!</l>
+               <l n="9">semina virtutum demissa et tradita caelo</l>
+               <l n="10">non potuere aliis dignius esse locis.</l>
+               <l n="11">Felices etiam qui proxima munera primis</l>
+               <l n="12">sortiti Latias obtinuere domos!</l>
+               <l n="13">religiosa patet peregrinae curia laudi,</l>
+               <l n="14">nec putat externos quos decet esse suos;</l>
+               <l n="15">ordinis imperio collegarumque fruuntur</l>
+               <l n="16">et partem Genii quem venerantur habent:</l>
+               <l n="17"><milestone unit="page" n="766"/>quale per aetherios mundani verticis axes<note n="2"/></l>
+               <l n="18">concilium summi credimus esse dei.</l>
+               <l n="19">at mea dilectis fortuna revellitur oris,</l>
+               <l n="20">indigenamque suum Gallica rura vocant.</l>
+               <l n="21">Illa quidem longis nimium deformia bellis,</l>
+               <l n="22">sed quam grata minus, tam miseranda<note n="3"/> magis.</l>
+               <l n="23">securos levius crimen contemnere cives:</l>
+               <l n="24">privatam repetunt publica damna fidem.</l>
+               <l n="25">praesentes lacrimas tectis debemus avitis:</l>
+               <l n="26">prodest admonitus saepe dolore labor.</l>
+               <l n="27">nec fas ulterius longas nescire ruinas</l>
+               <l n="28">quas mora suspensae multiplicavit opis:</l>
+               <l n="29">iam tempus laceris post saeva incendia fundis</l>
+               <l n="30">vel pastorales aedificare casas.</l>
+               <l n="31">ipsi quin etiam fontes si mittere vocem</l>
+               <l n="32">ipsaque si possent arbuta nostra loqui,</l>
+               <l n="33">cessantem iustis poterant urgere querelis</l>
+               <l n="34">et desideriis addere vela<note n="4"/> meis.</l>
+               <l n="35">iam iam laxatis carae complexibus urbis</l>
+               <l n="36">vincimur et serum vix toleramus iter.</l>
+               <l n="37">electum pelagus, quoniam terrena<note n="5"/> viarum</l>
+               <l n="38">plana madent fluviis, cautibus alta rigent.</l>
+               <l n="39">postquam Tuscus ager postquamque Aurelius agger,</l>
+               <l n="40">perpessus Geticas ense vel igne manus,</l>
+               <l n="41">non silvas domibus, non flumina ponte coercet,</l>
+               <l n="42">incerto satius credere vela mari.</l>
+               <l n="43"><milestone unit="page" n="768"/>crebra reliquendis infigimus oscula portis:</l>
+               <l n="44">inviti superant limina sacra pedes.</l>
+               <l n="45">oramus veniam lacrimis et laude litamus,</l>
+               <l n="46">in quantum fletus currere verba sinit:</l>
+               <l n="47">"exaudi, regina tui pulcherrima mundi,</l>
+               <l n="48">inter sidereos Roma recepta polos,</l>
+               <l n="49">exaudi, genetrix hominum genetrixque deorum,</l>
+               <l n="50">non procul a caelo per tua templa sumus:</l>
+               <l n="51">te canimus semperque, sinent dum fata, canemus:</l>
+               <l n="52">sospes<note n="6"/> nemo potest immemor esse tui.</l>
+               <l n="53">obruerint citius scelerata oblivia solem,</l>
+               <l n="54">quam tuus ex nostro corde recedat honos.</l>
+               <l n="55">nam solis radiis aequalia munera tendis,</l>
+               <l n="56">qua circumfusus fluctuat Oceanus.</l>
+               <l n="57">volvitur ipse tibi, qui continet omnia, Phoebus</l>
+               <l n="58">eque tuis ortos<note n="7"/> in tua condit equos.</l>
+               <l n="59">te non flammigeris Libye tardavit harenis,</l>
+               <l n="60">non armata suo reppulit Ursa gelu:</l>
+               <l n="61">quantum vitalis natura tetendit in axes,</l>
+               <l n="62">tantum virtuti pervia terrae tuae.</l>
+               <l n="63">fecisti patriam diversis gentibus unam:</l>
+               <l n="64">profuit iniustis<note n="8"/> te dominante capi.</l>
+               <l n="65">dumque offers victis proprii consortia iuris,</l>
+               <l n="66">urbem fecisti quod prius orbis erat.</l>
+               <l n="67">"auctores generis Venerem Martemque fatemur,</l>
+               <l n="68">Aeneadum matrem Romulidumque patrem:</l>
+               <l n="69"><milestone unit="page" n="770"/>mitigat armatas victrix clementia vires,</l>
+               <l n="70">convenit in mores nomen<note n="9"/> utrumque tuos:</l>
+               <l n="71">hinc tibi certandi bona parcendique voluptas:</l>
+               <l n="72">quos timuit superat, quos superavit amat.</l>
+               <l n="73">inventrix oleae colitur vinique repertor</l>
+               <l n="74">et qui primus humo pressit aratra puer;</l>
+               <l n="75">aras Paeoniam meruit medicina per artem,</l>
+               <l n="76">factus<note n="10"/> et Alcides nobilitate deus:</l>
+               <l n="77">tu quoque, legiferis mundum complexa triumphis,</l>
+               <l n="78">foedere communi vivere cuncta facis.</l>
+               <l n="79">te, dea, te celebrat Romanus ubique recessus</l>
+               <l n="80">pacificoque gerit libera colla iugo.</l>
+               <l n="81">omnia perpetuo quae servant sidera motu,<note n="11"/></l>
+               <l n="82">nullum viderunt pulchrius imperium.</l>
+               <l n="83">quid simile Assyriis connectere contigit armis?</l>
+               <l n="84">Medi finitimos condomuere<note n="12"/> suos;</l>
+               <l n="85">magni Parthorum reges Macetumque tyranni</l>
+               <l n="86">mutua per varias iura dedere vices.</l>
+               <l n="87">nec tibi nascenti plures animaeque manusque,</l>
+               <l n="88">sed plus consilii iudiciique fuit.</l>
+               <l n="89">iustis bellorum causis nec pace superba</l>
+               <l n="90">nobilis ad summas gloria venit opes.</l>
+               <l n="91">quod regnas minus est quam quod regnare mereris:</l>
+               <l n="92">excedis factis grandia fata tuis.</l>
+               <l n="93"><milestone unit="page" n="772"/>percensere labor densis decora alta tropaeis</l>
+               <l n="94">ut si quis stellas pernumerare velit;</l>
+               <l n="95">confunduntque vagos delubra micantia visus:</l>
+               <l n="96">ipsos crediderim sic<note n="13"/> habitare deos.</l>
+               <l n="97">quid loquar aerio pendentes fornice rivos,</l>
+               <l n="98">qua vix imbriferas tolleret Iris aquas?</l>
+               <l n="99">hos potius dicas crevisse in sidera montes;</l>
+               <l n="100">tale giganteum Graecia laudat opus.</l>
+               <l n="101">intercepta tuis conduntur flumina muris;</l>
+               <l n="102">consumunt totos celsa lavacra lacus.</l>
+               <l n="103">nec minus et propriis celebrantur roscida venis</l>
+               <l n="104">totaque nativo moenia fonte sonant.</l>
+               <l n="105">frigidus aestivas hinc temperat halitus auras</l>
+               <l n="106">innocuamque levat purior unda sitim.</l>
+               <l n="107">nempe tibi subitus calidarum gurges aquarum</l>
+               <l n="108">rupit Tarpeias hoste premente vias.</l>
+               <l n="109">si foret aeternus,<note n="14"/> casum fortasse putarem:</l>
+               <l n="110">auxilio fluxit, qui rediturus erat.</l>
+               <l n="111">quid loquar inclusas inter<note n="15"/> laquearia silvas,</l>
+               <l n="112">vernula qua<note n="16"/> vario carmine ludit<note n="17"/> avis?</l>
+               <l n="113">vere tuo numquam mulceri desinit annus;</l>
+               <l n="114">deliciasque tuas victa tuetur hiemps.</l>
+               <l n="115"><milestone unit="page" n="774"/>"erige crinales lauros seniumque sacrati</l>
+               <l n="116">verticis in virides, Roma, refinge<note n="18"/> comas.</l>
+               <l n="117">aurea turrigero radient diademata cono,</l>
+               <l n="118">perpetuosque ignes aureus umbo vomat!</l>
+               <l n="119">abscondat tristem deleta iniuria casum:</l>
+               <l n="120">contemptus solidet vulnera clausa dolor.</l>
+               <l n="121">adversis solenne tuis sperare secunda:</l>
+               <l n="122">exemplo caeli ditia damna subis.</l>
+               <l n="123">astrorum flammae renovant occasibus ortus;</l>
+               <l n="124">lunam finiri cernis, ut incipiat.</l>
+               <l n="125">victoris Brenni non distulit Allia poenam;</l>
+               <l n="126">Samnis servitio foedera saeva luit;</l>
+               <l n="127">post multas Pyrrhum clades superata fugasti;</l>
+               <l n="128">flevit successus Hannibal ipse suos:</l>
+               <l n="129">quae mergi nequeunt, nisu maiore resurgunt</l>
+               <l n="130">exsiliuntque imis altius acta vadis;</l>
+               <l n="131">utque novas vires fax inclinata resumit,</l>
+               <l n="132">clarior ex humili sorte superna petis.</l>
+               <l n="133">porrige victuras Romana in saecula leges,</l>
+               <l n="134">solaque fatales non vereare colos,</l>
+               <l n="135">quamvis sedecies denis et mille peractis</l>
+               <l n="136">annus praeterea iam tibi nonus eat.</l>
+               <l n="137">quae restant nullis obnoxia tempora metis,<note n="19"/></l>
+               <l n="138">dum stabunt terrae, dum polus astra feret!</l>
+               <l n="139">illud te reparat quod cetera regna resolvit:</l>
+               <l n="140">ordo renascendi est crescere posse malis.</l>
+               <l n="141"><milestone unit="page" n="776"/>ergo age, sacrilegae tandem cadat hostia
+                  gentis:</l>
+               <l n="142">submittant trepidi perfida colla Getae.</l>
+               <l n="143">ditia pacatae dent vectigalia terrae:</l>
+               <l n="144">impleat augustos barbara praeda sinus.</l>
+               <l n="145">aeternum tibi Rhenus aret, tibi Nilus inundet,</l>
+               <l n="146">altricemque suam fertilis orbis alat.</l>
+               <l n="147">quin et fecundas tibi conferat Africa messes,</l>
+               <l n="148">sole suo dives, sed magis imbre tuo.</l>
+               <l n="149">interea et Latiis consurgant horrea sulcis,</l>
+               <l n="150">pinguiaque Hesperio nectare prela fluant.</l>
+               <l n="151">ipse triumphali redimitus arundine Thybris</l>
+               <l n="152">Romuleis famulas usibus aptet aquas;</l>
+               <l n="153">atque opulenta tibi placidis commercia ripis</l>
+               <l n="154">devehat hinc ruris, subvehat inde maris.</l>
+               <l n="155">pande, precor, gemino pacatum Castore pontum;</l>
+               <l n="156">temperet aequoream dux Cytherea viam,</l>
+               <l n="157">si non displicui, regerem cum iura Quirini,</l>
+               <l n="158">si colui sanctos consuluique patres;</l>
+               <l n="159">nam quod nulla meum strinxerunt crimina ferrum,</l>
+               <l n="160">non sit praefecti gloria, sed populi.</l>
+               <l n="161">sive datur patriis vitam componere terris,</l>
+               <l n="162">sive oculis umquam restituere meis,</l>
+               <l n="163">fortunatus agam votoque beatior omni,</l>
+               <l n="164">semper digneris si meminisse mei."</l>
+               <l n="165"><milestone unit="page" n="778"/>his dictis iter arripimus: comitantur amici:</l>
+               <l n="166">dicere non possunt lumina sicca "vale."<note n="20"/></l>
+               <l n="167">iamque aliis Romam redeuntibus haeret eunti</l>
+               <l n="168">Rufius, Albini gloria viva patris;</l>
+               <l n="169">qui Volusi antiquo derivat stemmate nomen</l>
+               <l n="170">et reges Rutulos teste Marone refert.</l>
+               <l n="171">huius facundae commissa palatia linguae;</l>
+               <l n="172">primaevus meruit principis ore loqui.</l>
+               <l n="173">rexerat ante puer populos pro consule Poenos;</l>
+               <l n="174">aequalis Tyriis terror amorque fuit.</l>
+               <l n="175">sedula promisit summos instantia<note n="21"/> fasces:</l>
+               <l n="176">si fas est meritis fidere, consul erit.</l>
+               <l n="177">invitum tristis tandem remeare coegi:</l>
+               <l n="178">corpore divisos mens tamen una tenet.<note n="22"/></l>
+               <l n="179">tum demum ad naves gradior, qua fronte bicorni</l>
+               <l n="180">dividuus Tiberis dexteriora secat.<note n="23"/></l>
+               <l n="181">laevus inaccessis fluvius vitatur harenis;</l>
+               <l n="182">hospitis Aeneae gloria sola manet.</l>
+               <l n="183"><milestone unit="page" n="780"/>et iam nocturnis spatium laxaverat horis</l>
+               <l n="184">Phoebus Chelarum pallidiore polo.</l>
+               <l n="185">cunctamur temptare salum portuque sedemus,</l>
+               <l n="186">nec piget oppositis otia ferre moris,</l>
+               <l n="187">occidua infido dum saevit gurgite Plias</l>
+               <l n="188">dumque procellosi temporis ira calet.<note n="24"/></l>
+               <l n="189">respectare iuvat vicinam saepius urbem</l>
+               <l n="190">et montes visu deficiente sequi,</l>
+               <l n="191">quaque duces oculi grata regione fruuntur,<note n="25"/></l>
+               <l n="192">dum se, quod cupiunt, cernere posse putant.</l>
+               <l n="193">nec locus ille mihi cognoscitur indice fumo,</l>
+               <l n="194">qui dominas arces et caput orbis habet</l>
+               <l n="195">(quamquam signa levis fumi commendat Homerus,</l>
+               <l n="196">dilecto quotiens surgit in astra solo);</l>
+               <l n="197">sed caeli plaga candidior tractusque serenus</l>
+               <l n="198">signat septenis culmina clara iugis.</l>
+               <l n="199">illic perpetui soles atque ipse videtur</l>
+               <l n="200">quem sibi Roma facit purior esse dies.</l>
+               <l n="201">saepius attonitae resonant Circensibus aures;</l>
+               <l n="202">nuntiat accensus plena theatra favor:</l>
+               <l n="203">pulsato notae redduntur ab aethere voces,</l>
+               <l n="204">vel quia perveniunt vel quia fingit amor.</l>
+               <l n="205"><milestone unit="page" n="782"/>explorata<note n="26"/> fides pelagi ter quinque
+                  diebus</l>
+               <l n="206">dum melior lunae se daret<note n="27"/> aura novae.</l>
+               <l n="207">tum discessurus studiis urbique remitto</l>
+               <l n="208">Palladium, generis spemque decusque mei.</l>
+               <l n="209">facundus iuvenis Gallorum nuper ab arvis</l>
+               <l n="210">missus Romani discere iura Fori.</l>
+               <l n="211">ille meae secum dulcissima vincula curae,<note n="28"/></l>
+               <l n="212">filius affectu, stirpe propinquus, habet:</l>
+               <l n="213">cuius Aremoricas pater Exuperantius oras</l>
+               <l n="214">nunc postliminium pacis amare docet;</l>
+               <l n="215">leges restituit libertatemque reducit</l>
+               <l n="216">et servos famulis non sinit esse suis.</l>
+               <l n="217">solvimus Aurorae dubio, quo tempore primum</l>
+               <l n="218">agnosci patitur redditus arva color.</l>
+               <l n="219">progredimur parvis per litora proxima cymbis,</l>
+               <l n="220">quorum perfugio crebra pateret humus.</l>
+               <l n="221">aestivos penetrent oneraria carbasa fluctus:</l>
+               <l n="222">tutior autumnus mobilitate fugae.</l>
+               <l n="223">Alsia praelegitur tellus, Pyrgique recedunt —</l>
+               <l n="224">nunc villae grandes, oppida parva prius.</l>
+               <l n="225">iam Caeretanos demonstrat navita fines:</l>
+               <l n="226">aevo deposuit nomen Agylla vetus.</l>
+               <l n="227">stringimus hinc effractum<note n="29"/> et fluctu et tempore Castrum:</l>
+               <l n="228">index semiruti porta vetusta loci.</l>
+               <l n="229"><milestone unit="page" n="784"/>praesidet, exigui formatus imagine saxi,</l>
+               <l n="230">qui pastorali cornua fronte gerit:<note n="30"/></l>
+               <l n="231">multa licet priscum nomen deleverit aetas,</l>
+               <l n="232">hoc Inui<note n="31"/> castrum fama fuisse putat,</l>
+               <l n="233">seu Pan Tyrrhenis mutavit Maenala silvis,</l>
+               <l n="234">sive sinus patrios incola Faunus init;</l>
+               <l n="235">dum renovat<note n="32"/> largo<note n="33"/> mortalia semina<note n="34"/>
+                  fetu,</l>
+               <l n="236">fingitur in venerem pronior esse deus.</l>
+               <l n="237">ad Centumcellas forti defleximus Austro;</l>
+               <l n="238">tranquilla puppes in statione sedent.</l>
+               <l n="239">molibus aequoreum concluditur amphitheatrum,</l>
+               <l n="240">angustosque aditus insula facta tegit;</l>
+               <l n="241">attollit geminas turres bifidoque meatu</l>
+               <l n="242">faucibus artatis pandit utrumque latus.</l>
+               <l n="243">nec posuisse satis laxo navalia portu:</l>
+               <l n="244">ne vaga vel tutas ventilet aura rates,</l>
+               <l n="245">interior medias sinus invitatus in aedes</l>
+               <l n="246">instabilem fixis aera nescit aquis;</l>
+               <l n="247">qualis in Euboicis captiva natatibus unda</l>
+               <l n="248">sustinet alterno bracchia lenta sinu.</l>
+               <l n="249">nosse iuvat tauri dictas de nomine thermas;</l>
+               <l n="250">nec mora difficilis<note n="35"/> milibus ire tribus.</l>
+               <l n="251"><milestone unit="page" n="786"/>non illic gustu latices vitiantur amaro</l>
+               <l n="252">lymphave fumifico sulphure tincta calet:</l>
+               <l n="253">purus odor mollisque sapor dubitare lavantem<note n="36"/></l>
+               <l n="254">cogit qua melius parte petantur aquae.</l>
+               <l n="255">credere si dignum famae, flagrantia taurus</l>
+               <l n="256">investigato fonte lavacra dedit,</l>
+               <l n="257">ut solet excussis pugnam praeludere glaebis,</l>
+               <l n="258">stipite cum rigido cornua prona terit:</l>
+               <l n="259">sive deus, faciem mentitus et ora iuvenci,</l>
+               <l n="260">noluit ardentis dona latere soli;</l>
+               <l n="261">qualis Agenorei rapturus gaudia furti<note n="37"/></l>
+               <l n="262">per freta virgineum sollicitavit onus.</l>
+               <l n="263">ardua non solos deceant miracula Graios!<note n="38"/></l>
+               <l n="264">auctorem pecudem fons Heliconis habet:</l>
+               <l n="265">elicitas<note n="39"/> simili credamus origine lymphas,<note n="40"/></l>
+               <l n="266">Musarum ut<note n="41"/> latices ungula fodit equi.</l>
+               <l n="267">haec quoque Pieriis spiracula comparat antris</l>
+               <l n="268">carmine Messallae nobilitatus ager;</l>
+               <l n="269">intrantemque capit discedentemque moratur</l>
+               <l n="270">postibus affixum dulce poema sacris.</l>
+               <l n="271">hic est qui primo seriem de consule ducit,</l>
+               <l n="272">usque ad Publicolas si redeamus avos;</l>
+               <l n="273"><milestone unit="page" n="788"/>hic et praefecti nutu praetoria rexit.</l>
+               <l n="274">sed menti et linguae gloria maior inest.</l>
+               <l n="275">hic docuit qualem poscat facundia sedem:</l>
+               <l n="276">ut bonus esse velit, quisque disertus erit.</l>
+               <l n="277">roscida puniceo fulsere<note n="42"/> crepuscula caelo:</l>
+               <l n="278">pandimus obliquo lintea flexa sinu.</l>
+               <l n="279">paulisper litus fugimus Munione vadosum:</l>
+               <l n="280">suspecto trepidant ostia parva salo.</l>
+               <l n="281">inde Graviscarum fastigia rara videmus,</l>
+               <l n="282">quas premit aestivae saepe paludis odor;</l>
+               <l n="283">sed nemorosa viret densis vicinia lucis</l>
+               <l n="284">pineaque extremis fluctuat umbra fretis.</l>
+               <l n="285">cernimus antiquas nullo custode ruinas</l>
+               <l n="286">et desolatae moenia foeda Cosae.</l>
+               <l n="287">ridiculam cladis pudet inter seria causam</l>
+               <l n="288">promere, sed risum dissimulare piget.</l>
+               <l n="289">dicuntur cives quondam migrare coacti</l>
+               <l n="290">muribus infestos deseruisse Lares!</l>
+               <l n="291">credere maluerim Pygmaeae damna cohortis</l>
+               <l n="292">et coniuratos in sua bella grues.</l>
+               <l n="293">haud procul hinc petitur signatus ab Hercule portus;</l>
+               <l n="294">vergentem sequitur mollior aura diem.</l>
+               <l n="295"><milestone unit="page" n="790"/>inter castrorum vestigia sermo retexit</l>
+               <l n="296">Sardoam Lepido praecipitante fugam;</l>
+               <l n="297">litore namque Cosae cognatos depulit hostes</l>
+               <l n="298">virtutem Catuli Roma secuta ducis.</l>
+               <l n="299">ille tamen Lepidus peior civilibus armis</l>
+               <l n="300">qui gessit sociis impia bella tribus,</l>
+               <l n="301">qui libertatem Mutinensi Marte receptam</l>
+               <l n="302">obruit auxiliis urbe pavente<note n="43"/> novis.</l>
+               <l n="303">insidias paci moliri tertius ausus</l>
+               <l n="304">tristibus excepit congrua facta reis.</l>
+               <l n="305">quartus, Caesareo dum vult irrepere regno,</l>
+               <l n="306">incesti poenam solvit adulterii.</l>
+               <l n="307">nunc quoque — sed melius de nostris fama queretur:</l>
+               <l n="308">iudex posteritas semina dira notet.</l>
+               <l n="309">nominibus certos credam decurrere mores?</l>
+               <l n="310">moribus an potius nomina certa dari?</l>
+               <l n="311">quicquid id est, mirus Latiis annalibus ordo,</l>
+               <l n="312">quod Lepidum totiens reccidit ense malum.</l>
+               <l n="313">necdum discussis<note n="44"/> pelago permittimur<note n="45"/> umbris;</l>
+               <l n="314">natus vicino vertice ventus adest.</l>
+               <l n="315"><milestone unit="page" n="792"/>tenditur in medias mons Argentarius undas</l>
+               <l n="316">ancipitique iugo caerula curva premit;</l>
+               <l n="317">transversos colles bis ternis<note n="46"/> milibus artat;</l>
+               <l n="318">circuitu ponti ter duodena patet:</l>
+               <l n="319">qualis per geminos fluctus Ephyreius Isthmos</l>
+               <l n="320">Ionias bimari litore findit aquas.</l>
+               <l n="321">vix circumvehimur sparsae dispendia rupis,</l>
+               <l n="322">nec sinuosa gravi cura<note n="47"/> labore caret:</l>
+               <l n="323">mutantur totiens vario spiramina flexu:</l>
+               <l n="324">quae modo profuerant vela repente nocent.</l>
+               <l n="325">eminus Igilii silvosa cacumina miror,</l>
+               <l n="326">quam fraudare nefas laudis honore suae.</l>
+               <l n="327">haec proprios nuper tutata est insula saltus,</l>
+               <l n="328">sive loci ingenio seu domini genio,</l>
+               <l n="329">gurgite cum modico victricibus obstitit armis</l>
+               <l n="330">tamquam longinquo dissociata mari:</l>
+               <l n="331">haec multos lacera suscepit ab urbe fugatos,</l>
+               <l n="332">hic fessis posito certa timore salus.</l>
+               <l n="333">plurima terreno populaverat aequora bello</l>
+               <l n="334">contra naturam classe timendus eques:</l>
+               <l n="335"><milestone unit="page" n="794"/>unum mira fides vario discrimine portum</l>
+               <l n="336">tam prope Romanis, tam procul esse Getis.</l>
+               <l n="337">tangimus Umbronem; non est ignobile flumen,</l>
+               <l n="338">quod tuto trepidas excipit ore rates:</l>
+               <l n="339">tam facilis pronis<note n="48"/> semper patet alveus undis,</l>
+               <l n="340">in pontum quotiens saeva procella ruit.</l>
+               <l n="341">hic ego tranquillae volui succedere ripae;</l>
+               <l n="342">sed nautas avidos longius ire sequor.</l>
+               <l n="343">sic festinantem<note n="49"/> ventusque diesque reliquit:</l>
+               <l n="344">nec proferre pedem nec revocare licet.</l>
+               <l n="345">litorea noctis requiem metamur harena:</l>
+               <l n="346">dat vespertinos myrtea silva focos:</l>
+               <l n="347">parvula subiectis facimus tentoria remis:</l>
+               <l n="348">transversus subito culmine contus erat.</l>
+               <l n="349">lux aderat: Tonsis progressi stare videmur,</l>
+               <l n="350">sed cursum prorae terra relicta probat.</l>
+               <l n="351">occurrit Chalybum memorabilis Ilva metallis,</l>
+               <l n="352">qua nihil uberius Norica glaeba<note n="50"/> tulit;</l>
+               <l n="353">non Biturix largo potior strictura camino,</l>
+               <l n="354">nec quae Sardonico caespite massa fluit.</l>
+               <l n="355">plus confert populis ferri fecunda creatrix</l>
+               <l n="356">quam Tartessiaci glarea fulva Tagi.</l>
+               <l n="357"><milestone unit="page" n="796"/>materies vitiis aurum letale<note n="51"/>
+                  parandis:</l>
+               <l n="358">auri caecus amor ducit in omne nefas:</l>
+               <l n="359">aurea legitimas expugnant munera taedas,</l>
+               <l n="360">virgineosque sinus aureus imber emit:</l>
+               <l n="361">auro victa fides munitas decipit urbes:</l>
+               <l n="362">auri flagitiis ambitus ipse furit.</l>
+               <l n="363">at contra ferro squalentia rura coluntur;</l>
+               <l n="364">ferro vivendi prima reperta via est:</l>
+               <l n="365">saecula semideum, ferrati nescia Martis,</l>
+               <l n="366">ferro crudeles sustinuere feras:</l>
+               <l n="367">humanis manibus non sufficit usus inermis,</l>
+               <l n="368">si non sint aliae ferrea tela manus.</l>
+               <l n="369">his mecum pigri solabar taedia venti,</l>
+               <l n="370">dum resonat variis vile celeuma modis.</l>
+               <l n="371">lassatum<note n="52"/> cohibet vicina Faleria cursum,</l>
+               <l n="372">quamquam vix medium Phoebus haberet iter.</l>
+               <l n="373">et tum forte hilares per compita rustica pagi<note n="53"/></l>
+               <l n="374">mulcebant sacris pectora fessa iocis:</l>
+               <l n="375">illo quippe die tandem revocatus Osiris</l>
+               <l n="376">excitat in fruges germina laeta novas.</l>
+               <l n="377">egressi villam petimus lucoque vagamur:<note n="54"/></l>
+               <l n="378">stagna placent septo deliciosa vado.</l>
+               <l n="379"><milestone unit="page" n="798"/>ludere lascivos intra<note n="55"/> vivaria
+                  pisces</l>
+               <l n="380">gurgitis inclusi laxior unda sinit.</l>
+               <l n="381">sed male pensavit requiem stationis amoenae</l>
+               <l n="382">hospite conductor durior<note n="56"/> Antiphate!</l>
+               <l n="383">namque loci querulus curam Iudaeus agebat,</l>
+               <l n="384">humanis animal dissociale cibis:</l>
+               <l n="385">vexatos frutices, pulsatas imputat algas</l>
+               <l n="386">damnaque libatae grandia clamat aquae.</l>
+               <l n="387">reddimus obscaenae convicia debita genti</l>
+               <l n="388">quae genitale caput propudiosa metit:</l>
+               <l n="389">radix stultitiae, cui frigida sabbata cordi,</l>
+               <l n="390">sed cor frigidius religione sua.</l>
+               <l n="391">septima quaeque dies turpi damnata veterno,</l>
+               <l n="392">tamquam lassati mollis imago dei.</l>
+               <l n="393">cetera mendacis deliramenta catastae</l>
+               <l n="394">nec puerum in somnis<note n="57"/> credere posse reor.</l>
+               <l n="395">atque utinam numquam Iudaea subacta<note n="58"/> fuisset</l>
+               <l n="396">Pompeii bellis imperiisque<note n="59"/> Titi!</l>
+               <l n="397">latius excisae pestis contagia serpunt,</l>
+               <l n="398">victoresque suos natio victa premit.</l>
+               <l n="399">adversus surgit Boreas; sed nos quoque remis</l>
+               <l n="400">surgere certamus, dum tegit astra dies.</l>
+               <l n="401">proxima securum reserat Populonia litus,</l>
+               <l n="402">qua naturalem ducit in arva sinum.</l>
+               <l n="403"><milestone unit="page" n="800"/>non illic positas extollit in aethera moles</l>
+               <l n="404">lumine nocturno conspicienda Pharos;</l>
+               <l n="405">sed speculam validae rupis sortita vetustas,</l>
+               <l n="406">qua fluctus domitos arduus urget apex,</l>
+               <l n="407">castellum geminos hominum fundavit in usus,</l>
+               <l n="408">praesidium terris indiciumque fretis.</l>
+               <l n="409">agnosci nequeunt aevi monumenta prioris:</l>
+               <l n="410">grandia consumpsit moenia tempus edax.</l>
+               <l n="411">sola manent interceptis vestigia muris:</l>
+               <l n="412">ruderibus latis tecta sepulta iacent.</l>
+               <l n="413">non indignemur mortalia corpora solvi:</l>
+               <l n="414">cernimus exemplis oppida posse mori.</l>
+               <l n="415">laetior hic nostras crebrescit fama per aures:</l>
+               <l n="416">consilium Romam paene redire fuit.</l>
+               <l n="417">hic praefecturam sacrae cognoscimus urbis</l>
+               <l n="418">delatam meritis, dulcis amice, tuis.</l>
+               <l n="419">optarem verum complecti carmine nomen,</l>
+               <l n="420">sed quosdam refugit regula dura pedes.</l>
+               <l n="421">cognomen versu † veniet,<note n="60"/> carissime Rufi;</l>
+               <l n="422">illo te dudum pagina nostra canit.</l>
+               <l n="423">festa dies pridemque meos dignata Penates</l>
+               <l n="424">poste coronato vota secunda colat:</l>
+               <l n="425"><milestone unit="page" n="802"/>exornent virides communia gaudia rami:</l>
+               <l n="426">provecta est animae portio magna meae.</l>
+               <l n="427">sic mihi, sic potius, placeat geminata potestas:</l>
+               <l n="428">per quem malueram, rursus honore fruor.</l>
+               <l n="429">currere curamus velis Aquilone reverso,</l>
+               <l n="430">cum primum roseo fulsit Eous equo.</l>
+               <l n="431">incipit obscuros ostendere Corsica montes,</l>
+               <l n="432">nubiferumque caput concolor umbra levat:</l>
+               <l n="433">sic dubitanda solet gracili vanescere cornu</l>
+               <l n="434">defessisque oculis luna reperta latet.</l>
+               <l n="435">haec ponti brevitas auxit mendacia famae:</l>
+               <l n="436">armentale ferunt quippe natasse pecus,</l>
+               <l n="437">tempore Cyrnaeas quo primum venit in oras</l>
+               <l n="438">forte secuta vagum femina Corsa bovem.</l>
+               <l n="439">processu pelagi iam se Capraria tollit;</l>
+               <l n="440">squalet lucifugis insula plena viris.</l>
+               <l n="441">ipsi se monachos Graio cognomine dicunt,</l>
+               <l n="442">quod soli nullo vivere teste volunt.</l>
+               <l n="443">munera Fortunae metuunt, dum damna verentur:</l>
+               <l n="444">quisquam sponte miser, ne miser esse queat?</l>
+               <l n="445">quaenam perversi rabies tam stulta cerebri,</l>
+               <l n="446">dum mala formides, nec bona posse pati?</l>
+               <l n="447"><milestone unit="page" n="804"/>sive suas repetunt factorum<note n="61"/>
+                  ergastula poenas,</l>
+               <l n="448">tristia seu nigro viscera felle tument,</l>
+               <l n="449">sic nimiae bilis morbum assignavit Homerus</l>
+               <l n="450">Bellerophonteis sollicitudinibus:</l>
+               <l n="451">nam iuveni offenso saevi post tela doloris</l>
+               <l n="452">dicitur humanum displicuisse genus.</l>
+               <l n="453">in Volaterranum, vero Vada nomine, tractum</l>
+               <l n="454">ingressus dubii tramitis alta lego:</l>
+               <l n="455">despectat prorae custos clavumque sequentem</l>
+               <l n="456">dirigit<note n="62"/> et puppim voce monente regit.</l>
+               <l n="457">incertas gemina discriminat arbore fauces</l>
+               <l n="458">defixasque offert limes<note n="63"/> uterque sudes:</l>
+               <l n="459">illis proceras mos est adnectere lauros</l>
+               <l n="460">conspicuas ramis et fruticante coma,</l>
+               <l n="461">ut praebente algam<note n="64"/> densi symplegade limi</l>
+               <l n="462">servet inoffensas semita clara notas.</l>
+               <l n="463">illic me rapidus<note n="65"/> consistere Corus adegit,</l>
+               <l n="464">qualis silvarum frangere lustra solet.</l>
+               <l n="465">vix tuti domibus saevos toleravimus imbres:</l>
+               <l n="466">Albini patuit proxima villa mei.</l>
+               <l n="467"><milestone unit="page" n="806"/>namque meus, quem Roma meo subiunxit honori,</l>
+               <l n="468">per quem iura meae continuata togae.</l>
+               <l n="469">non exspectatos pensavit laudibus annos;</l>
+               <l n="470">vitae flore puer, sed gravitate senex.</l>
+               <l n="471">mutua germanos iunxit reverentia mores<note n="66"/></l>
+               <l n="472">et favor alternis crevit amicitiis.</l>
+               <l n="473">praetulit ille meas, cum vincere posset, habenas;</l>
+               <l n="474">at decessoris maior amore fuit.</l>
+               <l n="475">subiectas villae vacat adspectare salinas;</l>
+               <l n="476">namque hoc censetur nomine salsa palus,</l>
+               <l n="477">qua mare terrenis declive canalibus intrat</l>
+               <l n="478">multifidosque lacus parvula fossa rigat.</l>
+               <l n="479">ast ubi flagrantes admovit Sirius ignes,</l>
+               <l n="480">cum pallent herbae, cum sitit omnis ager,</l>
+               <l n="481">tum cataractarum claustris excluditur aequor,</l>
+               <l n="482">ut fixos latices torrida duret humus.</l>
+               <l n="483">concipiunt acrem nativa coagula Phoebum</l>
+               <l n="484">et gravis aestivo crusta calore coit;</l>
+               <l n="485">haud aliter quam cum glacie riget horridus Hister</l>
+               <l n="486">grandiaque adstricto flumine plaustra vehit.</l>
+               <l n="487">rimetur solitus naturae<note n="67"/> expendere causas</l>
+               <l n="488">inque pari dispar fomite quaerat opus:</l>
+               <l n="489">vincta fluenta gelu concepto<note n="68"/> sole liquescunt,</l>
+               <l n="490">et rursus liquidae sole gelantur aquae.</l>
+               <l n="491"><milestone unit="page" n="808"/>o, quam saepe malis generatur origo bonorum!</l>
+               <l n="492">tempestas dulcem fecit amara moram;</l>
+               <l n="493">Victorinus enim, nostrae pars<note n="69"/> maxima mentis,<note n="70"/></l>
+               <l n="494">congressu explevit mutua vota suo.</l>
+               <l n="495">errantem Tuscis considere compulit agris</l>
+               <l n="496">et colere externos capta Tolosa Lares.</l>
+               <l n="497">nec tantum duris nituit sapientia rebus:</l>
+               <l n="498">pectore non alio prosperiora tulit.</l>
+               <l n="499">conscius Oceanus virtutum, conscia Thule</l>
+               <l n="500">et quaecumque ferox arva Britannus arat,</l>
+               <l n="501">qua praefectorum vicibus frenata potestas</l>
+               <l n="502">perpetuum magni faenus amoris habet.</l>
+               <l n="503">extremum pars illa quidem discedit<note n="71"/> in orbem,</l>
+               <l n="504">sed tamquam media rector in urbe<note n="72"/> fuit.</l>
+               <l n="505">plus palmae est illos inter voluisse placere,</l>
+               <l n="506">inter quos minor est displicuisse pudor.</l>
+               <l n="507">illustris nuper sacrae Comes additus aulae</l>
+               <l n="508">contempsit summos ruris amore gradus.</l>
+               <l n="509">hunc ego complexus ventorum adversa fefelli,</l>
+               <l n="510">dum videor patriae iam mihi parte frui.</l>
+               <l n="511">lutea protulerat sudos Aurora iugales:</l>
+               <l n="512">antemnas tendi litoris aura iubet.</l>
+               <l n="513"><milestone unit="page" n="810"/>inconcussa vehit tranquillus aplustria flatus,</l>
+               <l n="514">mollia securo vela rudente tremunt.</l>
+               <l n="515">adsurgit ponti medio circumflua Gorgon</l>
+               <l n="516">inter Pisanum Cyrnaicumque latus.</l>
+               <l n="517">aversor scopulos, damni monumenta recentis;</l>
+               <l n="518">perditus<note n="73"/> hic vivo funere civis erat.</l>
+               <l n="519">noster enim nuper iuvenis maioribus amplis,</l>
+               <l n="520">nec censu inferior coniugiove minor,</l>
+               <l n="521">impulsus furiis homines terrasque reliquit</l>
+               <l n="522">et turpem latebram credulus exsul adit.<note n="74"/></l>
+               <l n="523">infelix putat illuvie caelestia pasci</l>
+               <l n="524">seque premit laesis saevior ipse deis.</l>
+               <l n="525">num,<note n="75"/> rogo, deterior Circaeis secta venenis?</l>
+               <l n="526">tunc mutabuntur corpora, nunc animi.</l>
+               <l n="527">inde Triturritam petimus: sic villa vocatur,</l>
+               <l n="528">quae iacet<note n="76"/> expulsis insula paene fretis.</l>
+               <l n="529">namque manu iunctis procedit in aequora saxis,</l>
+               <l n="530">quique domum posuit condidit ante solum.</l>
+               <l n="531">contiguum stupui portum, quem fama frequentat</l>
+               <l n="532">Pisarum emporio divitiisque maris.</l>
+               <l n="533">mira loci facies: pelago pulsatur<note n="77"/> aperto,</l>
+               <l n="534">inque omnes ventos litora nuda patent;</l>
+               <l n="535">non ullus tegitur per bracchia tuta recessus,</l>
+               <l n="536">Aeolias possit qui prohibere minas;</l>
+               <l n="537"><milestone unit="page" n="812"/>sed procera suo praetexitur alga profundo</l>
+               <l n="538">molliter offensae non nocitura rati,</l>
+               <l n="539">et tamen insanas cedendo<note n="78"/> interligat<note n="79"/> undas</l>
+               <l n="540">nec sinit ex alto grande volumen agi.</l>
+               <l n="541">tempora navigii clarus reparaverat Eurus;</l>
+               <l n="542">sed mihi Protadium visere cura fuit:</l>
+               <l n="543">quem qui forte velit certis cognoscere signis,</l>
+               <l n="544">virtutis specimen<note n="80"/> corde videre putet:<note n="81"/></l>
+               <l n="545">nec magis efficiet similem pictura colore</l>
+               <l n="546">quam quae de meritis mixta figura venit.</l>
+               <l n="547">adspicienda procul certo prudentia vultu</l>
+               <l n="548">formaque iustitiae suspicienda micat.</l>
+               <l n="549">sit fortasse minus, si laudet Gallia civem:</l>
+               <l n="550">testis Roma sui praesulis esse potest.</l>
+               <l n="551">substituit patriis mediocres Umbria sedes:</l>
+               <l n="552">virtus fortunam fecis utramque<note n="82"/> parem.</l>
+               <l n="553">mens invicta viri pro magis parva tuetur,</l>
+               <l n="554">pro parvis animo magna fuere suo.</l>
+               <l n="555">exiguus regum victores<note n="83"/> caespes habebat,</l>
+               <l n="556">et Cincinnatos iugera pauca dabant.</l>
+               <l n="557">haec etiam nobis non inferiora feruntur</l>
+               <l n="558">vomere Serrani Fabriciique foco.</l>
+               <l n="559"><milestone unit="page" n="814"/>puppibus ergo meis fida<note n="84"/> in statione
+                  locatis</l>
+               <l n="560">ipse vehor Pisas qua solet ire pedes.</l>
+               <l n="561">praebet equos, offert etiam carpenta tribunus,</l>
+               <l n="562">ex commilitio carus et ipse mihi,</l>
+               <l n="563">officiis regerem cum regia tecta magister</l>
+               <l n="564">armigerasque pii principis excubias.</l>
+               <l n="565">Alpheae veterem contemplor originis urbem,</l>
+               <l n="566">quam cingunt geminis Arnus et Ausur aquis;</l>
+               <l n="567">conum pyramidis coeuntia flumina ducunt:</l>
+               <l n="568">intratur modico frons patefacta solo;</l>
+               <l n="569">sed proprium retinet communi in gurgite nomen,</l>
+               <l n="570">et pontum solus scilicet Arnus adit.</l>
+               <l n="571">ante diu quam Troiugenas fortuna Penates</l>
+               <l n="572">Laurentinorum regibus insereret,</l>
+               <l n="573">Elide<note n="85"/> deductas suscepit Etruria Pisas,</l>
+               <l n="574">nominis indicio testificata genus.</l>
+               <l n="575">hic oblata mihi sancti genitoris imago,</l>
+               <l n="576">Pisano proprio quam posuere foro.</l>
+               <l n="577">laudibus amissi cogor lacrimare parentis:</l>
+               <l n="578">fluxerunt madidis gaudia maesta genis.</l>
+               <l n="579">namque pater quondam Tyrrhenis praefuit arvis,</l>
+               <l n="580">fascibus et senis credita iura dedit.</l>
+               <l n="581"><milestone unit="page" n="816"/>narrabat, memini, multos emensus honores,</l>
+               <l n="582">Tuscorum regimen plus placuisse sibi;</l>
+               <l n="583">nam neque opum curam, quamvis sit magna, sacrarum</l>
+               <l n="584">nec ius quaesturae grata fuisse magis;</l>
+               <l n="585">ipsam, si fas est, postponere praefecturam</l>
+               <l n="586">pronior in Tuscos non dubitat amor.</l>
+               <l n="587">nec fallebatur, tam carus et ipse probatis:</l>
+               <l n="588">aeternas grates mutua cura canit;</l>
+               <l n="589">constantemque sibi pariter mitemque fuisse</l>
+               <l n="590">insinuant natis qui meminere senes.</l>
+               <l n="591">ipsum me gradibus non degenerasse parentis</l>
+               <l n="592">gaudent, et duplici sedulitate fovent.</l>
+               <l n="593">haec eadem, cum Flaminiae regionibus irem,</l>
+               <l n="594">splendoris patrii saepe reperta fides:</l>
+               <l n="595">famam Lachanii veneratur numinis instar</l>
+               <l n="596">inter terrigenas Lydia tota suos.</l>
+               <l n="597">grata bonis priscos retinet provinicia mores</l>
+               <l n="598">dignaque rectores semper habere bonos,</l>
+               <l n="599">qualis nunc Decius, Lucilli nobile pignus,</l>
+               <l n="600">per Corythi populos arva beata regit.</l>
+               <l n="601">nec mirum, magni si redditus indole nati</l>
+               <l n="602">felix tam simili posteritate pater.</l>
+               <l n="603"><milestone unit="page" n="818"/>huius vulnificis satira ludente<note n="86"/>
+                  Camenis</l>
+               <l n="604">nec Turnus potior nec Iuvenalis erit.</l>
+               <l n="605">restituit veterem censoria lima pudorem;</l>
+               <l n="606">dumque malos carpit, praecipit esse bonos.</l>
+               <l n="607">non olim sacri iustissimus arbiter auri</l>
+               <l n="608">circumsistenses reppulit Harpyias? —</l>
+               <l n="609">Harpyias, quarum discerpitur unguibus orbis,</l>
+               <l n="610">quae pede glutineo quod tetigere trahunt,</l>
+               <l n="611">quae luscum faciunt Argum, quae Lyncea caecum,</l>
+               <l n="612">inter custodes<note n="87"/> publica furta volant;<note n="88"/></l>
+               <l n="613">sed non Lucillum Briareia praeda fefellit,</l>
+               <l n="614">totque simul manibus restitit una manus.</l>
+               <l n="615">iamque Triturritam Pisaea ex urbe reversus</l>
+               <l n="616">aptabam nitido pendula vela Noto,</l>
+               <l n="617">cum subitis tectus nimbis insorduit aether;</l>
+               <l n="618">sparserunt radios nubila rupta vagos.</l>
+               <l n="619">substitimus. quis enim sub tempestate maligna</l>
+               <l n="620">insanituris audeat ire fretis?</l>
+               <l n="621">otia vicinis terimus navalia silvis,</l>
+               <l n="622">sectandisque iuvat membra movere feris.</l>
+               <l n="623">instrumenta parat venandi villicus hospes</l>
+               <l n="624">atque olidum doctas nosse cubile canes.</l>
+               <l n="625">funditur insidiis et rara fraude plagarum</l>
+               <l n="626">terribilisque cadit fulmine dentis aper,</l>
+               <l n="627"><milestone unit="page" n="820"/>quem Meleagrei vereantur adire lacerti,</l>
+               <l n="628">qui laxet nodos Amphitryonidae.</l>
+               <l n="629">tum responsuros persultat bucina colles,</l>
+               <l n="630">fitque reportando<note n="89"/> carmine praeda levis.</l>
+               <l n="631">interea madidis non desinit Africus alis</l>
+               <l n="632">continuos picea nube negare dies.<note n="90"/></l>
+               <l n="633">iam matutinis Hyades occasibus udae:</l>
+               <l n="634">iam latet hiberno conditus imbre Lepus,</l>
+               <l n="635">exiguum radiis sed magnis fluctibus astrum,</l>
+               <l n="636">quo madidam nullus navita linquit humum;</l>
+               <l n="637">namque procelloso subiungitur Oarioniº</l>
+               <l n="638">aestiferumque Canem roscida praeda fugit.</l>
+               <l n="639">vidimus excitis pontum favescere harenis</l>
+               <l n="640">atque eructato vertice rura tegi;</l>
+               <l n="641">qualiter Oceanus mediis infunditur agris,</l>
+               <l n="642">destituenda vago cum premit arva salo,</l>
+               <l n="643">sive alio<note n="91"/> refluus nostro colliditur orbe</l>
+               <l n="644">sive corusca suis sidera pascit aquis.</l>
+            </div>
+            <div type="textpart" subtype="book" n="2">
+               <l n="1">Nondum longus erat nec multa volumina passus,</l>
+               <l n="2">iure suo poterat longior esse liber:</l>
+               <l n="3">taedia continuo timui incessura<note n="92"/> labori,</l>
+               <l n="4">sumere ne lector iuge paveret opus.</l>
+               <l n="5">saepe cibis affert serus fastidia finis,</l>
+               <l n="6">gratior est modicis haustibus unda siti:</l>
+               <l n="7">intervalla viae fessis praestare videtur</l>
+               <l n="8">qui notat inscriptus milia crebra lapis.</l>
+               <l n="9">partimur trepidum per opuscula bina ruborem,</l>
+               <l n="10">quem satius fuerat sustinuisse semel.</l>
+               <l n="11">tandem nimbosa maris obsidione solutis</l>
+               <l n="12">Pisano portu contigit alta sequi.</l>
+               <l n="13">arridet placidum radiis crispantibus aequor,</l>
+               <l n="14">et sulcata levi murmurat unda sono.</l>
+               <l n="15">incipiunt Appennini devexa videri,</l>
+               <l n="16">qua fremit aerio monte repulsa Thetis.</l>
+               <l n="17">Italiam rerum dominam qui cingere visu</l>
+               <l n="18">et totam pariter cernere mente velit,</l>
+               <l n="19">inveniet quernae similem procedere frondi,</l>
+               <l n="20">artatam laterum conveniente sinu.</l>
+               <l n="21"><milestone unit="page" n="824"/>milia per longum decies centena teruntur</l>
+               <l n="22">a Ligurum terris ad freta Sicaniae;</l>
+               <l n="23">in latum variis damnosa anfractibus intrat</l>
+               <l n="24">Tyrrheni rabies Hadriacique sali.</l>
+               <l n="25">qua tamen est iuncti maris angustissima tellus,</l>
+               <l n="26">triginta et centum milia sola patet.</l>
+               <l n="27">diversas medius mons obliquatur in undas,</l>
+               <l n="28">qua fert atque refert Phoebus uterque diem:</l>
+               <l n="29">urget Dalmaticos Eoo vertice fluctus</l>
+               <l n="30">caerulaque occiduis frangit Etrusca iugis.</l>
+               <l n="31">si factum certa mundum ratione fatemur</l>
+               <l n="32">consiliumque dei machina tanta fuit,</l>
+               <l n="33">excubiis Latiis praetexuit Appenninum</l>
+               <l n="34">claustraque montanis vix adeunda viis.<note n="93"/></l>
+               <l n="35">invidiam timuit Natura parumque putavit</l>
+               <l n="36">Arctois Alpes opposuisse minis,</l>
+               <l n="37">sicut vallavit multis vitalia membris</l>
+               <l n="38">nec semel inclusit quae pretiosa tulit:</l>
+               <l n="39">iam tum multiplici meruit munimine cingi</l>
+               <l n="40">sollicitosque habuit Roma futura deos.</l>
+               <l n="41">quo magis est facinus diri Stilichonis acerbum,</l>
+               <l n="42">proditor arcani quod<note n="94"/> fuit imperii.</l>
+               <l n="43"><milestone unit="page" n="826"/>Romano generi dum nititur esse superstes,</l>
+               <l n="44">crudelis summis miscuit ima furor;</l>
+               <l n="45">dumque timet quicquid se fecerat ipse timeri,</l>
+               <l n="46">immisit Latiae barbara tela neci:</l>
+               <l n="47">visceribus nudis armatum condidit hostem,</l>
+               <l n="48">illatae † cladis liberiore dolo.<note n="95"/></l>
+               <l n="49">ipsa satellitibus pellitis Roma patebat</l>
+               <l n="50">et captiva prius quam caperetur erat.</l>
+               <l n="51">nec tantum Geticis grassatus proditor armis:</l>
+               <l n="52">ante Sibyllinae fata cremavit opis.</l>
+               <l n="53">odimus Althaeam consumpti funere torris;</l>
+               <l n="54">Nisaeum crinem flere putantur avis.</l>
+               <l n="55">at Stilicho aeterni fatalia pignora regni</l>
+               <l n="56">et plenas voluit praecipitare colos.</l>
+               <l n="57">omnia Tartarei cessent tormenta Neronis;</l>
+               <l n="58">consumat Stygias tristior umbra faces.</l>
+               <l n="59">hic immortalem, mortalem perculit ille,</l>
+               <l n="60">hic mundi matrem perculit, ille suam.</l>
+               <l n="61"><milestone unit="page" n="828"/>sed deverticulo fuimus fortasse loquaces:</l>
+               <l n="62">carmine propositum<note n="96"/> iam repetamus iter.</l>
+               <l n="63">advehimur celeri candentia moenia lapsu:a</l>
+               <l n="64">nominis est auctor Sole corusca soror.</l>
+               <l n="65">indigenis superat ridentia lilia saxis,</l>
+               <l n="66">et levi radiat picta nitore silex.</l>
+               <l n="67">dives marmoribus tellus, quae luce coloris</l>
+               <l n="68">provocat intactas luxuriosa nives.</l>
+               <gap reason="lost"/>
+            </div>
+         </div>
+      </body>
+   </text>
+
+</TEI>

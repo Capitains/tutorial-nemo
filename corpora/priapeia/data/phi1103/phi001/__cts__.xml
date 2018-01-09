@@ -1,0 +1,50 @@
+<work groupUrn="urn:cts:latinLit:phi1103" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cpt="http://purl.org/capitains/ns/1.0#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dct="http://purl.org/dc/terms/" xml:lang="lat" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dts="http://w3id.org/dts-ontology/" xmlns="http://chs.harvard.edu/xmlns/cts" xmlns:saws="http://purl.org/saws/ontology#" urn="urn:cts:latinLit:phi1103.phi001">
+    <title xml:lang="eng">Priapeia</title>
+    <title xml:lang="lat">Priapeia</title>
+    <title xml:lang="fre">Priapées</title>
+    
+    <edition urn="urn:cts:latinLit:phi1103.phi001.lascivaroma-lat1" xml:lang="lat" workUrn="urn:cts:latinLit:phi1103.phi001">
+        <label xml:lang="eng">Priapeia from Poeta Latini minores</label>
+        <description xml:lang="unk">Poeta Latini minores, ed. Aemilius Baehrens, Leipzig, Teubner, 1879</description>
+        <cpt:structured-metadata>
+            <dct:source>https://archive.org/details/poetaelatinimino12baeh2</dct:source>
+            <dct:contributor >Thibault Clérice</dct:contributor>
+            <dc:language >lat</dc:language>
+            <skos:prefLabel xml:lang="eng">Priapeia based on the edition of Aemilius Baehrens</skos:prefLabel>
+            <dct:contributor >Aemilius Baehrens</dct:contributor>
+            <dc:format >text/xml</dc:format>
+            <dc:date>1879</dc:date>
+            <dc:author>Anonymous</dc:author>
+        </cpt:structured-metadata>
+    </edition>
+    
+    <translation urn="urn:cts:latinLit:phi1103.phi001.lascivaroma-eng1" xml:lang="eng" workUrn="urn:cts:latinLit:phi1103.phi001">
+        <label xml:lang="eng">Sportive Epigrams on Priapus</label>
+        <description xml:lang="eng">by divers poets in English verse and prose. Translated by Sir Richard Burton and Leonard C. Smithers</description>
+        <cpt:structured-metadata>
+            <dct:contributor >Thibault Clérice</dct:contributor>
+            <dc:language>eng</dc:language>
+            <skos:prefLabel xml:lang="eng">Sportive Epigrams on Priapus</skos:prefLabel>
+            <dct:author>Sir Richard Burton</dct:author>
+            <dct:author>Leonard C. Smithers</dct:author>
+            <dc:format >text/xml</dc:format>
+            <dc:date>1890</dc:date>
+            <dct:source>http://www.sacred-texts.com/cla/priap/index.htm</dct:source>
+        </cpt:structured-metadata>
+    </translation>
+    
+    <translation urn="urn:cts:latinLit:phi1103.phi001.lascivaroma-eng2" xml:lang="eng" workUrn="urn:cts:latinLit:phi1103.phi001">
+        <label xml:lang="eng">Sportive Epigrams on Priapus (in prose)</label>
+        <description xml:lang="eng">by divers poets in English verse and prose. Translated by Sir Richard Burton and Leonard C. Smithers</description>
+        <cpt:structured-metadata>
+            <dct:contributor >Thibault Clérice</dct:contributor>
+            <dc:language>eng</dc:language>
+            <skos:prefLabel xml:lang="eng">Sportive Epigrams on Priapus (in prose)</skos:prefLabel>
+            <dct:author>Sir Richard Burton</dct:author>
+            <dct:author>Leonard C. Smithers</dct:author>
+            <dc:format >text/xml</dc:format>
+            <dc:date>1890</dc:date>
+            <dct:source>http://www.sacred-texts.com/cla/priap/index.htm</dct:source>
+        </cpt:structured-metadata>
+    </translation>
+</work>

@@ -1,0 +1,1659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_minimal.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_minimal.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Information about publication or distribution</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="edition" n="urn:cts:pompei:priapeia.XXX.enc-lat1" xml:lang="lat">
+<div type="textpart" subtype="poem">
+    <l>Carminis incompti lusus lecture procaces,</l>
+    <l>Conueniens Latio pone supercilium.</l>
+    <l>Non soror hoc habitat Phoebi, non Vesta sacello,</l>
+    <l>Nec quae de patrio uertice mata dea est,</l>
+    <l>Sed ruber hortorum custos, membrosior aequo,</l>
+    <l>Qui tectum nullis uestibus inguem habet.</l><l>
+    Aut igitur tunicam parti praetende tegendae,</l>
+    <l>Aut quibus hanc oculis aspicis, ista lege.</l>
+</div>
+<div type="textpart" subtype="poem">
+   <l>Ludens haec ego teste te, Priape,</l>
+   <l>Horto carmina digma, non libello,</l>
+   <l>Scripsi non nimium laboriose.</l><l>
+   Nec Musas tamen, ut solent poetae,</l>
+   <l>Ad non uirgineum locum uocaui.</l>
+   <l>Nam semsus mihi corque defuisset,</l>
+   <l>Castas, Pierium chorum, sorores</l>
+   <l>Auso ducere mentulam ad Priapi.</l>
+   <l>Ergo quidquid id est, quod otiosus</l>
+   <l>Templi parietibus tui notaui,</l>
+   <l>In partem accipias bonam, rogamus.</l>
+</div>
+            <div type="textpart" subtype="poem">
+<l>Obscure poteram tibi dicere: â€œda mihi, quod tu</l>
+<l>Des licet assidue, nil tamen inde perit.</l>
+<l>Da mihi, quod cupies frustra dare forsitam olim,</l>
+<l>Cum tenet obsessas inuida barba genas,</l>
+<l>Quodque Ioui dederat, qui raptus ab alite sacra</l>
+<l>Miscet amatori pocula grata suo,</l>
+<l>Quod uirgo prima cupido dat nocte marito,</l>
+<l>Dum timet alterius uulnus inepta loci?</l>
+<l>Simplicius multo est â€œda pedicareâ€ Latine</l>
+<l>Dicere: quid faciam? crassa Minerua mea est.</l>
+            </div>
+IIII
+Obscenas rigido deo tabellas,
+Ducems ex Elephantidos libellis,
+Dat donum Lalage rogatque, temptes,
+Si pictas opus edat ad figuras.
+V.
+Quam puero legem fertur dixisse Priapus,
+Versibus haec infra scripta duobus erit:
+â€œQuod meus hortus habet, sumas impune licebit,
+Si dederis nobis, quod tuus hortus habet.'
+VI
+Qui sum ligneus, ut uides, Priapus
+Et falx lignea ligneusque penis,
+Prendam te tamen et tenebo prensum
+Totamque hanc sine fraude, quantacumque est,
+Tormento citharaque tensiorem
+5
+Ad costam tibi septimam recondam.
+6 Quod ioui H || 6 grata HLs: sacra AW || 8 alterius Hs :
+illius ALV || 9 latimo 0 (latQino B) s; latine s wulgo || 10 puella
+subpwmctwm
+et marg. minerua, I.
+IIII. 2 Ducens Hs: Dicens A Dicans LV s | elifanticos A|
+3 tentes I, s || 4 pietas A
+V. 2 hec A: hic Hs his LV || 8 ortus 0 | sÃ¼mas A summas
+I, | impune HI, 14 Si mihi tu dederis H | ortus 0 (quod ut com
+stantem 8cripturam abhinc non enotabo)
+VI. 1. Qui I. mgo: Quod 0s Quom sim L. Muellerus | 'sim
+V || 2 penis, e supra i V pennis H || 8 et om. H | tenebo BILV
+corr. s: tenendo AV m. 1 | prensum L: pressum A prensam Hoe
+pressam V || 4 Totam hanc H || 5 cythar. I, cytar. HV | temtio
+rem Hoe || 6 septÃ  A
+60
+III. DIVERSORUM AUCTORUM
+VII
+Cum loquor, una mihi peccatur littera; mam te
+Pe-dico semper blaesaque lingua mihi est.
+VIII
+Matromae' procul hinc abite castae:
+Turpe est uos legere impudica uerba. â€”
+Non assis faciunt euntque recta:
+Nimirum sapiunt uidentque magnam
+Matronae quoque mentulam libenter.
+6
+VIIII
+Cur obscena mihi pars sit sime ueste, requiris:
+Quaere, tegat nullus cur sua tela deus.
+Fulmen habet mundi dominus, tenet illud aperte;
+Nec datur aequoreo fuscina tecta deo.
+Nec Mauors illum, per quem ualet, occulit ensem; 5
+Nec latet in tepido Palladis hasta sinu.
+Num pudet auratas Phoebum portare sagittas?
+Clamme solet pharetram ferre Diana suam?
+Num tegit Alcides modosae robora clauae?
+Sub tumica uirgam num deus ales habet?
+10
+Quis Bacchum gracili uestem praetendere thyrso,
+Quis te celata cum face uidit, Amor?
+Nec mihi sit crimen, quod mentula semper aperta est:
+Hoc mihi si telum desit, inermis ero.
+X.
+Insulsissima quid puella rides?
+VII. 1 loquar et lictera A | te As: T H. .T. I, .et. V || 2 pe
+dico BV: podico A P. dico I, ] blesaque O | mihi 05: mea G wwlgo
+VIII. 1 hinc procul, sed corr., V || 2 impudica BL s
+I:
+IL. Muellerus de re m. 51 'Â£
+VIIII. 1 Quor (semper)
+A || 2 Quaero 0s, corr.
+3
+et Buechelerus | cur eÃ¦ cum corr. V
+â€¢m. rec.
+| tela
+A, L mgo,
+s: signa ceteri || 8 habens
+A || 6 emsem
+A || 7 Num LV s: NÃ¶n Hs Nec
+A | hamatas
+B. || phebum (sem
+per)
+A l sagiptas AW || 8 Clam nec
+A || dyana
+A || 9 Num H Non s
+| temet
+A ||
+10 tumicam LW | num
+H mom s ||
+11 baccum
+A | tyrso
+ALV tirso
+H
+-
+PRIAPEA,
+61
+Non me Praxiteles Scopasue fecit,
+Non sum Phidiaca manu politus;
+Sed lignum rude uillicus dolauit,
+Et dixit mihi: â€œtu Priapus esto'.
+5
+Spectas me tamen et subinde rides:
+Nimirum tibi salsa res uidetur
+Adstans inguinibus columna nostris.
+XI
+Ne prendare, caue.
+prenso nec fuste nocebo,
+Saeua nec incurua uulnera falce dabo:
+Traiectus conto sic extendere pedali,
+Vt culum pugam non habuisse putes.
+XII
+Quaedam annosior Bectoris parente,
+Cumaeae soror, ut puto, Sibyllae,
+Aequalis tibi, quam domum reuertens
+Theseus repperit in rogo iacentem,
+Infirmo solet huc gradu uenire
+5
+Rugosasque manus ad astra tollens,
+Ne desit sibi, mentulam rogare.
+Hesterna quoque nocte dum precatur,
+Dentem de tribus excreauit unum.
+X. 2 praxitelex A prassiteles V | copasue O || 8 Non ALV s :
+Nec Hoe | sum subdiata A || 4 uillicus, Ã­ta O
+7 salsa g: falsa 05
+ficta s || 8 Adst. BILg: Asst. A Ast. V$ | columpna AV puella L
+XI. 1 Me A Nec B | prendare Buechelerus: prensare os
+premgere
+s | premso V s: premsus ABL s premsis s || 2 Sceua BI
+scaeua s || 8 Traiecta H || corto W | expendere L | pedali eÃ¦ spe
+dali corr. I, | pugam scripsi: rugam ABII s rugas Ve
+XII. 1 annosior (uel haud iunior) Heinsius: iunior 0 s se
+mior e wmus, serior Scaliger turpior O. Iahnius
+putrior Bue
+chelerus || 2 Cume(a)e 0 s Cumanae s | sibill(a)e AV || 8 Et qua
+lis H | reuertes L || 4 Teseus AL | reperit AVoe | domo L || 6 ro
+gosasq; A || 7 Nec L | tibi A | mentulam L s : mentula ABIV s
+desim sibi mentula Awancius | rogate A || 8 nocte Bwechelerus:
+luce 0s | procatur A, wt wid. ; rogatur eaepuncto I, precatur habet
+|| 9 excreauit
+L: hec creauit A hic screauit HIV s
+62
+III. DIVERSORUM AUCTORUM
+â€œTolleâ€ inquam â€œprocul ac iube latere
++O
+Scissa sub tumica stolaque russa,
+Vt semper solet, et timere lucem,
+Qui tanto patet indecems hiatu,
+Barbato macer eminemte naso,
+Vt credas Epicurom oscitari.â€
+15
+XIII
+Percidere puer, momeo: futuere puella:
+Barbatum furem tertia poema manet.
+XIIII
+Huc huc, quisquis es, in dei salacis
+Deuerti graue ne puta sacellum.
+Et si nocte fuit puella tecum,
+Hac re quod metuas adire, non est.
+Istud caelitibus datur seueris:
+5
+Nos uappae sumus et pusilla culti
+Ruris mumina, mos pudore pulso
+Stamus sub Ioue coleis apertis.
+Ergo, quoi libet, huc licebit intret
+Nigra formicis oblitus fauilla.
+10
+XV
+Commisso mihi non satis modestas
+-
+Quicumque attulerit manus agello,
+Is me sentiet esse mon spadonem.
+Dicat forsitan haec sibi ipse: â€œnemo
+10 ac omnes praeter A, qui et habet || 11 russa A: ruffa ceteri
+|| 18 hyatu Av || 14 emimete V || 16 epicurii A epicureos
+Hvs
+epicureo, s 8uprascr., I, | oscitari AV s: obscitariLs citari Hoe
+XIII. 1 Precidere O (ita uel Praec. s), corr. Forbergerus;
+perscindere
+maluit L. Muellerus | mome L || 2 pema AV
+XIIII. 2 Diuerti 0 s | putas V || 5 Istud ALvs: Istuc HIe |
+celtibus V || 5 uape H napee L || 6 culti eÃ¦ cultu corr. VI 7 om.
+L || 9 quoilibet ego: quilibet AHs, V mgo m. rec.; cuilibet Loe
+quib; V || 10 Nigri s wnus
+XV. 8 sentiat A || 4, 5 AHg: 5, 4 ponunt WLs || 4 hec AV s :
+hoc LIH s | sibi LV s: tibi AHs | ipse nemo HV s : esse memo L
+ne quisquam A; fortasse D. f. hoc sibi: umde quisquam
+PRIAPEA.
+63
+Hic inter frutices loco remoto
+5*
+Percisum sciet esse me'; sed errat:
+Magnis testibus ista res agetur.
+XVI
+Qualibus Hippomenes rapuit Schoeneida pomis,
+Qualibus Hesperidum nobilis hortus erat,
+Qualia credibile est spatiantem rure paterno
+Nausicaen pleno saepe tulisse simu,
+Quale fuit malum quod littera pinxit Aconti,
+6
+Qua cupido lecta pacta puella uiro est:
+Talia cuncta pius dominus florentis agelli
+Imposuit mensae, nude Priape, tuae.
+XVII
+Quid mecum tibi, circitor moleste?
+Ad me quid prohibes uenire furem?
+Accedat, sine: laxior redibit.
+XVIII
+Commoditas haec est in nostro maxima pene,
+Laxa quod esse mihi femina nulla potest.
+6 Hic s: Huc os | intret Hs intra V | fructices AV || 6 Pre
+cisum 0oe, corr. s; perscissum
+L. Muellerus | sciet HV s: sciat
+AI, $ | me] mgo at. te A || 7 ipsa res agatur V
+XVI. 1 Qualibet V (corr. mgo m. rec.) || yppomenes L ypo
+memes AV hypomones
+H | cemeida LV cemeyda, A cemeida H ||
+8 HesperidumItali: yppomemes L ypomenes (-nis V) AV hypo
+momes BI, itidemque fere s || 4 Nausicaem ego: Nausicam AI.V
+%n. 2 Ï‚
+Nasicam V m. 1 Nassicam H s Nausicem s Nausicaam
+wwlgo Nausicaan L. Mwellerus | simu] uiro L || 5 acontii A achonti
+Ã¯Ã­L||6eaeAdedimus:lectacupido â€”uiroestHslectaestcu
+ido
+â€” uiro LV s || 7 Talia cumcta scripsi: Talia cumque HLWs
+A Talia, quimque s unus | pius A: om. I, puer BIV s
+Talia numc pauper Buechelerus || 8 Imp. Hs
+XVII. 2 fures V
+XVIII. 1 Comoditas v | pemme H || 2 Lassa Loe Iaxaq; esse A
+64
+III. DIVERSORUM AUCTORUM
+XVIIII
+Si quando Telethusa circulatrix,
+Quae clumem tunica tegente nulla
+Aestu latius altiusque motat,
+Crisabit tibi fluctuante lumbo:
+Haec sic non modo te, Priape, possit,
+5
+Priuignum quoque sed mouere Phaedrae.
+XX
+Fulmina sub Ioue sunt; Neptuni fuscina telum;
+Ense potens Mars est; hasta, Minerua, tua est;
+Suttilibus Liber committit praelia thyrsis;
+Fertur Apollinea missa sagitta manu;
+Herculis armata est inuicta dextera claua:
+6
+At me terribilem mentula tenta facit.
+XXI
+Copia me seruet: tu suffragare rogatus,
+Indicio nec me prode, Priape, tuo,
+Quaeque tibi posui tamquam uermacula poma,
+De sacra nulli dixeris esse uia.
+XXII
+Femina si furtum faciet mihi uirue puerue,
+Haec cunnum, caput hic praebeat, ille mates.
+XVIIII. 1 Si scripsi: Hic Os ecquando Scaliger | theletusa A
+thelatusa
+H teletusaV || 2 tegentem L || 8. Aestu scripsi: Extis
+O s Extu s aestis s Sistris Buechelerws | latius scripsi: satius 0s
+(Ealtius W) aptius s | altius ue LV; acriusque L. Muellerus |
+motat Forbergerus:
+mouet 0s mouit wlgo || 4 Crisabit A: Cris
+sabit ceteri; de forma crisare
+cf. Lachmammws ad Iwcr.
+p. 276
+et
+L. Muellerus ad Lwcil.
+p. 229; crissauit: wulgo || 5 Haec sic scri
+psi: Hec
+si AI. Sic HV s Sic
+ut s | possit Muellerus: posset 0s
+XX.
+1 NeptÃ¼mi
+A Neptumni
+I. Neptunmi
+H || 8 Suttil.
+A:
+Subtil. BILV
+m.
+1 Sutil.
+V corr. | cÃ¶mictit A | tyrÂ§ys A tyrsis V
+tirsis HL || 4 sagipta AV sagicta
+L || 5 inuicti L || 6 Ac
+V
+XXI. 1 me seruet ego: me perdit (prodit
+W) Os mi periit Anto
+Ï€Î¯us deperiit Muellerus
+||
+2 Inditio
+A | me LV<: nos He no A Ã­ta
+wt supra
+o lineola erasa wideatwr
+||
+8 Hec quecumq;
+tibi po
+sui
+u.
+p.
+I.
+.
+1 uirque puerque
+(purq;
+I) 0s , corr. Muellerus
+PRIAPEA.
+65
+XXIII
+Quicumque hic uiolam rosamue carpet
+Furtiuumue olus aut inempta poma,
+Defectus pueroque feminaque
+Hac temtigine, quam uidetis in me,
+Rumpatur, precor, usque mentulaque
+5
+-
+Nequicquam sibi pulset umbilicum.
+XXIIII
+Hic me custodem fecundi uillicus horti
+Mamdati curam iussit habere loci.
+Fur habeas poenam, licet imdignere 'feram'que
+â€œPropter olus' dicas 'hoc ego?â€ â€œpropter olus'.
+XXV
+Hoc sceptrum, quod, ubi arbore est recisum,
+Nulla iam poterit uirere fronde;
+Sceptrum, quod pathicae petunt puellae,
+Quod quidam cupiunt temere reges,
+Cui damt oscula nobiles cinaedi,
+6
+Intra uiscera furis ibit usque
+Ad pubem capulumque coleorum.
+-
+XXVI
+Porro â€” mam quis erit modus? â€” Quirites,
+Aut praecidite seminale membrum,
+Quod totis mihi moctibus fatigant
+Vicinae sine fine prurientes
+Vermis passeribus salaciores,
+5
+XXIII. 1 rosamq; A || 2 imemta eÃ¦ imepta corr. V || 8 Defe
+tus ue L | pueroque AH s : puerq; V puerue L | feminaue L i
+4 quam Hs: qua AV quem L
+XXIIII. 3 caueas Muellerus | pemam A | que om. V
+XXV. 1 quo L | ubi (uel ut) arbore est recisum scripsi: ab
+(ex L) arbore est recisum 0 s ab arbore ut recisum est uulgo ||
+2 etiam A || uirere Hg: reuirere AV s reuire L || 3 patic(a)e 0s
+|| 5 Quoi V | obscula
+AL | cimedi 0
+XXVI. 1 Poro H | modus] A mgo:
+al. metus | 5 pasteribus
+H || salatiores AV solatiores
+H
+Port.
+1.At. mrn.
+I.
+6
+66
+III. IOIVERSORUM AUCTORUM
+Aut rumpar nec habebitis Priapum.
+Ipsi cernitis, ecfututus ut sim
+Confectusque macerque pallidusque,
+Qui quondam ruber et calems solebam
+Fures caedere quamlibet ualentes.
+10
+Defecit latus et periculosam
+Cum tussi miser expuo saliuam.
+XXVII
+Deliciae populi, magno notissima circo,
+Quintia, uibratas docta mouere mates,
+Cymbala cum crotalis, pruriginis arma, Priapo
+Ponit et adducta tympana pulsa manu:
+Pro quibus, ut semper placeat spectantibus, orat,
+5
+Tentaque ad exemplum sit sua turba dei.
+XXVIII
+Tu, qui mon bene cogitas et aegre
+Carpendo tibi temperas ab horto,
+Pedicabere fascimo pedali.
+Quod si tam grauis et molesta poena
+Non profecerit, altiora tangam.
+6
+XXVIIII
+Obscenis, peream, Priape, si non
+Vti me pudet improbisque probris.
+Sed cum tu posito deus pudore
+6 rumpat A || 7 ecfututus ut Bwechelerus: ut fututus ut A
+futurus ut L ut futuiturus V. futuiturus H, similia s, nisi quod
+wnus et fututus ut habet, exfututus wwlgo || 8 macer, om. que, I.
+|| 9 condam
+AV | calens scripsi: ualens Os rigens Buechelerus
+$
+uigens Muellerus || 10 scimdere idem | quoslibet I. I 11 Deficit
+IBIILV g || miser om. H
+XXVII. 1 Delitie ABV | circo om. B || 8 eimbala ABw |
+pruritus H || 4 abducta (obd. W) 0s | timpana (timp. W) ALWs:
+cimbala HI 5 spectatibus w || 6
+fit (ngo
+Ã¨' sit)
+A
+XXVIIII. 2 improbisque probris Â£ : Iprobris probrisq; A
+improbis probisque HLs improbis probrisque voe improbisque
+uerbis wulgo
+PRIAPEA.
+67
+Ostendas mihi coleos patentes,
+Cum cunno mihi mentula est uocanda.
+6
+XXX
+'Falce mimax et parte tui maiore, Priape,
+Ad fontem, quaeso, dic mihi qua sit iter?
+Vade per has uites, quarum si carpseris uuam,
+Cur aliter sumas, hospes, habebis aquam.
+XXXI
+Domec proterua mil mei mamu carpes,
+Licebit ipsa sis pudicior Vesta.
+Sin, haec mei te uentris arma laxabunt,
+Exire ut ipse de tuo queas culo.
+XXXII
+Wuis aridior puella passis,
+Buxo pallidior mouaque cera,
+Collatas sibi quae suisque membris
+Formicas facit altiles uideri,
+Cuius uiscera non aperta Tuscus
+6
+Per pellem poterit uidere aruspex,
+Quae suco caret estque pura pumex
+4 Ostemdas AL s: ostemdis BIV s
+XXX. 1 Falet H | mimams A || et A mgo, s wulgo: ex os |
+3 uuam Os, nisi quod in A
+eae unam
+correctwm est, unam
+s;
+uuas wulgo
+||
+4 Cur 0s: Quas wulgo | siimas AV summas
+L |
+aquam AL: aquas HV 5
+XXXI. 1 mei
+s: mea AB
+m. 1 Vs tua
+B
+m.
+2 L || 2 pudi
+citior AV pudicicior
+H || 4 ipse Buechelerus: ipsa 0s | queas
+de
+t.
+c.
+V | cummo Scioppius
+XXXII. 1 arridior
+v || 2 Busso AHs || 8 CollataÂ£ (eras. m)
+sibi que (hoc swpra lin.)
+A Collatas sibiq;
+H Collatasq; sibi
+quae
+L Comlatasq; sibi (om. quae)
+V; similia
+s, sed
+ut
+in non
+wwllis werum sit repertwm
+||
+7 om.
+A
+in initio nouae paginae |
+succo BIs | estque pura scripsi: usque putris BIs us; putrix
+V
+atque putris
+I, similia alii s ; ut putrisque â€¢'; atque petra.
+Scaliger atque putra Vossius
+ut peresa (porosa) Heinsius usque
+quaque IBuechelerus est putusque Muellerws.
+feminimwm
+wocis
+pumex usum testatwr Serwius ad Aen. XII 587 | pilmex
+V po
+mex
+H m. 1
+5*
+68
+III. DIVERSORUM AUCTORUM
+(Nemo uiderit hanc ut expuentem,
+Quam pro sanguine puluerem scobemque
+In uenis medici putant habere),
+10
+Ad me mocte solet uenire et affert
+Pallorem maciemque larualem.
+Ductor ferreus imsulariusque
+Lamternae uideorfricare cornu.
+XXXIII
+Naidas antiqui Dryadasque habuere Priapi,
+Et quo tenta dei uena subiret, erat.
+Nunc adeo nihil est, adeo mea plena libido est,
+Vt Nymphas omnis imteriisse putem.
+Turpe quidem factu, sed ne tentigine rumpar,
+5
+Falce mihi posita fiet amica manus.
+XXXIIII
+Cum sacrum fieret deo salaci,
+Conducta est pretio puella paruo
+Commumis satis omnibus futura:
+Quae quot nocte uiros peregit una,
+Tot uerpas tibi dedicat salignas.
+5
+XXXV
+Pedicabere, fur, semel; sed idem
+Si praedatus eris bis, irrumabo;
+8 pro ut A misi a m. 2 in rasura habet || 9 pulue=rÃ© V |
+scobemque s: scrobemque 0 s || 11 solet ueniro mocte L || 12 ma
+tiemq; V | lariualem As wnws || 18 imsulariusque Eurmannws :
+insularis eque (eque L s) Os || 14 Lantermae s wnus: latern(a)e 05
+XXXIII.
+Â§*?
+1
+AH Naiades Le Naydes V | driadesque
+(que omn. V) codd. praeter A || 2 quoi â€” subaret L. Muellerws ||
+3. micil A mil v || 4 omnis Lvs: omnes AHs || 5 factu plerique:
+dictu L fatu s umus | sed me AV s: sed si HL s || 6 mihi Bue
+chelerus: manu 05
+XXXIIII. 2 ptio A || 8 Comunis AV | fututura v
+XXXV. 1 pro sed idem expectes participium cum semel con
+Ã­wngendum, uelut refigens || 2 Si precisus eris 0s (nisi quod pre
+hensus L, deprehemsus unus s, premsus
+alter s); correaei.
+Si
+deprensus eris Meyerus
+PRIAPEA.
+69
+Et si tertia furta molieris,
+Vt poemam patiare et hanc et illam,
+Pedicaberis irrumaberisque.
+XXXVI
+NotÃ¢s habemus quisque corporis formas:
+Phoebus comosus, Hercules lacertosus;
+Trahit figuram uirginis tener Bacchus;
+Minerua rauo lumine est, Vemus paeto;
+Frontem caprimos Arcadas uides Faunos;
+5
+Habet decentes muntius deum plantas;
+Tutela Lemni dispares mouet gressus;
+Intonsa semper Aesculapio barba est;
+Nemo est feroci pectorosior Marte:
+Quod si quis imter hos locus mihi restat,
+10
+Deus Priapo mentulatior non est.
+XXXVII
+Cur pictum memori sit in tabella
+Membrum, quaeritis, unde procreamur?
+Cum pemis mihi forte laesus esset
+Chirurgique manum miser timerem,
+Dis me legitimis nimisque magnis,
+5
+8 Et A: Quod ceteri || 4 patiare et hamc A s: patiare hanc
+HV s patiaris hamc L g || 5 irrim. I.
+XXXVI. 1 corporis quisque (s in V suprascr.) formas Os j
+2 Febus A || 8 Trait:A || sacer (mgo: al. temer) L celer H | bachus
+A || 4 Mimera H || flauo 0s; rauo Hauptius, glauco Antonius |
+est om. 0 s || 6 Fromte crinitos Os (in v
+eae crinidos corr.); fron
+tes
+s wnus, fromtem
+s wnus;
+comatos wulgo cruentos Scaliger
+bicornes (uel eminemtes) Buechelerus caprimos
+L. Muellerus | or
+cades
+A archades HILVS arcades
+s || 6 muntium deus
+A munc
+tius deus
+V || 8 Resculapio
+V ||
+10 hos
+s pauci: h(a)ec
+0 s ||
+11
+priapo memo mentulatior est:
+V
+XXXVII.
+8 ponis
+I. pemmis
+H | mihi forte As: forte mihi
+HLV || 4 chirurgique
+s: cirugiq;
+A cirugicamque HV
+m.
+1 cy
+rugicÃ¢mque
+I. chirurgicamque y corr.
+s| 6. Dis (siue Diis) me
+legitimis codd. praeter
+A, qui habet Me duci medicis mimisque;
+latet aliquid, cum
+in uulgata lectione me plane abwndet; puto dum
+dis legitimis siwe dum diuis medicis,
+wt
+a
+w.
+8 apodosis incipiat
+70
+III. DIVERSORUM AUCTORUM
+Vt Phoebo puta filioque Phoebi,
+Curandam dare mentulam uerebar,
+Huic dixi: 'fer opem, Priape, parti,
+Cuius tu, pater, ipse pars uideris:
+Qua salua sine sectione facta
+10
+Ponetur tibi picta, quam leuaris,
+Par uel consimilisque concolorque.'
+Promisit fore mentulamque mouit
+Pro nutu deus et rogata fecit.
+XXXVIII
+Simpliciter tibi me, quodcumque est, dicere oportet,
+Natura est quoniam semper aperta mihi:
+Pedicare uolo, tu uis decerpere poma;
+Quod peto, si dederis, quod petis, accipies.
+XXXVIIII
+Forma Mercurius potest placere,
+Forma conspiciendus est Apollo,
+Formosus quoque pingitur Lyaeus,
+Formosissimus omnium est Cupido.
+Me pulcra fateor carere forma,
+5
+Verum mentula luculenta nostra est:
+Hanc mauult sibi quam deos priores,
+Si qua est non fatui puella cunni.
+XXXX
+Nota Suburanas inter Telethusa puellas,
+6 phebo et phebi A || 7 Curandam AL: Curatum HV s | ui
+debar V (corr. m. rec. mgo), H s || 9 pars Gronowius: par 0s
+Lar Muellerus || 11 qua Loe || 12 Paruel scripsi: Parue et A
+Parua et ceteri fere omnes; parque Antonius compar Scaliger |
+consimilis, om. que, V || 14 uultu H
+XXXVIII. 1 opportet A || 4 dederis quodlibet acc. I,
+;Â£:
+XXXVIIII. 1
+potest L placare W || 2 om. W || 8 lieus
+AHV || 4 est omnium cupido L omnium est apollo A est a(p)pollo
+Â£Ã‰
+omnium BV; et sic fere s recepta lectione apollo || 5
+HII, g;
+6 mea est; L
+X.
+. 1 sub (suo V) urbanas 0s | celesina A theleth. I,
+thelat. HI telet. W
+-
+â€”â€”â€”â€”=â€”-"
+PRIAPEA.
+71
+Quae, puta, de quaestu libera facta suo est,
+Cingit inaurata penem tibi, sancte, corona:
+Hunc pathicae summi numinis instar habent.
+XXXXI
+Quisquis uenerit huc, poeta fiat
+Et uersus mihi dedicet iocosos.
+Qui non fecerit, inter eruditos
+Ficosissimus ambulet poetas.
+XXXXII
+Laetus Aristagoras natis bene uilicus uuis
+De cera parili dat tibi poma, deus.
+At tu sacrati contentus imagine pomi
+Fac ueros fructus ille, Priape, ferat.
+XXXXIII
+Velle quid hanc dicas, quamuis sim ligneus, adstans
+Oscula dat medio si qua puella mihi?
+Augure non opus est: â€œin meâ€ (mihi credite) dicit
+â€œVtatur ueris uiribus hasta rudis.'
+XXXXIIII
+Nolite omnia, quae loquor, putare
+Per lusum mihi per iocumque dici.
+2 puta ;_wnus: _puto 0s | est om. HV || 8 pennem H ||
+4 Hunc Ls: Hoc A Hanc HVg | patice 0 | mumeris L
+XXXXI omittit A || 4 Ficosiss. BLV s: fucosiss., iocosiss.,
+similia s pawci
+XXXXII. 1 Doctus A | aristogoras 0s | natus L | uilicus, sic
+hic A: uillicus ceteri || 2 parili (scil. uuis) scripsi: facta 0s fa
+cili s wmu8; waria con$ecerwnt, factas Hawptius, qui et pro poma
+woluit dona || 8 ymagine AV
+XXXXIII. hoc carmen post sequens ponunt wulgo conftra os
+|| 1 limgeus W | adstans
+scripsi: hastam 0s quamuis sic ligneus
+Ã dstem IDoruillius || 2 Obscula A || 8 dicit scripsi: dixit Os |
+4 Utatur scripsi: Utetur 0s | ueris usibus 0s sine sensw; Ve
+meris lusibusTHeinsius, uerae uiribus Ouwensius,
+merui uiribus
+L. Muellerus
+XXXXIIII. 1 qu(a)e dico putare BL s || 2 luxum I,
+72
+IDIVERSORUM AUCTORUM
+Deprensos ego ter quaterque fures
+Omnes, mom dubitetis, irrumabo.
+XXXXV
+Cum quemdam rigidus deus"uideret
+Feruenti caput ustulare ferro,
+Ut Maurae similis foret puellae,
+'Heusâ€ inquit â€œtibi dicimus, cinaede,
+Vras te licet usque torqueasque,
+5
+Num tamdem prior es puella, quaeso,
+Quoi sint, mentula quos habet, capilli?
+XXXXVI
+O mon candidior puella Mauro,
+Sed morbosior omnibus cinaedis,
+Pygmaeo breuior gruem timenti,
+Vrsis asperior pilosiorque,
+Medis laxior Indicisue bracis:
+Ã¢
+Mandes huic licet, ut libet, te inire;
+Nam quamuis uidear satis paratus,
+Erucarum opus est decem maniplis,
+Fossas inguinis ut teram dolemque
+Cummi uermiculos
+scaturrientis.
+10
+8 Deprendens A Deprehensos HV s | ego om. H, unde quo
+que pro ego s pauci || 4 non 0s (cf. Ouid. a. a.
+III 188):
+me
+wwlgo
+| irrimabo
+A irrimando
+I
+XXXXV. 4 cimede A cinedo HIV s || 6 usque quod
+H | tor
+queasque Aldina: torquearis Os || 6 Non
+L | priores Ve prior
+Ã©st
+s || 7 Quoi Tan. Faber: Qua AL Quam ceteri ! sint A: sunt
+codd.
+pleriq; XXVI. cohaeret in A antecedenti || 1 moro AH 2 cyme
+dis AV cimedis
+H || 8 pigmeo AHL pigimeo
+V | timenti 0s :
+ti
+mente
+s ||
+5 indicis libratis 0s Imdicisque braccis wlgo Imdicisue
+bracis Buechelerus
+||
+6 Mandes
+s pauci: Mames Os Mallem Is.
+Vossius Manda
+II. Muellerws | huic (siue parti siue Priapo) licet
+scripsi: hic licet 0s scilicet Is. Vossius |
+ut libet
+te imire scripsi:
+ut libemter ires
+O s
+ut libet perires Buechelerus
+ut libet perem
+mis
+L. Muellerus || 8 Erutatum
+A Eurucarum
+W ||
+9 terram HLs
+dolem teramque
+5 ||
+10 Cum
+H | scaturientis (-tes
+V) 0 s
+PRIAPEA.
+73
+XXXXVII
+Quicumque uestrum, qui uenitis ad cemam,
+Libare nullos sustinet mihi uersus,
+Illius uxor aut amica riualem
+Lasciuiendo languidum, precor, reddat,
+Et ipse longa nocte dormiat solus
+6
+Libidinosis incitatus erucis.
+XXXXVIII
+Quod partem madidam mei uidetis,
+Per quam significor Priapus esse:
+Non ros est, mihi crede, mec pruina,
+Sed quod sponte sua solet remitti,
+Cum mens est pathicae memor puellae.
+6
+XXXXVIIII
+Tu, quicumque uides circa tectoria nostra
+Non nimium casti carmina plena ioci,
+Versibus obscenis offendi desine: mon est
+Mentula subducti mostra supercilii.
+L
+Quaedam, si placet hoc tibi, Priape,
+Fucosissima me puella ludit
+Et mec dat mihi mec megat daturam:
+Causas inuenit usque differemdi.
+Quae si contigerit fruenda nobis,
+5
+XXXXVII. 1 qui om. A hic (mgo
+1n. rec. huc)
+V || 2 sub
+stimet
+A || 3 uocor (mgo
+m. rec. uxor)
+V |
+ut
+A || 5 ipsa
+L | longa
+mocte Loe : nocte longa AHV s || 6 eurucis
+V
+XXXXVIII.
+1 Quo
+W
+m. 1 ||
+8 est om.
+L || uerba 48,
+4 sua
+solet
+â€” 50, 5 fruenda mobis V
+^n.
+1 omisit,
+in spatio uacuo add.
+mn. rec.
+||
+4 remicti
+A || 5 patic(a)e O
+XXXXVIIII.
+1 circum
+L | tectoria Scaliger: temptoria AL
+temtoria BIV s
+L. 2 Fucosiss. A: Ficosiss. ceteri codd. tricosissima Hauptius;
+erat cum mugosissima comicerem
+| ridet
+V || 4 Causas
+0 s : Causas
+que wulgo | husque
+A || 6 futuemda
+L
+74
+III. DIVERSORUM AUCTORUM
+Totam cum paribus, Priape, nodis
+Cingemus tibi memtulam coronis.
+II
+Quid hoc negoti est quaue suspicer causa
+Venire in hortum plurimos meum fures,
+Cum, quisquis in nos incidit, luat poenas
+Et usque curuos excauetur ad lumbos?
+Non ficus hic est praeferenda uicinae
+5
+Vuaeque, quales flaua legit Arete,
+Non mala truncis adserenda Picenis
+Pirumue, tanto quod periculo captes,
+Magisque cera luteum noua prunum
+Sorbumue uentres lubricos moraturum.
+10
+Praesigne rami nec mei ferunt morum
+Nucemue longam, quae uocatur Albana,
+Amygdalumue flore purpurae fulgens.
+Non brassicarum ferre glorior caules
+Betasue, quantas hortus educat nullus,
+15
+Crescensue semper in suum cÃ¢put porrum.
+Nec seminosas ad cucurbitas quemquam
+Ad ocimumue cucumeresque humi fusos
+6 cum paribus s: comparibus AI, s similibus HV s sutili
+bus Heinsius | nodis Buecheleru8: nostris 0s noster Heinsius
+LI. 1 negotii 0s | suspicer BV s : suspicor AI, s || 3 Quin q.
+incidit in nos V | incidat Ã  Lg || 5 proferenda W || 6 flaua et L |
+legit edd.: legis 0s, nisi quod in A haec wow ewanida | arethe
+ALoe orethe H orechye V, similia (ut crete) s || 7 poma L | ad
+serenda
+edd.: aseruamda A asseruanda I, s asseruata H obser
+uamda Vg || 8 tanto q. periculo L s : tanto q. pericula AV s tanta
+q. pericula Â£$ I. capte A || 9 primum I || 10 nomen fructus (mgo:
+al.uentres lubricos) L uentris lumbrices A; uentris etiam Hs ||
+12 Â£; uocatur0 s: quam uocant wwlgo | Albana Scaliger: aluÃ¢
+A alna reliqui codd. auellanam Aldina | ww. 12â€”20 ordine per
+werso in spatio wacuo add. W m. rec. || 18 Amigd. AHs | purpu
+rae Burmannus: purpureo 0s || 14 brasicarum 0s | ferre Bur
+~mannus: fere BIs fero LV s, in A fere euanwit aut erasa est woae
+glorior
+|
+Bwrmannus: gloriosior 0s || 16 Betasue s: Bet(a)eue
+0s (Bleteue H) | quantos â€” educet A || 18 acimumue A acy
+numue I, acimumq; H | cucumeresue I, cÃ¹cumerosq; V
+PRIAPEA.
+75
+Venire credo, sessilesue lactucas
+Acresque caepas aliumque furatum,
+22
+Nec ut salaces nocte tollat erucas
+20
+Mentamque olentem cum salubribus rutis.
+Quae cuncta quamuis nostro habemus in saepto,
+Non pauciora proximi ferunt horti.
+Quibus relictis in mihi laboratum
+2 5
+Locum uenitis, improbissimi fures:
+Nimirum apertam conuolatis ad poenam,
+Et uos id ipsum, quod minamur, inuitat,
+LII
+Heus tu, non bene qui manum rapacem
+Mandato mihi contines ab horto,
+Iam primum stator hic libidinosus
+Alternis et eundo et exeundo
+Porta te faciet patentiorem.
+5
+Accedent duo, qui latus tuentur,
+Pulcre pensilibus peculiati;
+Qui cum te male foderint iacentem,
+Ad pastum ueniet salax asellus
+Et nil deterius mutuniatus.
+10
+19 crede HLV s I sessilesq; V assilesq; L | latucas AL ||
+w. 22 ante 20 posuit Buechelerus || 22 cepas A alliumq; L aleumq;
+H | fibratum Scaliger || 21 Mentiiq; L || 28 quamuis nostro pleri
+que: mostro quamuis Ls pauci | habemus uulgo: habeamus 0s
+mostro
+quamquam habemus L. Muellerus | septo in V add. m. 2
+|| 26 inpr. V: impr. ceteri || 28 Et uos id ipsum Auancius:
+Et
+uos hoc ipsum HV s Et hoc uos ipsum L CÃ¼ (in ras.?) uos hoc
+ipsum A Hoc uos et ipsum Santenius | minuamur A
+LII. 2 continens H || 8 statis H status W || 4 Alternis et Loe :
+Alterni s; A Alterni sed Hoe Alternis sed We | exeundo HAs:
+redeundo ceteri || 5 Porta te facient V, s plerique: Portam te
+faciet H Porta patefiet; L PortÃ¢ te facient Ã‚Ã§; an portam in te
+faciet? || 6 Accedant H || 7 Pulchre Ls | post w. 7 in V sequi
+twr 70, 5 usque ad finem libelli, deinde mullo interuallo 52, 8 sqq.
+|| 8 QuicÃ¼q; te AHV s | foderent A foderit
+HV s || 9 pastum
+$cripsi: partum AHV s portam Ius partem s partes Salmasius
+| ueniat A || 10 Et nil As: Nihil Bvs Nil iam I. Nilo Scaliger
+76
+III. DIVERSORUM AUCTORUM
+Quare, si sapiet, malus cauebit,
+Cum tantum sciat esse memtularum.
+LlII
+Comtemtus modico Bacchus solet esse racemo,
+Cum capiamt alti uix cita musta lacus,
+Magnaque fecumdis cum messibus area desit,
+In Cereris crimes uma corona datur.
+Tu quoque, diue mimor, maiorum exempla secutus, 6
+Quamuis pauca damus, consule poma bomi.
+LIIII
+CD si scribas temomemque insuper addas,
+Qui medium uult te scindere, pictus erit.
+LV
+Credere quis possit? falcem quoque â€” turpe fateri â€”
+De digitis fures subripuere meis.
+Nec mouet amissi tam me iactura pudorque,
+Quam praebent iustos altera tela metus:
+Quae si perdidero, patria mutabor, et olim
+5
+Ille tuus ciuis, Lampsace, Gallus ero.
+dexterius A || minuciatus A mimutiatus LV s metulatus H muto
+miatus s mutuniatus Buechelerus || 11 Quare (Qua V m. 1) si sa
+piet: O s omnes (quod utpote eÃ¦ Catulli 36, 7 swmptum retinui):
+qui sapiet wwlgo | malus scripsi : malum 0s malo Pithoeus ||
+12 sciet: O s, corr. Auancius eÃ¦ Catulli 6, 18; qui locus etiam
+fauet nostro malus
+LIII. 1 bachus A || 2 Cum capiamt (-at H) altos (-tus L) uix
+cita (tita V) musta lacus (latus A) 0s; alti wulgo; sua pro cita
+s; ceterum totwm locum mondum persanatum puto || 8 defit s
+wwws || 4 ceteris L | datus V m. 1 || 6 sequuto V
+LIIII. in L sequitur LV || 1 CD Buechelerus: Ed codd. (Edi
+A)
+Â£.
+| super W || 2
+te (z V) 0s : te uult s wwlgo | simdere A
+cohaeret praecedenti in A || 1 possit As pauci: posset
+plerique || subripuere AV surripuere Hs: surripuisse Ls j 8 amissa
+L | tam me Ai's : me tam Hvs || 6 perdiderim V | mutabor A:
+multabor ceteri || 6 lausace AH lamsace, suprascr. p, v | ero
+in erit corr. V
+PRIAPEA.
+77
+I,VI
+Deride8 quoque, fur, et impudicum
+Ostendis digitum mihi minanti?
+Eheu me miserum, quod ista lignum est,
+Quae me terribilem facit uideri.
+Mandabo domino tamen salaci,
+5
+Vt pro me uelit irrumare fures.
+LVII
+Cornix et caries uetusque bustum,
+Turba putida facta saeculorum,
+Quae forsam potuisset esse mutrix
+Tithoni Priamique Nestorisque,
+Illis mi pueris anus fuisset,
+5
+Ne desim sibi, me rogat, fututor.
+Quid si nunc roget, ut puella fiat?
+[Si nummos tamen haec habet, puella est.]
+IVIII
+Quicumque nostram fur fefellerit curam,
+Effemimato inane pruriat lumbo;
+Quaeque hic proterua carpserit manu poma
+Puella, nullum reperiat fututorem.
+LVI. 1 furet A | impud. HI, s || 2 minantÃ« H || 8 eheu Sca
+liger: heu Vs heu hou ALV s | quid ligmum (omn. ista) L | est
+ALs : om. HVs || 6 irrimare L inguinare A
+LVII cohaeret praecedenti in A || 1 cariex V n. 1 canens H
+|| 2 turba putida (-dica A) O s: turba (et) putrida s | s(a)eculo
+rum Ve : sacculorum AL saculorum H || 4 Titomi 0 (Titoniq;
+Vs) | Priamiue Nestorisue L. Muellerus || 5 mi s: in o s || 6 de
+sit uulgo | futuitor HV || 7 Que
+si (corr. mgo) L || 8 (in quo hoc
+V)
+ut spwriwm damnarunt Barthius
+et Antonius
+LVIII. 1 curam As pauci: fidem ceteri || 2 Effeminato in
+mimet (imminet PII, s imimet Voe) procul (procu
+V
+m.
+1) dubio
+0
+s; uerba corruptissima,
+$m quibus
+culo pro dubio
+et aut mar
+ceat aut auctore Is. Vossio uerminet
+scribwnt, cum tamen fla
+gitet sententia: wir cupiens coitum efficere mequeat (cf.
+w. 4); hinc
+quod supra legitur conieci
+||
+8 Que
+v. I. hic
+A: h(a)ec reliqui |
+carpseris
+A | manu om.
+L || 4 reperiat AHs: reperiet LV s im
+ueniet
+g
+1 futuitorem
+HV
+78
+III, DIVERSORUM AUCTORUM
+IVIIII
+Praedictum tibi me megare possis:
+Si fur ueneris, impudicus exis.
+LX
+Si quot habes uersus, tot haberes poma, Priape,
+Esses antiquo ditior Alcinoo.
+LXI
+Quid frustra quereris, colone, mecum,
+Quod quomdam bene fructuosa malus
+Autumnis sterilis duobus adstem?
+Non me praegrauat, ut putas, semectus,
+Nec sum grandine uerberata dura,
+5
+Nec gemmas modo germine exeuntes
+Seri frigoris ustulauit aura,
+Nec uenti pluuiaeue siccitasue,
+Quod de se quererer, malum dederunt;
+Nom sturnus mihi gracculusue raptor
+10
+Aut cormix amus aut aquosus amser
+Aut coruus mocuit siticulosus:
+Sed quod carmina pessimi .poetae
+Ramis sustimeo laboriosis.
+I.XII
+Securi dormite, cames: custodiet hortum
+Cum sibi dilecta Sirius Erigone.
+LVIIII. 1 me L || 2 impud. HLs ] exis Is. Vossius: eris
+O s ibis wulgo
+LX. 1 tot â€” quot I,
+LXI. 2 condam AV || 8 Autumpnis A Auctummus L | asstem
+A astem We || 6 modo] meo L | exeuntem V || 7 ustolauit A uffu
+lauit W imstillauit L || 8 pluuiaue W, ue om. H || 9 quererer He:
+querer A querere Lv || 11 amser A || 12 sintic. A || 18 Set V |
+quidem carmina L | peximi V || 14 substineo AV s
+LXII. 1 cormite I, | canis B || 2 tibi A | delecta V || syrius AW
+PRIAPEA.
+79
+LXIII
+Parum est quod, hic ut fiximus semel sedem,
+Agente terra per caniculam rimas
+Siticulosam sustinemus aestatem;
+Parum, quod imos perfluunt simus imbres
+Et im capillos grandines cadumt mostros
+5
+Rigetque dura barba uincta crystallo;
+Parum, quod acta sub laboribus luce
+Parem diebus peruigil traho noctem.
+Huc adde, quod me fuste de rudi uilem
+Manus sine arte rusticae dolauerunt,
+10
+Interque cunctos ultimum deos mumem
+Cucurbitarum ligneus uocor custos.
+Accedit istis impudentiae sigmum,
+Libidinoso temta pyramis meruo.
+Ad hoc puella â€” paene nomen adieci â€”
+15
+Solet uenire cum suo fututore,
+Quae tot figuras, quot Philaenis enarrat,
+Commenta bis pruriginosa discedit.
+LXIII. 1 Parum est mihi quod hic fixi sedem codd. (wisi
+quod sedem A s : fidem BV s pedem I); corr. ILachmannus ad
+Lucret. p. 199; quod hic cum fixerint: mihi sedem Muellerus
+humi quod hic semel pedem fixi Buechelerus
+||
+2 terrae V
+terram HL || 8 subst. A substimÃ©s V | etatem A || 4 Parum quod
+AHs: Parumque LVs | imos perfluumt Scioppius: imi perfluunt
+As umi superfluunt: BIV s, idemque nisi quodumi I. hiemis perfl.
+Buechelerus udi perpluunt simus imbre Heinsius || 6 durÃ¤ A duro
+Heinsius | crist. AHV s I 7 Parumque LV s || 9 quod me terri
+bilem fuste codd. (nisi quod terribiles HI, s fustem L), corr.
+Scaliger; quod me uilem et e rudi fuste L. Muellerus, alii alia
+|| 11
+cuntos A | deus L ultimo des momen A || 18 Accedet A ||
+inpudenti V impudenti H impudentiae L s || 14 pir. AV || 15 hoc
+scripsi: hec (= haec) L hanc AHV s wulgo || 16 futuitore V ||
+17 Quae 0$ : quo s wmws | Â£i: A s: figuris HLVs | quas H
+Vs | phylenis A philenis H filenis y || 18 Commenta bis scripsi:
+Nom inuentis Os Non admouente Heinsius Non impetratis Bue
+chelerus Non admuente Muellerws | prurigimosa Aldina: prurioBa
+0 s (pruinosa V s pauci) nos perosa Buechelerus | discedat AI,
+80
+III. DIVERSORUM AUCTORUM
+I.XIIII
+Quidam mollior anseris medulla.
+Furatum uenit huc amore poenae:
+Furetur licet usque, non uidebo.
+LXV
+Hic tibi qui rostro crescentia lilia morsit,
+Caeditur e tepida uictima porcus hara.
+Ne tamem examimum facias pecus omne, Priape,
+Horti sit facias ianua clausa tui.
+IXVI
+Tu quae, ne uideas motam uirilem,
+Himc auerteris, ut decet pudicam:
+Nimirum, misi quod times uideri,
+Intra uiscera habere comcupiscis.
+LXVII
+Penelopes primam Didonis prima sequatur
+Et primam Cadmi syllaba prima Remi,
+Quodque
+fit
+ex illis,
+tu mi deprensus
+in horto,
+Fur, dabis: hac poema culpa luemda tua est.
+IXVIII
+Rusticus indocte
+si quid dixisse uidebor,
+Da ueniam: libros non lego, poma lego.
+LXIIII. 2 hiic
+A hic
+L | peme
+A
+LXV. 1 Hec HV s | mostro
+L | lilia
+eÃ¦ labia corr.
+V | mor
+sit Buechelerus: mersit,
+0 s rosit uel rasit uel carpsit Heinsius
+||
+2
+et
+L | ara
+0 s || 8 Ne
+s : Nec
+0 s (Nom
+I) | examimum wulgo:
+extrameum 0s (in extrarium corr.
+W)
+||
+4
+si
+L | facias] posthac
+Euechelerus
+LXVI. 1 quae om. V || 2 aduerteris A || 8 Nimirum 0s : Nil
+mirum s pauci
+A
+A. mirum Buechelerus
+| quod om.
+V | uideri
+AHV
+m.
+1
+s: uidere Ls uideris
+V
+m. rec. ||
+4 Intra] Sacra
+A
+LXVII. 1 Penolopes 0 s | didonis AI, G: dido fac HV g Di
+dus fac Heinsius || 2 Cadmi Scriuerius: cami
+0 s | sill. AHV s |
+remi
+V remis L || 8 QuodcÃ¼q;
+ex illis
+fit
+tu depr.
+L s |
+ex
+iis V
+|
+tu
+mi
+s:
+tu michi
+A
+tu
+mi
+v
+tu mis Hs mihi
+tu wwlgo | deÃŸnsus
+AH phensus
+V | in]
+ab L || 4 hanc p(o)enam AL s | fua
+eae tibi
+H
+â€”
+â€” - â€”
+â€”
+PRIAPEA.
+81
+Sed rudis hic dominum totiens audire legentem
+Cogor Homeriacas edidicique notas.
+Ille uocat, quod nos psolen, woÃ¢Ã¢evroe xeqoevvÃ¶v;
+Ã´
+Et quod nos culum, xovlsÃ³v ille uocat.
+MegÃ³cÃ¡Ã©ov certe si res mon munda uocatur,
+Et pediconum mentula merdalea est.
+Qui, nisi Taenario placuisset Troica cumno
+Mentula, quod caneret, non habuisset opus.
+Â· 13
+Mentula Tantalidae bene si non mota fuisset,
+Nil, senior Chryses quod quereretur, erat.
+Haec eadem socium tenera spoliauit amica,
+Quaeque erat Aeacidae, maluit esse suam.
+Ille Pelethroniam cecinit miserabile carmem
+15
+Ad citharam, cithara tensior ipse sua.
+Nobilis hinc mata nempe incipit Ilias ira:
+Principium sacri carminis ile fuit.
+Altera materia est error fallentis Vlixei;
+Si uerum quaeras, humc quoque mouit amor.
+20
+Hic legitur radix, de qua flos aureus exit,
+LXVIII. cohaeret in A cum praecedenti || 8 dnum (om. lin.)
+B || 4 Cogor, Homeriacas Heinsius: Coris As Choris Â£â€¢ Carpsi
+VÃ© Constitui Ls, tum meracas (-chas s) omnes codd. || 5 Psoleon
+ille uocat quod nos (om. H) psolenta (sol. V psoloenta s) cerÃ¤
+nom (cerÃ¤ mos V ceraumon L ceraumom s) codices fere; in quibus
+primwm wocabwlwm, quod woolÃ¶v legit (Heinsius woolrjv), post quod
+Â£;
+nos traiciendwm
+esse agnouit Gronowius; psolen ego
+, cum
+uocwlam plebis latinae usu tritam reqwiri appareat || 6 Et AL:
+Id ceteri T uos H | culeom 0s (coleom L) |T7 Merdaleon codd.
+plerique (Memd. A Merdaliom
+oe) gusg8Î±Î»ÎµÏŒÎ½
+Heinsius
+|
+si We
+berus: misi
+0 s (uisa
+V
+im
+se H) quasi siue sist Buechelerus
+||
+8 pemdicomum
+A penditonum
+H pentidomaeum (eras.
+e)
+V | mÃ©
+dalea
+A mendalia, HV || 9 Qui (scil. Homerus) Heinsius: Quod
+0s (Q;
+A
+in ras.) Quid s wulgo | si A | tremario ABV | Troica]
+mentula
+L ||
+10 quid
+W ||
+11 cantal.
+V | mota ego: mota 0s mata
+Broukhusius ||
+12 crises 0s ||
+18 sotium AH
+|| 14 eacide
+A ||
+15
+pheletr. AH peletr.
+V pheletronia
+L ||
+16 tentior
+s
+| esse
+L ||
+17 Nobis AV] hic HV | mata AL
+s: mota HV s | ylias AW ||
+18
+Primcipiumq;
+A || ile scripsi: ille Loe wnus illa ceteri ||
+19 materna
+A | euror
+V | ulixei A: ulixi ceteri (ulixis
+s) ||
+21 Hinc
+s
+Poat. 1.At. trw,
+I,
+6
+82
+III. IDIVERSORUM AUCTORUM
+Quam cum uÃ©Ã€v uocat, mentula Î¼ÏŒÎ»v fuit.
+Hic legimus Circem Atlantiademque Calypsom
+Grandia Dulichii uasa petisse uiri.
+Huius et Alcinoi mirata est filia membrum
+25
+Frondenti ramo uix potuisse tegi.
+Ad uetulam tamen ille suam properabat, et omnis
+Mens erat im cummo, Penelopea, tuo:
+Quae sic casta manes, ut iam conuiuia uisas
+Vtque fututorum sit tua plena domus.
+30
+E quibus ut scires quicumque ualentior esset,
+Haec es ad arrectos uerba locuta procos:
+â€œNemo meo melius meruum tendebat Vlixe,
+Siue illi laterum siue erat artis opus.
+Qui quoniam periit, uos mumc intemdite, quemquem 85
+Esse uirum sciero, uir sit ut ille meus.â€
+Hac ego, Penelope, potui tibi lege placere,
+Illo sed mondum tempore matus eram.
+LXVIIII
+Cum fici tibi suauitas subibit
+Et iam porrigere huc manum libebit,
+Ad me respice, fur, et aestimato,
+Quot pondo est tibi mentulam cacandum.
+-
+I.XX
+Illusit mihi pauper inquilimus,
+22 Quem O s, corr. Buechelerus | thimoli â€” timola A thi
+moli bis W tmoli bis L = moli bis H, similia s || 28 Hine vs |
+circem> B circemV | athlamciadÃ q; A athlandidamq; BV athlam
+didemq; I, | calipsom 0s: Calypsum uulgo || 25 alciomiL alchioni
+V || 27 tamen] uir V s | omnes H m. 1 I, 128 penolopea 0 (-peia
+L) || 29 sit H || si et uises L || 80
+fit V ||
+81 sciret
+L | qui quÃ¶que
+I.. Muellerus || 32 erectos
+I, | loquuta
+W || 84 siue erat AG : seu
+fuit plerique ||
+85 nunc] modo
+V || quemquem scripsi: qualem
+0 s
+quem iam Mwellerus [87 penolope
+O
+||
+38 natus
+s: factus
+0 s ;
+LXVIIII.
+2 licebit Ls
+I 8 1 Ad hanc resp. w || extimato
+AB || 4 Quot I, s: Quod ABV s
+(L mgo) | est hic ponunt 0s: post
+mentulam
+s pauci | mentulam BWs : mÃ©ntula AI s | cacandam
+V
+LXX priori adhaeret
+in A || 1 Illusit edd.: Illa
+fit AL s Ille
+fit
+V Ira (ra
+in ras.
+m.
+2)
+fit
+H, peiora s
+PRIAPEA.
+83
+Cum ferctum dederat molamque tusam;
+Quorum partibus additis in ignem
+Sacro protinus hinc abit peracto.
+Vicini canis huc subinde uenit
+5
+Nidorem, puto, persecuta fumi,
+Quae libamine memtulae comeso
+Tota nocte mihi litat rigemdo.
+At uos amplius hoc loco cauete
+Quicquam pomere, me famelicarum
+10
+Ad me turba uelit canum uenire,
+Ne dum me colitis meumque mumem,
+Custodes habeatis irrumatos.
+LXXI
+Si commissa meae carpes pomaria curae,
+Dulcia qui doleam perdere, doctus eris.
+LXXII
+[Tutelam pomarii, diligens Priape, facito:
+Rubricato furibus minare mutimo.]
+Quod mouear, mom est, quia, si furaberis ipse
+Grandia mala, tibi brachia macra dabo.
+LXXIII
+Obliquis quid me, pathicae, spectatis ocellis?
+2 Cum (= eo quod) 0s (nisi quod V more solito Quom):
+Qui wwlgo | ferctum scripsi: uerbum As libum HI, s libido Vg
+| dederÃ¢t AHs:
+deerat, LV s dederit s Qui cum libo aderat
+Buechelerus | molaque fusa 0s, accusatiuum
+restituit Scaliger;
+salsa Buechelerus tusam ego || 8 Quarum 0s, corr. Buechelerus;
+jjj
+Quare wulgo | porticibus I.
+s : abditis (-tus L) Os |
+ignem O s: imguem s || 4 abibit H || 6 persecuta A: prosecuta
+(-quuta W) ceteri || 8 lititat W | rigamdo TWakefieldus rigenti L.
+Muellerws || 9 Aut H m. 1 W | huic A || 10 QuÃ©quam W || famelico
+rum 0s, corr. s wnus || 12 fort. Neu ! momen A || 18 irrim. L
+LXXI. 2 qui Heinsius: quid 0 s
+LXXII. ww. 1 et 2 crassa Minerua a medii aewi monachis
+ficti || 2 Rubricate et mutimio (mgo: at murino) L | rumere mu
+tinio A || 8 mouear s : momeat As momeam LV s moueat B mo
+neas Auamcius momear 1Bwecheleru8 || 4 bracchia A bactica V
+LXXllI. 1 quid me patice 0 s: pathicae quid me s wlgo
+6*
+84
+III. DIVERSORUM AUCTORUM
+Non stat im inguinibus mentula tenta meis.
+Quae tamen exanimis nunc est et inutile lignum,
+Vtilis haec, aram si dederitis, erit.
+LXXIIII
+Per medios ibit pueros mediasque puellas
+Mentula, barbatis non nisi summa petet.
+LXXV
+Dodone tibi, Iuppiter, sacrata est,
+Iunoni Samos et Mycena ditis,
+Vndae Taenaros aequorumque regi;
+Pallas Cecropias tuetur arces,
+Delphos Pythius, orbis umbilicum,
+5
+Creten Delia Cynthiosque colles,
+Faunus Maenalom Arcadumque siluas;
+Tutela Rhodos est beata Solis,
+Gades Herculis umidumque Tibur;
+Cyllene celeri deo miuosa,
+10)
+Tardo gratior aestuosa Lemnos;
+Hemmaeae Cererem nurus frequentant,
+Raptam Cyzicos ostreosa diuam,
+Formosam Venerem Gnidos Paphosque
+-
+-
+-
+2 im om. H m. 1 L || 8 examimus I, | nunc stat et A || 4 hec
+aram Os (eram L): arram s erucam IBwrmannus aruum Mwellerus
+IXXIIII. priori adhaeret in Os, seiwaeit Scaliger || 2 petit 0;
+LXXV. 1TDodoma 0s | iupiter HV || 2 Mycena Aldina: mi
+ceme 0 s || dites Os, corr. Buechelerus, diues Ald. || 8 Taenaros s: te
+nedos (-tos A) O s | aequorumque
+(compend.) A: (a)equoreoque
+ceteri aequorisque wulgo || 4 cecropii V || 5 phitius AB phithius
+W | umblicum W || 6 Cretem A || 7 memalos 0s | arch. HI. || 8 ro
+dos AV || 9 Ghades A | umid. A: humid. ceteri || 10 Cill. AH,
+Cilene V | celem eÃ¦ ceren corr. A || 11 extuosa AV || 12 Emee A
+Ethmee HLv s | murus H | Cyzicos L. Gyraldus:
+cocitos Avs
+cocytos Hs coccytos L | ostreola AI, s hostreola H || 14 gnidosq;
+paphos L || post 14, wt et initio carminis sequentis, hiare teaetum
+Ã­ntelleaeit Buechelerus;
+s pauci addwnt: mortales tibi Lampsa
+cum donarumt
+PRIAPEA.
+85
+LXXVI
+Quod sim iam semior meumque camis
+Cum barba caput albicet capillis:
+Depremsos
+ego perforare possum
+Tithomum Priamumque Nestoremque.
+LXXVII
+Inmamem stomachum mihi cietis,
+Qui densam facitis subinde saepem
+Et fures prohibetis huc adire.
+Hoc est laedere, dum iuuatis; hoc est
+Nom admittere ad aucupem uolucres.
+6
+Obstructa est uia, nec licet iacenti
+Iactura matis expiare culpam.
+Ergo qui prius usque et usque et usque
+Furum scindere podices solebam,
+Per moctes aliquot diesque cesso.
+10
+Poemas do quoque, quot satis superque est,
+In semenque abeo salaxque quondam
+Nunc uitam perago â€” quis hoc putaret? â€”
+Vt clusus citharoedus abstinacem.
+At uos, me peream situ semili,
+16
+Quaeso, desimite esse diligentes
+Neue inpomite fibulam Priapo.
+LXVIII
+At di deaeque dentibus tuis escam
+LXXVI. 1 priori adhaeret in AHV s || 1 sim HV s: si A sum
+L || 8 Â£;$t; HIV s || 4 Titom. HV s Triomum A
+LXXVII priori adh. in AHV s || 1 Immane A Imm. HLs |
+stomacum AHV s | cietis uel mouetis IBurmannus: uidetis 0s
+|| 2 Quid L || 10 aliquos L || 11 quot s wus: quod 0s, quo re
+tento Poemae Heinsius || 18 Numc Buechelerus:
+Nom Os || 14 clu
+sus A: lusus ceteri (elusus s pauci) | abstinacem scripsi: absti
+nerem AV s abstimeret Ls abstinetem' H abstinentem Buechelerus
+|| 16 me] ut H || 17 om. A, m. rec. in marg. add. | imp. HLs |
+bulam V m. 2, &: fabulam HV m. 1 s sepulam Ls
+LXXVIII. 1 dii os ] escam os: escasTwwlgo
+86
+III. DIVERSORUM AUCTORUM
+Negent, amicae cunnilinge uicinae,
+Per quem puella fortis ante nec mendax
+Et quae solebat inpigro celer passu
+Ad mos uenire, nunc misella landicae
+5
+Vix posse iurat ambulare prae fossis.
+LXXVIIII
+Priape, quod sis fascino grauis tento,
+Quod exprobrauit hoc tibi suo uersu
+Poeta noster, erubescere hoc moli:
+Non es poeta fascinosior nostro.
+LXXX
+At non longa benest, at non bene mentula crassa
+Et quam si tractes, crescere posse putes?
+Me miserum, cupidas fallit mensura puellas:
+Non habet haec aliquid mentula maius ero.
+Vtilior Tydeus qui, si quid credis Homero,
+5
+Ingenio pugnax, corpore paruus erat.
+$:
+:||:
+$.
+Sed potuit dammo nobis nouitasque pudorque
+Esse, repellendus saepius iste mihi.
+2 amicae Aldina: amicas (-cos V) 0s | cunni (cÃ¼ nos
+W) ligni
+(lingi
+L) 0s, corr. Aldina || 8 fortis
+s: foris 0s || 4 imp. HLs |
+celer uulgo: celerique
+0 s || 5 nunc om.
+V | landicae Munckerus:
+landices
+0 g (laud.
+L) || 6 uitat
+V | fosis
+A saxis
+I,
+LXXVIIII adhaeret priori
+in ABV s || 1 tento
+s: tenero Os
+exprobauit AHV s | hoc ego: hanc 0 s hic wulgo || 8 om. V |
+oster poeta
+L || 4
+es Aldina: est 0s | fascinosiÃ³r eadem: sar
+cinosior
+0 s (sarr.
+V sarcinorosior
+I)
+LXXX.
+1 longa bene non stat bene 0s (similia
+s pauci),
+Â£;j.Â£;
+quod correaci traiecto stat
+eÃ¦ benestat non bene
+at non bene,
+wt proÃ¦ime hoc accedat ad Qwidii am. III
+7,
+1;
+alia alii coniecerwnt || 2 Nec
+eÃ¦ Et corr.
+A. Sed
+H || 4 aliquid HI:
+aliud ALV s | ero (hero) ego:
+eo 0s
+ea Antonius
+||
+5 tideus
+A
+HV s | omero
+V || 7 dampmo
+A | grauitasq;
+V g || 8 repetendum
+est
+A || post
+w.
+6 lacunam statui: coniwngunt
+0 s; Euechelerus
+post
+w.
+8 clausulam deesse putat, secutus Scaligerum wu.
+9
+et
+10
+PRIAPEA.
+87
+Dum uiuis, sperare decet: tu, rustice custos,
+Huc ades et neruis, tente Priape, faue.
+10
+;
+ut proprium carmen separantem | Telog I. Finis V in margine
+Â£jÂ£*j;
+Â£;!
+A
+Virgilii Maronis poete inter
+omnes LatinÃ¶s excellentis Priapeia explicit per me Ioannem
+carpensem die 15 NouembÃ© 1460. Bene Vale qui legeris. PI
+         </div>
+      </body>
+  </text>
+</TEI>

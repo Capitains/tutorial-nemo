@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="lat">Aetna</title>
+            <author xml:lang="eng">Anonymous</author>
+            <editor xml:id="thayer">Thayer</editor>
+            <editor xml:id="clerice">Thibault Clérice</editor>
+            <editor xml:lang="eng">J. Wight Duff</editor>
+            <editor xml:lang="eng">Arnold M. Duff</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <editor>J. Wight Duff</editor>
+               <editor>Arnold M. Duff</editor>
+               <title>Latin Minor Poets</title>
+               <publisher>Loeb Classical Library</publisher>
+               <date>1935</date>
+            </bibl>
+            <bibl>
+               <editor ref="#thayer">Thayer</editor>
+               <title>Aetna</title>
+               <pubPlace>LacusCurtius</pubPlace>
+               <ref target="http://penelope.uchicago.edu/Thayer/E/Roman/Texts/Aetna/home.html"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <refsDecl n="CTS">
+            <cRefPattern matchPattern="(\d+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:l[@n='$1'])">
+               <p>This pattern extracts lines</p>
+            </cRefPattern>
+         </refsDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="#clerice" when="2017-08-17">Original transformation into Capitains
+            Epidoc</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition" n="urn:cts:latinLit:stoa0297.stoa001.thayer-lat1" xml:lang="lat">
+            <l n="1">Aetna mihi ruptique cavis fornacibus ignes</l>
+            <l n="2">et quae tam fortes volvant incendia causae,</l>
+            <l n="3">quid fremat imperium, quid raucos torqueat aestus,</l>
+            <l n="4">carmen erit. dexter venias mihi carminis auctor</l>
+            <l n="5">seu te Cynthos habet seu Delo est gratior Hyla</l>
+            <l n="6">seu tibi Dodone potior, tecumque faventes</l>
+            <l n="7">in nova Pierio properent a fonte sorores</l>
+            <l n="8">vota: per insolitum Phoebo duce tutius itur.</l>
+            <l n="9">aurea securi quis nescit saecula regis?</l>
+            <l n="10">cum domitis nemo cererem iactaret in arvis</l>
+            <l n="11">venturique malas prohiberet fructibus herbas,</l>
+            <l n="12">annua sed saturae complerent horrea messes,</l>
+            <l n="13">ipse suo flueret Bacchus pede mellaque lentis</l>
+            <l n="14">penderent foliis et pinguis Pallas olivae</l>
+            <l n="15">secretos amnes ageret: tum gratia ruris:</l>
+            <l n="16">non cessit cuiquam melius sua tempora nosse.</l>
+            <l n="17"><milestone unit="page" n="360"/>ultima quis tacuit iuvenum certamina, Colchos?</l>
+            <l n="18">quis non Argolico deflevit Pergamon igni</l>
+            <l n="19">impositam et tristi natorum funere matrem</l>
+            <l n="20">aversumve diem sparsumve in semine dentem?</l>
+            <l n="21">quis non periurae doluit mendacia puppis,</l>
+            <l n="22">desertam vacuo Minoia litore questus?</l>
+            <l n="23">quicquid in antiquum iactata est fabula carmen.</l>
+            <l n="24">fortius ignotas molimur pectore curas,</l>
+            <l n="25">qui tanto motus operi, vis quanta perennis</l>
+            <l n="26">explicet in denso flammas et trudat ab imo</l>
+            <l n="27">ingenti sonitu moles et proxima quaeque</l>
+            <l n="28">ignibus irriguis urat — mens carminis haec est.</l>
+            <l n="29">principio ne quem capiat fallacia vatum,</l>
+            <l n="30">sedes esse dei tumidisque e faucibus ignem</l>
+            <l n="31">Vulcani ruere et clausis resonare cavernis</l>
+            <l n="32">festinantis opus. non est tam sordida divis</l>
+            <l n="33">cura, neque extremas ius est demittere in artes</l>
+            <l n="34">sidera: subducto regnant sublimia caelo</l>
+            <l n="35">illa, neque artificum curant tractare laborem.</l>
+            <l n="36"><milestone unit="page" n="362"/>discrepat a prima facies haec altera vatum:</l>
+            <l n="37">illis Cyclopas memorant fornacibus usos,</l>
+            <l n="38">cum super incudem numerosa in verbera fortes</l>
+            <l n="39">horrendum magno quaterent sub pondere fulmen</l>
+            <l n="40">armarentque Iovem: turpe est sine pignore carmen.</l>
+            <l n="41">proxima vivaces Aetnaei verticis ignes</l>
+            <l n="42">impia sollicitat Phlegraeis fabula castris.</l>
+            <l n="43">temptavere (nefas) olim detrudere mundo</l>
+            <l n="44">sidera captivique Iovis transferre gigantes</l>
+            <l n="45">imperium et victo leges imponere caelo.</l>
+            <l n="46">his natura sua est alvo tenus, ima per orbes</l>
+            <l n="47">squameus intortos sinuat vestigia serpens.</l>
+            <l n="48">construitur magnis ad proelia montibus agger:</l>
+            <l n="49">Pelion Ossa gravat, summus premit Ossan Olympus:</l>
+            <l n="50">iam coacervatas nituntur scandere moles,</l>
+            <l n="51">impius et miles metuentia comminus astra</l>
+            <l n="52">provocat, infestus cunctos ad proelia divos</l>
+            <l n="53">provocat, admotis per inertia sidera signis.</l>
+            <l n="54">Iuppiter e caelo metuit dextramque coruscam</l>
+            <l n="55">armatus flamma removet caligine mundum.</l>
+            <l n="56">incursant vasto primum clamore Gigantes,</l>
+            <l n="57">his magno tonat ore Pater, geminantque faventes</l>
+            <l n="58">undique discordi sonitum simul agmine venti.</l>
+            <l n="59"><milestone unit="page" n="364"/>densa per attonitas rumpuntur flumina nubes,</l>
+            <l n="60">atque in bellandum quae cuique potentia divum</l>
+            <l n="61">in commune venit: iam patri dextera Pallas</l>
+            <l n="62">et Mars laevus erat: iam cetera turba deorum</l>
+            <l n="63">stant utrimque decus. validos tum Iuppiter ignes</l>
+            <l n="64">increpat et iacto proturbat fulmine montes.</l>
+            <l n="65">illinc devictae verterunt terga ruinae</l>
+            <l n="66">infestae divis acies, atque impius hostis</l>
+            <l n="67">praeceps cum castris agitur Materque iacentis</l>
+            <l n="68">impellens victos. tum pax est reddita mundo,</l>
+            <l n="69">tum Liber cessata venit per sidera: caelum</l>
+            <l n="70">defensique decus mundi nunc redditur astris.</l>
+            <l n="71">gurgite Trinacrio morientem Iuppiter Aetna</l>
+            <l n="72">obruit Enceladon, vasto qui pondere montis</l>
+            <l n="73">aestuat et petulans exspirat faucibus ignem.</l>
+            <l n="74">hae est mendosae vulgata licentia famae.</l>
+            <l n="75">vatibus ingenium est: hinc audit nobile carmen.</l>
+            <l n="76">plurima pars scaenae rerum est fallacia: vates</l>
+            <l n="77">sub terris nigros viderunt carmine manes</l>
+            <l n="78">atque inter cineres Ditis pallentia regna:</l>
+            <l n="79">mentiti vates Stygias undasque canesque.</l>
+            <l n="80">hi Tityon poena stravere in iugera foedum;</l>
+            <l n="81">sollicitant illi te circum, Tantale, cena</l>
+            <l n="82">sollicitantque siti; Minos, tuaque, Aeace, in umbris</l>
+            <l n="83"><milestone unit="page" n="366"/>iura canunt, idemque rotant Ixionis orbem —</l>
+            <l n="84">quicquid et interius; falsi sibi conscia terra est.</l>
+            <l n="85">nec tu, terra, satis: speculantur numina divom</l>
+            <l n="86">nec metuunt oculos alieno admittere caelo.</l>
+            <l n="87">norunt bella deum, norunt abscondita nobis</l>
+            <l n="88">coniugia et falsa quotiens sub imagine peccet</l>
+            <l n="89">taurus in Europen, in Ledam candidus ales</l>
+            <l n="90">Iuppiter, ut Danaae pretiosus fluxerit imber:</l>
+            <l n="91">debita carminibus libertas ista; sed omnis</l>
+            <l n="92">in vero mihi cura: canam quo fervida motu</l>
+            <l n="93">aestuet Aetna novosque rapax sibi congerat ignes.</l>
+            <l n="94">quacumque immensus se terrae porrigit orbis</l>
+            <l n="95">extremique maris curvis incingitur undis,</l>
+            <l n="96">non totum ex solido est: ducit namque omnis hiatum,</l>
+            <l n="97">secta est omnis humus, penitusque cavata latebris</l>
+            <l n="98">exiles suspensa vias agit; utque animanti</l>
+            <l n="99">per tota errantes percurrunt corpora venae</l>
+            <l n="100">ad vitam sanguis omnis qua commeat eidem,</l>
+            <l n="101">terra voraginibus conceptas digerit auras.</l>
+            <l n="102">scilicet aut olim diviso corpore mundi</l>
+            <l n="103">in maria ac terras et sidera, sors data caelo</l>
+            <l n="104">prima, secuta maris, deseditque infima tellus</l>
+            <l n="105">sed tortis rimosa cavis; et qualis acervus</l>
+            <l n="106">exsilit imparibus iactis ex tempore saxis,</l>
+            <l n="107"><milestone unit="page" n="368"/>ut crebro introrsus spatio vacuata † charybdis</l>
+            <l n="108">pendeat in sese, simili quoque terra figura</l>
+            <l n="109">in tenuis laxata vias, non omnis in artum</l>
+            <l n="110">nec stipata coit: sive illi causa vetusta est,</l>
+            <l n="111">nec nata est facies, sed liber spiritus intrat</l>
+            <l n="112">et fugiens molitur iter, seu lympha perenni</l>
+            <l n="113">edit humum limo furtimque obstantia mollit;</l>
+            <l n="114">aut etiam inclusi solidum vicere vapores,</l>
+            <l n="115">atque igni quaesita via est; sive omnia certis</l>
+            <l n="116">pugnavere locis; non est hic causa dolendi</l>
+            <l n="117">dum stet opus causae. quis enim non credit inanes</l>
+            <l n="118">esse sinus penitus, tantos emergere fontes</l>
+            <l n="119">cum videt ac totiens imo se mergere hiatu?</l>
+            <l n="120">non ille ex tenui quocumque agat: apta necesse est</l>
+            <l n="121">confluvia errantes arcessant undique venas</l>
+            <l n="122">et trahat ex pleno quod fortem contrahat amnem.</l>
+            <l n="123">flumina quin etiam latis currentia rivis</l>
+            <l n="124">occasus habuere suos: aut illa vorago</l>
+            <l n="125"><milestone unit="page" n="370"/>derepta in praeceps fatali condidit ore,</l>
+            <l n="126">aut occulta fluunt, tectis adoperta cavernis,</l>
+            <l n="127">atque inopinatos referunt procul edita cursus.</l>
+            <l n="128">quod ni diversos emittat terra canales,</l>
+            <l n="129">hospitium fluvio det semita, nulla profecto</l>
+            <l n="130">fontibus et rivis constet via, pigraque tellus</l>
+            <l n="131">conferta in solidum segni sub pondere cesset.</l>
+            <l n="132">quod si praecipiti conduntur flumina terra,</l>
+            <l n="133">condita si redeunt, si quaedam incondita surgunt,</l>
+            <l n="134">haud mirum clausis etiam si libera ventis</l>
+            <l n="135">spiramenta latent. certis tibi pignora rebus</l>
+            <l n="136">atque oculis haesura tuis dabit ordine tellus.</l>
+            <l n="137">immensos plerumque sinus et iugera pessum</l>
+            <l n="138">intercepta licet densaeque abscondita nocti</l>
+            <l n="139">prospectare: procul chaos ac sine fine ruinae.</l>
+            <l n="140">cernis et in silvis spatiosa cubilia retro</l>
+            <l n="141">antraque demersas penitus fodisse latebras?</l>
+            <l n="142">incomperta via est operum; tantum effluit intra . . .</l>
+            <l n="143">argumenta dabunt ignoti vera profundi,</l>
+            <l n="144">tu modo subtiles animo duce percipe curas</l>
+            <l n="145">occultique fidem manifestis abstrahe rebus.</l>
+            <l n="146">nam quo liberior quoque est animosior ignis</l>
+            <l n="147"><milestone unit="page" n="372"/>semper in inclusis nec ventis segnior ira est,</l>
+            <l n="148">sub terra penitusque novent hoc plura necesse est,</l>
+            <l n="149">vincla magis solvant, magis hoc obstantia pellant.</l>
+            <l n="150">nec tamen in rigidos exit contenta canales</l>
+            <l n="151">vis animae flammaeve: ruit qua proxima cedunt</l>
+            <l n="152">obliquumque secat qua visa tenerrima caula est.</l>
+            <l n="153">hinc terrae tremor, hinc motus, ubi densus hiantes</l>
+            <l n="154">spiritus exagitat venas cessantiaque urget.</l>
+            <l n="155">quod si spissa foret, solido si staret in omni,</l>
+            <l n="156">nulla daret miranda sui spectacula tellus,</l>
+            <l n="157">pigraque et in pondus conferta immobilis esset.</l>
+            <l n="158">sed summis si forte putas concrescere causis</l>
+            <l n="159">tantum opus et summis alimentum viribus, ora</l>
+            <l n="160">qua patula in promptu cernis vastosque recessus,</l>
+            <l n="161">falleris et nondum tibi lumine certa liquet res.</l>
+            <l n="162">namque illuc quodcumque vacans hiat impetus omnis:</l>
+            <l n="163">at sese introitu solvunt adituque patenti</l>
+            <l n="164">conversae languent vires animosque remittunt.</l>
+            <l n="165"><milestone unit="page" n="374"/>quippe ubi quod teneat ventos acuatque morantes</l>
+            <l n="166">in vacuo desit cessant, tantumque profundi</l>
+            <l n="167">explicat errantes et in ipso limine tardant.</l>
+            <l n="168">angustis opus est turbare in faucibus illos.</l>
+            <l n="169">fervet opus densaque premit premiturque ruina</l>
+            <l n="170">nunc Euri Boreaeque Notus, nunc huius uterque.</l>
+            <l n="171">hinc venti rabies, hinc saevo quassat hiatu</l>
+            <l n="172">fundamenta soli: trepidant urbesque caducae</l>
+            <l n="173">inde, neque est aliud, si fas est credere, mundo</l>
+            <l n="174">venturam antiqui faciem veracius omen.</l>
+            <l n="175">haec primo cum sit species naturaque terrae,</l>
+            <l n="176">introrsus cessante solo trahit undique venas</l>
+            <l n="177">Aetna: sui manifesta fides et proxima vero est.</l>
+            <l n="178">non illic duce me occultas scrutabere causas,</l>
+            <l n="179">occurrent oculis ipsae cogentque fateri.</l>
+            <l n="180">plurima namque patent illi miracula monti.</l>
+            <l n="181">hinc vasti terrent aditus merguntque profundo,</l>
+            <l n="182">corrigit hinc artus penitus quos exigit ultra.</l>
+            <l n="183">hinc spissae rupes obstant discordiaque ingens.</l>
+            <l n="184">inter opus nectunt varie mediumque coercent</l>
+            <l n="185">pars igni domitae, pars ignes ferre coactae,</l>
+            <l n="186"><milestone unit="page" n="376"/>[ut maior species et ne succurrat inanis].</l>
+            <l n="187">haec illi sedes tartarumque area rerum est,</l>
+            <l n="188">[haec operis visenda sacri faciesque domusque].</l>
+            <l n="189">nunc opus artificem incendi causamque reposcit —</l>
+            <l n="190">non illam parvi aut tenuis discriminis; ignes</l>
+            <l n="191">mille sub exiguo ponent tibi tempore veram.</l>
+            <l n="192">res oculique docent; res ipsae credere cogunt.</l>
+            <l n="193">quin etiam tactu moneant, contingere tuto</l>
+            <l n="194">si liceat; prohibent flammae, custodiaque ignis</l>
+            <l n="195">illi operum est arcens aditus, divinaque rerum</l>
+            <l n="196">cura sine arbitrio, eadem procul omnia cernes.</l>
+            <l n="197">nec tamen est dubium penitus quid torqueat Aetnam,</l>
+            <l n="198">aut quis mirandus tantae faber imperet arti.</l>
+            <l n="199">pellitur exustae glomeranter nimbus harenae,</l>
+            <l n="200">flagrantes properant moles, volvuntur ab imo</l>
+            <l n="201">fundamenta, fragor tota nunc rumpitur Aetna,</l>
+            <l n="202">nunc fusca pallent incendia mixta ruina.</l>
+            <l n="203">ipse procul magnos miratur Iuppiter ignes,</l>
+            <l n="204">neve sepulta novi surgant in bella Gigantes,</l>
+            <l n="205">neu Ditem regni pudeat neu Tartara caelo</l>
+            <l n="206">vertat, in occulto tacitus tremit; omniaque extra</l>
+            <l n="207">congeries operit saxorum et putris harenae.</l>
+            <l n="208"><milestone unit="page" n="378"/>quae nec sponte sua veniunt nec corporis ullis</l>
+            <l n="209">sustentata cadunt robusti viribus: omnes</l>
+            <l n="210">exagitat venti turbas et vortice saevo</l>
+            <l n="211">in densum collecta rotant volvuntque profundo.</l>
+            <l n="212">hac causa exspectata ruunt incendia montis.</l>
+            <l n="213">spiritus inflatis nomen, languentibus aer.</l>
+            <l n="214">nam prope nequicquam per se est violentia: semper</l>
+            <l n="215">ingenium velox igni motusque perennis,</l>
+            <l n="216">verum opus auxilium est ut pellat corpora: nullus</l>
+            <l n="217">impetus est ipsi; qua spiritus imperat, audit;</l>
+            <l n="218">hic princeps magnoque sub hoc duce militat ignis.</l>
+            <l n="219">nunc, quoniam in promptu est operis natura solique,</l>
+            <l n="220">unde ipsi venti? quae res incendia pascit?</l>
+            <l n="221">cum subito cohibentur, inest quae causa silenti?</l>
+            <l n="222">subsequar. immensus labor est, sed fertilis idem.</l>
+            <l n="223">digna laborantis respondent praemia curis.</l>
+            <l n="224">non oculis solum pecudum miranda tueri</l>
+            <l n="225">more, nec effusos in humum grave pascere corpus,</l>
+            <l n="226">nosse fidem rerum dubiasque exquirere causas,</l>
+            <l n="227">ingenium sacrare caputque attollere caelo,</l>
+            <l n="228">scire quot et quae sint magno natalia mundo</l>
+            <l n="229">principia (occasus metuunt an saecula pergunt</l>
+            <l n="230"><milestone unit="page" n="380"/>et firma aeterno religata est machina vinclo?)</l>
+            <l n="231">solis scire modum et quanto minor orbita lunae est</l>
+            <l n="232">(haec brevior cursu ut bis senos pervolet orbes,</l>
+            <l n="233">annuus ille meet): quae certo sidera currant</l>
+            <l n="234">ordine quaeve suo derrent incondita gyro:</l>
+            <l n="235">scire vices etiam signorum et tradita iura</l>
+            <l n="236">[sex cum nocte rapi, totidem cum luce referri],</l>
+            <l n="237">nubila cur Phatne caelo denuntiet imbres,</l>
+            <l n="238">quo rubeat Phoebe, quo frater palleat igni,</l>
+            <l n="239">tempora cur varient anni (ver, prima iuventa,</l>
+            <l n="240">cur aestate perit? current aestas ipsa senescit</l>
+            <l n="241">autumnoque obrepit hiemps et in orbe recurrit?);</l>
+            <l n="242">axem scire Helices et tristem nosse cometen,</l>
+            <l n="243">Lucifer unde micet quave Hesperus, unde Bootes,</l>
+            <l n="244">Saturni quae stella tenax, quae Martia pugnax,</l>
+            <l n="245">quo rapiant nautae, quo sidere lintea tendant;</l>
+            <l n="246">scire vias maris et caeli praediscere cursus;</l>
+            <l n="247">quo volet Orion, quo Sirius incubet index,</l>
+            <l n="248">et quaecumque iacent tanto miracula mundo</l>
+            <l n="249">non disiecta pati, nec acervo condita rerum,</l>
+            <l n="250">sed manifesta notis certa disponere sede</l>
+            <l n="251">singula, divina est animi ac iucunda voluptas.</l>
+            <l n="252"><milestone unit="page" n="382"/>sed prior haec hominis cura est cognoscere terram</l>
+            <l n="253">et quae tot miranda tulit natura notare.</l>
+            <l n="254">haec nobis magis affinis caelestibus astris.</l>
+            <l n="255">nam quae mortali spes quaeve amentia maior</l>
+            <l n="256">in Iovis errantem regno perquirere velle,</l>
+            <l n="257">tantum opus ante pedes transire et perdere segnem.</l>
+            <l n="258">torquentur miseri in parvis premimurque labore:</l>
+            <l n="259">scrutamur rimas et vertimus omne profundum.</l>
+            <l n="260">quaeritur argenti semen, nunc aurea vena.</l>
+            <l n="261">torquentur flamma terrae ferroque domantur,</l>
+            <l n="262">dum sese pretio redimant; verumque professae</l>
+            <l n="263">tum demum vilesque tacent inopesque relictae.</l>
+            <l n="264">noctes atque dies festinant arva coloni;</l>
+            <l n="265">callent rure manus, glebarum expendimus usum.</l>
+            <l n="266">fertilis haec segetique feracior, altera viti.</l>
+            <l n="267">haec platanis humus, haec herbis dignissima tellus,</l>
+            <l n="268">haec dura et melior pecori silvisque fidelis.</l>
+            <l n="269">ardiora tenent oleae, sucosior ulmis</l>
+            <l n="270">grata: leves cruciant animos et corpora causae</l>
+            <l n="271">horrea uti saturent, tumeant et dolia musto,</l>
+            <l n="272"><milestone unit="page" n="384"/>plenaque desecto surgant faenilia campo:</l>
+            <l n="273">sic avidi semper, qua visum est carius, itis.</l>
+            <l n="274">implendus sibi quisque bonis est artibus: illae</l>
+            <l n="275">sunt animi fruges, haec rerum maxima merces:</l>
+            <l n="276">scire quid occulto terrae natura coercet,</l>
+            <l n="277">nullum fallere opus, non mutum cernere sacros</l>
+            <l n="278">Aetnaei montis fremitus animosque furentes,</l>
+            <l n="279">non subito pallere sono, non credere subter</l>
+            <l n="280">caelestes migrasse minas aut Tartara rumpi,</l>
+            <l n="281">nosse quid impediat ventos, quid nutriat illos,</l>
+            <l n="282">unde repente quies et muto foedere pax sit;</l>
+            <l n="283">cur crescant animi, penitus seu forte cavernae</l>
+            <l n="284">introitusque ipsi servent, seu terra minutis</l>
+            <l n="285">rara foraminibus tenues in se abstrahat auras</l>
+            <l n="286">(plenius hoc etiam rigido quia vertice surgens</l>
+            <l n="287">illinc infestis atque hinc obnoxia ventis,</l>
+            <l n="288">undique diversas admittere cogitur auras,</l>
+            <l n="289">et coniuratis addit concordia vires);</l>
+            <l n="290">sive introrsus agunt nubes et nubilus Auster,</l>
+            <l n="291">seu fortes flexere caput tergoque feruntur,</l>
+            <l n="292">praecipiti deiecta sono premit unda fugatque</l>
+            <l n="293">torpentes auras pulsataque corpora denset.</l>
+            <l n="294"><milestone unit="page" n="386"/>nam veluti sonat ora diu Tritone canoro —</l>
+            <l n="295">pellit opus collectus aquae victusque moveri</l>
+            <l n="296">spiritus et longas emugit bucina voces;</l>
+            <l n="297">carmineque irriguo magnis cortina theatris</l>
+            <l n="298">imparibus numerosa modis canit arte regentis,</l>
+            <l n="299">quae tenuem impellens animam subremigat unda:</l>
+            <l n="300">haud aliter summota furens torrentibus aura</l>
+            <l n="301">pugnat in angusto et magnum commurmurat Aetna.</l>
+            <l n="302">credendum est etiam ventorum exsistere causas</l>
+            <l n="303">sub terra similis harum quas cernimus extra;</l>
+            <l n="304">ut, cum densa premant inter se corpora, turbam</l>
+            <l n="305">elisa in vacuum fugiant et proxima secum</l>
+            <l n="306">momine torta trahant tutaque in sede resistant.</l>
+            <l n="307">quod si forte mihi quadam discordia tecum est,</l>
+            <l n="308"><milestone unit="page" n="388"/>principiis aliis credas consurgere ventos:</l>
+            <l n="309">non dubium rupes aliquas penitusque cavernas</l>
+            <l n="310">proruere ingenti sonitu, casuque propinquas</l>
+            <l n="311">diffugere impellique animas: hinc crescere ventos:</l>
+            <l n="312">aut umore etiam nebulas effundere largo,</l>
+            <l n="313">ut campis agrisque solent quos alluit amnis.</l>
+            <l n="314">vallibus exoriens caligat nubilus aer:</l>
+            <l n="315">flumina parva ferunt auras, vis proxima vento est:</l>
+            <l n="316">eminus adspirat fortes et verberat umor.</l>
+            <l n="317">atque haec in vacuo si tanta potentia rorum est,</l>
+            <l n="318">hoc plura efficiant infra clusique necesse est.</l>
+            <l n="319">his agitur causis extra penitusque: coactu</l>
+            <l n="320">exagitant ventos: pugnant in faucibus: arte</l>
+            <l n="321">pugnantis suffocat iter. velut unda profundo</l>
+            <l n="322">terque quaterque exhausta graves ubi perbibit Euros,</l>
+            <l n="323">ingeminant fluctus et primos ultimus urget:</l>
+            <l n="324">haud secus, adstrictus certamine, tangitur ictu</l>
+            <l n="325">spiritus involvensque suo sibi pondere vires</l>
+            <l n="326">densa per ardentes exercet corpora venas,</l>
+            <l n="327">et, quacumque iter est, properat transitque morantem,</l>
+            <l n="328">donec confluvio veluti siponibus actus</l>
+            <l n="329">exsilit atque furens tota vomit igneus Aetna.</l>
+            <l n="330"><milestone unit="page" n="390"/>quod si forte putas isdem decurrere ventos</l>
+            <l n="331">faucibus atque isdem pulsos remeare, notandas</l>
+            <l n="332">res oculis locus ipse dabit cogetque negare.</l>
+            <l n="333">quamvis caeruleo siccus Iove fulgeat aether,</l>
+            <l n="334">purpureoque rubens surgat iubar aureus ostro,</l>
+            <l n="335">illinc obscura semper caligine nubes</l>
+            <l n="336">pigraque defuso circum stupet umida vultu,</l>
+            <l n="337">prospectans sublimis opus vastosque receptus.</l>
+            <l n="338">non illam videt Aetna nec ullo intercipit aestu;</l>
+            <l n="339">obsequitur quacumque iubet levis aura, reditque.</l>
+            <l n="340">placantes etiam caelestia numina ture</l>
+            <l n="341">summo cerne iugo, vel qua liberrimus Aetnae</l>
+            <l n="342">introspectus hiat, tantarum semina rerum,</l>
+            <l n="343">si nihil irritet flammas stupeatque profundum.</l>
+            <l n="344">huicne igitur credis torrens ut spiritus ille</l>
+            <l n="345">qui rupes terramque rotat, qui fulminat ignes,</l>
+            <l n="346">cum rexit vires et praeceps flexit habenas,</l>
+            <l n="347">praesertim ipsa suo declinia pondere, numquam</l>
+            <l n="348"><milestone unit="page" n="392"/>corpora diripiat, validoque absolverit arcu?</l>
+            <l n="349">quod si fallor, adest species: tantusque ruinis</l>
+            <l n="350">impetus attentos oculorum transfugit ictus,</l>
+            <l n="351">nec levis adstantes igitur ferit aura movetque</l>
+            <l n="352">sparsa liquore manus sacros ubi ventilat ignes;</l>
+            <l n="353">verberat ora tamen pulsataque corpora nostris</l>
+            <l n="354">incursant: adeo in tenui vim causa repellit.</l>
+            <l n="355">non cinerem stipulamve levem, non arida sorbet</l>
+            <l n="356">gramina, non tenues placidissimus excit apludas:</l>
+            <l n="357">surgit odoratis sublimis fumus ab aris:</l>
+            <l n="358">tanta quies illi est et pax innoxia rapti.</l>
+            <l n="359">sive peregrinis igitur propriisve potentes</l>
+            <l n="360">coniurant animae causis, ille impetus ignes</l>
+            <l n="361">et montis partes atra subvectat harena,</l>
+            <l n="362">vastaque concursu trepidantia saxa fragores</l>
+            <l n="363">ardentesque simul flammas ac fulmina rumpunt.</l>
+            <l n="364"><milestone unit="page" n="394"/>haud aliter quam cum prono iacuere sub Austro</l>
+            <l n="365">aut Aquilone fremunt silvae, dant bracchia nodo</l>
+            <l n="366">implicitae ac serpunt iunctis incendia ramis.</l>
+            <l n="367">nec te decipiant stolidi mendacia vulgi,</l>
+            <l n="368">exhaustos cessare sinus, dare tempora rursus</l>
+            <l n="369">ut rapiant vires repetantque in proelia victi.</l>
+            <l n="370">pelle nefas animi mendacemque exue famam:</l>
+            <l n="371">non est divinis tam sordida rebus egestas</l>
+            <l n="372">nec parvas mendicat opes nec corrogat auras.</l>
+            <l n="373">praesto sunt operae, ventorum examina, semper:</l>
+            <l n="374">causa latet quae rumpat iter cogatque morari.</l>
+            <l n="375">saepe premit fauces magnis exstructa ruinis</l>
+            <l n="376">congeries clauditque vias luctamine ab imo,</l>
+            <l n="377">et spisso veluti tecto sub pondere praestat</l>
+            <l n="378">haud similes, teneros cursu, cum frigida monti</l>
+            <l n="379">desidia est tutoque licet discedere, ventos.</l>
+            <l n="380">post, ubi conticuere, mora velocius urgent:</l>
+            <l n="381">pellunt oppositi moles ac vincula rumpunt.</l>
+            <l n="382">quicquid in obliquum est, frangunt iter: acrior ictu</l>
+            <l n="383">impetus exoritur; magnis operata rapinis</l>
+            <l n="384">flamma micat, latosque ruens exundat in agros:</l>
+            <l n="385">sic cessata diu referunt spectacula venti.</l>
+            <l n="386">nunc superant quaecumque regant incendia silvae,</l>
+            <l n="387">quae flammas alimenta vocent, quid nutriat Aetnam.</l>
+            <l n="388">incendi poterunt illis vernacula causis</l>
+            <l n="389">materia appositumque igni genus utile terrae.</l>
+            <l n="390"><milestone unit="page" n="396"/>uritur adsidue calidus nunc sulphuris umor,</l>
+            <l n="391">nunc spissus crebro praebetur alumine sucus.</l>
+            <l n="392">pingue bitumen adest et quicquid comminus acris</l>
+            <l n="393">irritat flammas: illius corporis Aetna est.</l>
+            <l n="394">atque hanc materiam penitus discurrere, fontes</l>
+            <l n="395">infectae crispantur aquae radice sub ipsa.</l>
+            <l n="396">pars oculis manifesta iacet, quae robore dura est</l>
+            <l n="397">ac lapis: in pingui fervent incendia suco.</l>
+            <l n="398">quin etiam varie quaedam sine nomine saxa</l>
+            <l n="399">toto monte liquent: illis custodia flammae</l>
+            <l n="400">vera tenaxque data est. sed maxima causa molaris</l>
+            <l n="401">illius incendi lapis est: is vindicat Aetnam.</l>
+            <l n="402">quem si forte manu teneas ac robore cernas,</l>
+            <l n="403">nec fervere putes, ignem nec spargere posse.</l>
+            <l n="404">sed, simul ac ferro quaeras, respondet et ictu</l>
+            <l n="405">scintillat dolor. hunc multis circum inice flammis</l>
+            <l n="406">et patere extorquere animos atque exue robur.</l>
+            <l n="407">fundetur ferro citius; nam mobilis illi</l>
+            <l n="408">et metuens natura mali est, ubi cogitur igni.</l>
+            <l n="409">sed simul atque hausit flammas, non tutior hausti</l>
+            <l n="410">ulla domus, servans aciem duransque tenaci</l>
+            <l n="411">saepta fide: tanta est illi patientia victo;</l>
+            <l n="412"><milestone unit="page" n="398"/>vix umquam redit in vires atque evomit ignem.</l>
+            <l n="413">totus enim denso stipatus robore carbo</l>
+            <l n="414">per tenues admissa vias incendia nutrit</l>
+            <l n="415">cunctanterque eadem et pigre concepta remittit.</l>
+            <l n="416">nec tamen hoc uno quod montis plurima pars est,</l>
+            <l n="417">vincit et incendi causam tenet ille: profecto</l>
+            <l n="418">miranda est lapidis vivax animosaque virtus.</l>
+            <l n="419">cetera materies quaecumque est fertilis igni,</l>
+            <l n="420">ut semel accensa est, moritur nec restat in illa</l>
+            <l n="421">quod repetas: tantum cinis et sine semine terra est.</l>
+            <l n="422">hic semel atque iterum patiens ac mille perhaustis</l>
+            <l n="423">ignibus instaurat vires, nec desinit ante</l>
+            <l n="424">quam levis excocto defecit robore pumex</l>
+            <l n="425">in cinerem putresque iacet dilapsus harenas.</l>
+            <l n="426">cerne locis etiam: similes adsiste cavernas.</l>
+            <l n="427">ilic materiae nascentis copia maior.</l>
+            <l n="428">sed genus hoc lapidis (certissima signa coloris)</l>
+            <l n="429">quod nullas adiunxit opes, elanguit ignis.</l>
+            <l n="430">dicitur insidiis flagrasse Aenaria quondam</l>
+            <l n="431">nunc exstincta super, testisque Neapolin inter</l>
+            <l n="432">et Cumas locus ex multis iam frigidus annis,</l>
+            <l n="433">quamvis aeternum pingui scatet ubere sulphur.</l>
+            <l n="434"><milestone unit="page" n="400"/>in mercem legitur, tanto est fecundius Aetna.</l>
+            <l n="435">insula, cui nomen facies dedit ipsa rotunda,</l>
+            <l n="436">sulphure non solum nec obesa bitumine terra est:</l>
+            <l n="437">et lapis adiutat generandis ignibus aptis,</l>
+            <l n="438">sed raro fumat qui vix si accenditur ardet,</l>
+            <l n="439">in breve mortales flammas quod copia nutrit.</l>
+            <l n="440">insula durat et a Vulcani nomine sacra,</l>
+            <l n="441">pars tamen incendi maior refrixit et alto</l>
+            <l n="442">iactatas recipit classes portuque tuetur.</l>
+            <l n="443">quae restat minor et dives satis ubere terra est,</l>
+            <l n="444">sed non Aetnaeo vires quae conferat illi.</l>
+            <l n="445">atque haec ipsa tamen iam quondam exstincta fuisset,</l>
+            <l n="446">ni furtim aggereret Siculi vicinia montis</l>
+            <l n="447">materiam silvamque suam, pressove canali</l>
+            <l n="448">huc illuc ageret ventos et pasceret ignes.</l>
+            <l n="449">sed melius res ipsa notis spectataque veris</l>
+            <l n="450">occurrit signis nec temptat fallere testem.</l>
+            <l n="451">nam circa latera atque imis radicibus Aetnae</l>
+            <l n="452">candentes efflant lapides disiectaque saxa</l>
+            <l n="453">intereunt venis, manifesto ut credere possis</l>
+            <l n="454">pabula et ardendi causam lapidem esse molarem,</l>
+            <l n="455">cuius defectus ieiunos colligit ignes.</l>
+            <l n="456">ille ubi collegit flammas iacit et simul ictu</l>
+            <l n="457"><milestone unit="page" n="402"/>materiam accendit cogitque liquescere secum.</l>
+            <l n="458">haud equidem mirum <add cert="low">in</add> facie quam cernimus extra;</l>
+            <l n="459">si lenitur opus, res stat: magis uritur illic</l>
+            <l n="460">sollicitatque magis vicina incendia saxum</l>
+            <l n="461">certaque venturae praemittit pignora flammae.</l>
+            <l n="462">nam simul atque movet vires turbamque minatur,</l>
+            <l n="463">diffugit extemploque solum trahit: † ictaque ramis †. . . .</l>
+            <l n="464">et grave sub terra murmur demonstrat et ignes.</l>
+            <l n="465">tum pavidum fugere et sacris concedere rebus</l>
+            <l n="466">par rere: e tuto speculaberis omnia collis.</l>
+            <l n="467">nam subito effervent onerosa incendia raptis,</l>
+            <l n="468">accensae subeunt moles truncaeque ruinae</l>
+            <l n="469">provolvunt atque atra rotant examina harenae.</l>
+            <l n="470">illinc incertae facies hominumque figurae:</l>
+            <l n="471">pars lapidum domita, stanti pars robora pugnae</l>
+            <l n="472">nec recipit flammas; hinc indefessus anhelat</l>
+            <l n="473">atque aperit se hostis, decrescit spiritus illinc —</l>
+            <l n="474">haud aliter quam cum laeto devicta tropaeo</l>
+            <l n="475">prona iacet campis acies et castra sub ipsa.</l>
+            <l n="476">tum si quis lapidum summo pertabuit igni,</l>
+            <l n="477">asperior sopito et quaedam sordida faex est,</l>
+            <l n="478">qualem purgato cernes desidere ferro:</l>
+            <l n="479">verum ubi paulatim exsiluit sublata caducis</l>
+            <l n="480"><milestone unit="page" n="404"/>congeries saxis, angusto vertice surgunt;</l>
+            <l n="481">sic veluti in fornace lapis torretur et omnis</l>
+            <l n="482">exustus penitus venis subit altius umor:</l>
+            <l n="483">amissis opibus levis et sine pondere pumex</l>
+            <l n="484">excutitur: liquor ille magis fervere magisque</l>
+            <l n="485">fluminis in speciem mitis procedere tandem</l>
+            <l n="486">incipit et pronis demittit collibus undas.</l>
+            <l n="487">illae paulatim bis sena in milia pergunt.</l>
+            <l n="488">quippe nihil revocat, certis nihil ignibus obstat,</l>
+            <l n="489">nulla tenet (frustra) moles, simul omnia pugnant.</l>
+            <l n="490">nunc silvae rupesque natant, hic terra solumque,</l>
+            <l n="491">ipse adiutat opes facilesque sibi induit amnis.</l>
+            <l n="492">quod si forte cavis cunctatus vallibus haesit,</l>
+            <l n="493">utpote inaequales volvens perpascitur agros;</l>
+            <l n="494">ingeminat fluctus et stantibus increpat undis,</l>
+            <l n="495">sicut cum rapidum curvo mare † cernulat aestu,</l>
+            <l n="496">ac primum tenus † undas agit, ulteriores . . .</l>
+            <l n="497">progrediens late diffunditur et † succernens . . .</l>
+            <l n="498">flumina consistunt ripis ac frigore durant,</l>
+            <l n="499">paulatimque ignes coeunt ac flammea messis</l>
+            <l n="500">exuitur facies. tum prima ut quaeque rigescit</l>
+            <l n="501">effumat moles atque ipso pondere tracta</l>
+            <l n="502">volvitur ingenti strepitu; praecepsque sonanti</l>
+            <l n="503">cum solido inflixa est, pulsatos dissipat ignes,</l>
+            <l n="504"><milestone unit="page" n="406"/>et qua disclusa est candenti robore fulget.</l>
+            <l n="505">emicat examen plagis, ardentia saxa</l>
+            <l n="506">(scintillas procul ecce vides, procul ecce ruentes)</l>
+            <l n="507">incolumi fervore cadunt: verum impetus ignes</l>
+            <l n="508">Simaethi quondam ut ripas traiecerit amnis,</l>
+            <l n="509">vix iunctas quisquam fixo dimoverit illas.</l>
+            <l n="510">vicenos persaepe dies iacet obruta moles.</l>
+            <l n="511">sed frustra certis disponere singula causis</l>
+            <l n="512">temptamus, si firma manet tibi fabula mendax,</l>
+            <l n="513">materiam ut credas aliam fluere igne, favillae</l>
+            <l n="514">flumina proprietate simul concrescere, sive</l>
+            <l n="515">commixtum lento flagrare bitumine sulphur.</l>
+            <l n="516">nam posse exusto cretam quoque robore fundi</l>
+            <l n="517">et figulos huic esse fidem, dein frigoris usu</l>
+            <l n="518">duritiem revocare suam et constringere venas.</l>
+            <l n="519">sed signum commune leve est atque irrita causa</l>
+            <l n="520">quae trepidat: certo verum tibi pignore constat.</l>
+            <l n="521">nam velut arguti natura est aeris, et igni</l>
+            <l n="522">cum domitum est constans eademque et robore salvo,</l>
+            <l n="523">utraque ut possis aeris cognoscere partem;</l>
+            <l n="524">haud aliter lapis ille tenet seu forte madentes</l>
+            <l n="525">effluit in flammas sive est securus ab illis</l>
+            <l n="526"><milestone unit="page" n="408"/>conservatque notas nec vultum perdidit ignis.</l>
+            <l n="527">quin etiam externa † immotus color ipse refellit,</l>
+            <l n="528">non odor aut levitas: putris magis ille magisque,</l>
+            <l n="529">una operis facies eadem perque omnia terra est.</l>
+            <l n="530">nec tamen infitior lapides ardescere certos,</l>
+            <l n="531">interius furere accensos: haec propria virtus.</l>
+            <l n="532">quin ipsis quaedam Siculi cognomina saxis</l>
+            <l n="533">imposuere † rhytas et iam ipso nomine signant</l>
+            <l n="534">fusilis esse notae: numquam tamen illa liquescunt,</l>
+            <l n="535">quamvis materies foveat sucosior intus,</l>
+            <l n="536">ni penitus venae fuerint commissa molari.</l>
+            <l n="537">quod si quis lapidis miratur fusile robur,</l>
+            <l n="538">cogitet obscuri verissima dicta libelli,</l>
+            <l n="539">Heraclite, tui: nihil insuperabile ab igni,</l>
+            <l n="540">omnia quo rerum natura semina iacta.</l>
+            <l n="541">sed nimium hoc mirum? densissima corpora saepe</l>
+            <l n="542">et solido vicina tamen compescimus igni.</l>
+            <l n="543">non animos aeris flammis succumbere cernis?</l>
+            <l n="544">lentitiem plumbi non exuit? ipsaque ferri</l>
+            <l n="545">materies praedura tamen subvertitur igni.</l>
+            <l n="546">spissaque suspensis fornacibus aurea saxa</l>
+            <l n="547">exsudant pretium: et quaedam fortasse profundo</l>
+            <l n="548"><milestone unit="page" n="410"/>incomperta iacent similique obnoxia sorti.</l>
+            <l n="549">nec locus ingenio est: oculi te iudice vincent.</l>
+            <l n="550">nam lapis ille riget, praeclususque ignibus obstat,</l>
+            <l n="551">si parvis torrere velis caeloque patenti.</l>
+            <l n="552">candenti pressoque agedum fornace coerce;</l>
+            <l n="553">nec sufferre potest nec saevum durat in hostem.</l>
+            <l n="554">vincitur et solvit vires captusque liquescit.</l>
+            <l n="555">quae maiora putas artem tormenta movere</l>
+            <l n="556">posse manu? quae tanta putas incendia nostris</l>
+            <l n="557">sustentare opibus quantis fornacibus Aetna</l>
+            <l n="558">uritur, arcano numquam non fertilis igni?</l>
+            <l n="559">sed non qui nostro fervet moderatior usu</l>
+            <l n="560">sed caelo propior, vel quali Iuppiter ipse</l>
+            <l n="561">armatus flamma est. his viribus additur ingens</l>
+            <l n="562">spiritus, adstrictis elisus faucibus: ut cum</l>
+            <l n="563">fabriles operae rudibus contendere massis</l>
+            <l n="564">festinant, ignes quatiunt follesque trementes</l>
+            <l n="565">exanimant, pressoque instigant agmine ventum.</l>
+            <l n="566">haec operis forma est, sic nobilis uritur Aetna:</l>
+            <l n="567">terra foraminibus vires trahit, urget in artum</l>
+            <l n="568">spiritus, incendi via fit per maxima saxa.</l>
+            <l n="569">magnificas laudes operosaque visere templa</l>
+            <l n="570">divitiis hominum aut arces memorare vetustas</l>
+            <l n="571">traducti maria et taetris per proxima fatis</l>
+            <l n="572">currimus, atque avidi veteris mendacia famae</l>
+            <l n="573"><milestone unit="page" n="412"/>eruimus cunctasque libet percurrere gentes.</l>
+            <l n="574">nunc iuvat Ogygiis circumdata moenia Thebis</l>
+            <l n="575">cernere: quae fratres, ille impiger, ille canorus. . . .</l>
+            <l n="576">condere, felicesque alieno intersumus aevo.</l>
+            <l n="577">invitata piis nunc carmine saxa lyraque,</l>
+            <l n="578">nunc gemina ex uno fumantia sacra vapore</l>
+            <l n="579">miramur septemque duces raptumque profundo.</l>
+            <l n="580">detinet Eurotas illic et Sparta Lycurgi</l>
+            <l n="581">et sacer in bellum numerus, sua turba, trecenti.</l>
+            <l n="582">nunc hic Cecropiae variis spectantur Athenae</l>
+            <l n="583">carminibus gaudentque soli victrice Minerva.</l>
+            <l n="584">excidit hic reduci quondam tibi, perfide Theseu,</l>
+            <l n="585">candida sollicito praemittere vela parenti;</l>
+            <l n="586">tu quoque Athenarum carmen, iam nobile sidus,</l>
+            <l n="587">Erigone; sedes vestra est: Philomela canoris</l>
+            <l n="588">evocat in silvis et tu, soror, hospita tectis</l>
+            <l n="589"><milestone unit="page" n="414"/>acciperis, solis Tereus ferus exsulat agris.</l>
+            <l n="590">miramur Troiae cineres et flebile victis</l>
+            <l n="591">Pergamon exstinctosque suo Phrygas Hectore: parvum</l>
+            <l n="592">conspicimus magni tumulum ducis: hic et Achilles</l>
+            <l n="593">impiger et victus magni iacet Hectoris ultor.</l>
+            <l n="594">quin etiam Graiae fixos tenuere tabellae</l>
+            <l n="595">signave; nunc Paphiae rorantes arte capilli,</l>
+            <l n="596">sub truce nunc parvi ludentes Colchide nati,</l>
+            <l n="597">nunc tristes circa subiectae altaria cervae</l>
+            <l n="598">velatusque pater, nunc gloria viva Myronis</l>
+            <l n="599">et iam mille manus operum turbaeque morantur.</l>
+            <l n="600">haec visenda putas terrae dubiusque marisque:</l>
+            <l n="601">artificis naturae ingens opus aspice: nulla</l>
+            <l n="602">tu tanta humanae plebis spectacula cernes,</l>
+            <l n="603">praecipueque vigil fervens ubi Sirius ardet.</l>
+            <l n="604">insequitur miranda tamen sua fabula montem</l>
+            <l n="605"><milestone unit="page" n="416"/>nec minus ille pio quam sonti est nobilis igni.</l>
+            <l n="606">nam quondam ruptis excanduit Aetna cavernis,</l>
+            <l n="607">et velut eversis penitus fornacibus ingens</l>
+            <l n="608">evecta in longum lapidis fervoribus unda,</l>
+            <l n="609">haud aliter quam cum saevo Iove fulgurat aether</l>
+            <l n="610">et nitidum obscura caelum caligine torquet.</l>
+            <l n="611">ardebant agris segetes et mollia cultu</l>
+            <l n="612">iugera cum dominis; silvae collesque rubebant.</l>
+            <l n="613">vixdum castra putant hostem movisse, tremebant</l>
+            <l n="614">et iam finitimae portas evaserat urbis.</l>
+            <l n="615">tum vero, ut cuique est animus viresque rapinae,</l>
+            <l n="616">tutari conantur opes: gemit ille sub auro,</l>
+            <l n="617">colligit ille arma et stulta cervice reponit,</l>
+            <l n="618">defectum raptis illum sua carmina tardant,</l>
+            <l n="619">hic velox minimo properat sub pondere pauper,</l>
+            <l n="620">et quod cuique fuit cari fugit ipse sub illo.</l>
+            <l n="621">sed non incolumis dominum sua praeda secuta est:</l>
+            <l n="622">cunctantes vorat ignis et undique torret avaros,</l>
+            <l n="623">consequitur fugisse ratos et praemia captis</l>
+            <l n="624">concremat: ac nullis parsura incendia pascunt</l>
+            <l n="625">vel solis parsura piis. namque optima proles</l>
+            <l n="626"><milestone unit="page" n="418"/>Amphinomus fraterque pari sub munere fortes</l>
+            <l n="627">cum iam vicinis streperent incendia tectis,</l>
+            <l n="628">adspiciunt pigrumque patrem matremque senecta</l>
+            <l n="629">eheu! defessos posuisse in limine membra.</l>
+            <l n="630">parcite, avara manus, dulces attollere praedas:</l>
+            <l n="631">illis divitiae solae materque paterque:</l>
+            <l n="632">hanc rapient praedam. mediumque exire per ignem</l>
+            <l n="633">ipso dante fidem properant. o maxima rerum</l>
+            <l n="634">et merito pietas homini tutissima virtus!</l>
+            <l n="635">erubuere pios iuvenes attingere flammae</l>
+            <l n="636">et quacumque ferunt illi vestigia cedunt.</l>
+            <l n="637">felix illa dies, illa est innoxia terra.</l>
+            <l n="638">dextra saeva tenent laevaque incendia: fertur</l>
+            <l n="639">ille per obliquos ignes fraterque triumphans,</l>
+            <l n="640">tutus uterque pio sub pondere sufficit: illa</l>
+            <l n="641">et circa geminos avidus sibi temperat ignis.</l>
+            <l n="642">incolumes abeunt tandem et sua numina secum</l>
+            <l n="643">salva ferunt. illos mirantur carmina vatum,</l>
+            <l n="644">illos seposuit claro sub nomine Ditis,</l>
+            <l n="645">nec sanctos iuvenes attingunt sordida fata:</l>
+            <l n="646">securae cessere domus et iura piorum.</l>
+         </div>
+      </body>
+   </text>
+
+</TEI>

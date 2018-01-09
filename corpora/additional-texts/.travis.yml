@@ -1,0 +1,35 @@
+language: python
+
+python:
+  - '3.5'
+
+install:
+  - pip3 install HookTest>=1.0.0
+
+script: hooktest ./ --console table --scheme epidoc --workers 3 --verbose 10 --manifest --countwords
+
+
+before_deploy:
+  - hooktest-build --travis ./
+  - results=$(cat manifest.txt)
+  - DATE=`date +%Y-%m-%d`
+  - git config --global user.email "builds@travis-ci.com"
+  - git config --global user.name "Travis CI"
+  - export GIT_TAG=$major_version.$minor_version.$TRAVIS_BUILD_NUMBER
+  - git add -A
+  - git commit -m "Removed failing files" -m "Release $GIT_TAG"
+  - git tag $GIT_TAG -a -m "$DATE"
+  - git push -q https://$GSEC@github.com/lascivaroma/additional-texts --tags
+
+deploy:
+  provider: releases
+  api_key: $GSEC
+  skip_cleanup: true
+  on:
+    repo: lascivaroma/additional-texts
+    branch: master
+
+env:
+  global:
+    major_version: 1
+    minor_version: 0
