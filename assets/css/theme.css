@@ -1,0 +1,5 @@
+ul.menu li a {
+    text-transform: none;
+    font-style: italic;
+    font-variant: normal;
+}

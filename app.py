@@ -13,7 +13,8 @@ nemo = Nemo(
     name="InstanceNemo",
     app=flask_app,
     resolver=resolver,
-    base_url=""
+    base_url="",
+    css=["assets/css/theme.css"]
 )
 
 if __name__ == "__main__":

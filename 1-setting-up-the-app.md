@@ -172,3 +172,7 @@ nemo = Nemo(
 if __name__ == "__main__":
     flask_app.run(debug=True)
 ```
+
+## Next
+
+Go to [2 - Playing with the JavaScript, the CSS and the XSLTs](2-playing-with-js-css-xslt.md)

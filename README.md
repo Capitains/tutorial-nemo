@@ -11,8 +11,10 @@ for Mac, please propose Pull Requests. It is probable that most commands would w
 We highly recommend to read the following blogs and articles about Capitains and its environment :
 - The [Capitains CTS guidelines](http://capitains.org/pages/guidelines)
 - [CapiTainS 2.0.0 Release: changes, renewal and the future ](http://capitains.org/milestones/2017/04/28/2.0.0) 
+- *There is two open access articles to be published in the next few months. This line will be updated accordingly*
 
 # Table of contents 
 
 0. [Preparing your environment](0-preparing-your-environment.md)
 1. [Setting up the bases of your app](1-setting-up-the-app.md)
+2. [Playing with the JavaScript, the CSS and the XSLTs](2-playing-with-js-css-xslt.md)
