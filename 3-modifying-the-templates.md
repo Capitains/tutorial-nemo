@@ -76,3 +76,80 @@ Once it is done, we are gonna need to setup Nemo.
 Nemo has a strong and maybe complicated system for its templates as it offers the ability to have namespaces. The simplification of the situation is the following : `one folder of templates == one namespace` and this allows some templates to have the same name but be in different namespaces (avoiding collision is always a good idea !). So in order to overwrite the template, we will provide Nemo with a new folder for its main namespace (named `main`). Nemo will look first in our folder then look in its own to find the file for the template. To make it simpler, here goes a *simplified* decision workflow :
 
 ![Nemo looks first in the instand namespaces folder then in its own defaults](images-for-md/templates.workflow.simplified.png)
+
+So from there, the setting is quite simple : we have made a directory `templates/main` which will come override the `main` namespace of Nemo :
+
+```python
+nemo = Nemo(
+    #...
+    templates={"main": "templates/main"}
+)
+```
+
+Go run your site and see how the header has changed !
+
+#### Step 1 - app.py
+
+```python
+from flask import Flask
+from capitains_nautilus.cts.resolver import NautilusCTSResolver
+from capitains_nautilus.flask_ext import FlaskNautilus
+from flask_nemo import Nemo
+
+
+flask_app = Flask("Flask Application for Nemo")
+resolver = NautilusCTSResolver(["corpora/additional-texts", "corpora/priapeia"])
+resolver.parse()
+
+nautilus_api = FlaskNautilus(prefix="/api", app=flask_app, resolver=resolver)
+nemo = Nemo(
+    name="InstanceNemo",
+    app=flask_app,
+    resolver=resolver,
+    base_url="",
+    css=["assets/css/theme.css"],
+    js=["assets/js/empty.js"],
+    statics=["assets/images/logo.jpeg"],
+    transform={"default": "components/main.xsl"},
+    templates={"main": "templates/main"}
+)
+
+if __name__ == "__main__":
+    flask_app.run(debug=True)
+
+```
+
+### Main templates
+
+Templates are preceded with their namespace name and two colons : `namespace::filename.html`
+
+- `main::container.html` : the frame for the pages
+- `main::index.html` : the homepage
+- `main::collection.html` : contains the template used when browsing the collections of works
+- `main::references.html` : contains the template used when browsing passages available of a text (the table of contents)
+- `main::text.html` : contains the templates used when reading a passage. This one actually contains a sub-template, `main::passage_footer.html` that allows you to easily modify what's written under your text.
+
+As for the `main::container.html` template, here is how it is built :
+
+![Structure of the container](images-for-md/Layout.png)
+
+## The destructive yet more effective way : replacing all templates.
+
+*If you're happy with what we saw and do not want to get much more technical, do not bother reading this part.*
+
+See, the thing is, if you want to be really free, I'd recommend to replace all the templates yourself, reading each of them carefully.
+
+The option up there is mostly good if you want to the kind of design that we introduced for Nemo. The conditions to check are :
+
+- You need to have the page templates have the same name and namespace : `main::collection.html`, `main::references.html`, `main::text.html` and `main::index.html`. 
+- After having make sure that you understood them, including their variables, write your owns. You cannot simply change the variable names
+
+Once that's done, you can use the `template_folder` parameters at initiation. The value should be a string leading to a folder containing the templates for the namespace `main::`
+
+
+```python
+nemo = Nemo(
+    # ...
+    template_folder="templates/main"
+)
+```

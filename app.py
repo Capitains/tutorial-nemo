@@ -17,7 +17,8 @@ nemo = Nemo(
     css=["assets/css/theme.css"],
     js=["assets/js/empty.js"],
     statics=["assets/images/logo.jpeg"],
-    transform={"default": "components/main.xsl"}
+    transform={"default": "components/main.xsl"},
+    templates={"main": "templates/main"}
 )
 
 if __name__ == "__main__":
