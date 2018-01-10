@@ -1,6 +1,8 @@
 Setting up a Nemo environment
 ===
 
+![Header](header.png)
+
 This tutorial is intended for beginners and as an introduction for using the Nemo and Nautilus environment.
 
 This repository contains the output of the tutorial, with every step taken into account. We try to give the full content of each files at the end of each step of the tutorial.
