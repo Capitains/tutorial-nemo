@@ -18,3 +18,10 @@ We highly recommend to read the following blogs and articles about Capitains and
 0. [Preparing your environment](0-preparing-your-environment.md)
 1. [Setting up the bases of your app](1-setting-up-the-app.md)
 2. [Playing with the JavaScript, the CSS, the statics and the XSLTs](2-playing-with-js-css-xslt.md)
+3. [Modifying the templates](3-modifying-the-templates.md)
+4. [Editorializing your texts : cutting your text a better way](4-editorializing-your-texts-cutting-your-text-a-better-way.md)
+5. [Editorializing your texts : building virtual collections to arrange your texts](5-editorializing-your-texts-building-virtual-collections-to-arrange-your-texts.md)
+
+
+
+

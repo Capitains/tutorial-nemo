@@ -156,3 +156,62 @@ nemo = Nemo(
 if __name__ == "__main__":
     flask_app.run(debug=True)
 ```
+
+## Playing with XSLT and XML Transformation
+
+If you are not using any Javascript for transforming your TEI XML (such as *[CETEIcean](https://github.com/TEIC/CETEIcean)*) or using plain CSS to match your TEI nodes, you might want to use either XSLT or Python transformation. And there is nothing easier than that with Nemo.
+
+We have copied an XSI from the [CTS Leipzig UI](https://raw.githubusercontent.com/OpenGreekAndLatin/cts_leipzig_ui/master/cts_leipzig_ui/data/assets/static/xslt/edition.xsl) into `components/main.xsl` in the current directory. This XSL is meant for [TEI Epidoc editions, translations or commentary](http://www.stoa.org/epidoc/gl/latest/).
+
+Now that we have an XSLT, we can simply add it to Nemo. Nemo takes a parameter `transform=` at instantiation which needs to be a dictionary where keys behave such as
+- the key `default` represents the default behaviour for transformation
+- any other key should be an identifier for a specific text, in case you have a transformation routine specific to each of your text or one single text in all your texts
+
+and value behaves such as :
+- as string, they represent the path to an XSLT of your choice. Nemo will makes the parsing itself and will run it automatically. For us, this means we'll use `/components/main.xsl` as the value
+- [*Advanced Users only*] as *Callable* (function or object), they will transform the XML objet itself. The callable is passed four parameters in the following order: a [Collection object](http://mycapytain.readthedocs.io/en/2.0.6/MyCapytain.classes.html#collection), a [lxml.etree.Element object](http://lxml.de/tutorial.html#the-element-class), the identifier of the current object as string, the identifier of the subreference as a string.
+
+In our case, the result of the instantiation will be 
+
+```python
+nemo = Nemo(
+    # ...
+    transform={"default": "components/main.xsl"}
+)
+```
+
+#### Step 4 - app.py
+
+This script will run with a readable UI only if you have an equivalent file for every file originally in `flask_nemo/data/static`.
+
+```python
+from flask import Flask
+from capitains_nautilus.cts.resolver import NautilusCTSResolver
+from capitains_nautilus.flask_ext import FlaskNautilus
+from flask_nemo import Nemo
+
+
+flask_app = Flask("Flask Application for Nemo")
+resolver = NautilusCTSResolver(["corpora/additional-texts", "corpora/priapeia"])
+resolver.parse()
+
+nautilus_api = FlaskNautilus(prefix="/api", app=flask_app, resolver=resolver)
+nemo = Nemo(
+    name="InstanceNemo",
+    app=flask_app,
+    resolver=resolver,
+    base_url="",
+    css=["assets/css/theme.css"],
+    js=["assets/js/empty.js"],
+    statics=["assets/images/logo.jpeg"],
+    transform={"default": "components/main.xsl"}
+)
+
+if __name__ == "__main__":
+    flask_app.run(debug=True)
+
+```
+
+## Next
+
+Unhappy with the templates ? [Let's go modify them](3-modifying-the-templates.md)

@@ -1,5 +1,62 @@
-ul.menu li a {
-    text-transform: none;
-    font-style: italic;
-    font-variant: normal;
+#menu-container  .logo {
+    width: auto;
+}
+.pb {
+  font-weight: thin;
+  font-size: 0.5em;
+  display:inline;
+  font-style: italic;
+  color:grey;
+}
+
+.ex,
+.supplied,
+.unclear {
+  color: rgb(80,80,80);
+}
+
+.unclear {
+  text-decoration: underline dotted;
+}
+
+.lang_heb, .lang_ara, .lang_far {
+  text-align:right;
+}
+
+.note > .note-content {
+  display:none;
+}
+.note:hover > .note-content {
+  display:inline;
+  font-style: italic;
+  color:grey;
+}
+
+ol > li {
+  display: list-item;
+  list-style: none;
+}
+
+ol > li {
+  display: list-item;
+}
+
+ol > li:nth-child(5n) {
+  list-style: decimal;
+}
+ol > li:nth-child(1) {
+  list-style: decimal;
+}
+ol > li:hover {
+  list-style: decimal;
+}
+
+#reading-container article {
+  width:90%;
+}
+#treebank_container {
+  height:600px;
+}
+span[token-selector="state.tokens"] {
+  display:none;
 }
