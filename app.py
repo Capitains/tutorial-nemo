@@ -14,7 +14,9 @@ nemo = Nemo(
     app=flask_app,
     resolver=resolver,
     base_url="",
-    css=["assets/css/theme.css"]
+    css=["assets/css/theme.css"],
+    js=["assets/js/empty.js"],
+    statics=["assets/images/logo.jpeg"]
 )
 
 if __name__ == "__main__":

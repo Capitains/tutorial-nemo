@@ -17,4 +17,4 @@ We highly recommend to read the following blogs and articles about Capitains and
 
 0. [Preparing your environment](0-preparing-your-environment.md)
 1. [Setting up the bases of your app](1-setting-up-the-app.md)
-2. [Playing with the JavaScript, the CSS and the XSLTs](2-playing-with-js-css-xslt.md)
+2. [Playing with the JavaScript, the CSS, the statics and the XSLTs](2-playing-with-js-css-xslt.md)
