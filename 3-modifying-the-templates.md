@@ -153,3 +153,7 @@ nemo = Nemo(
     template_folder="templates/main"
 )
 ```
+
+## Next
+
+Texts are presented in awful chunks ? [Let's go modify them](4-editorializing-your-texts-cutting-your-text-a-better-way.md)
