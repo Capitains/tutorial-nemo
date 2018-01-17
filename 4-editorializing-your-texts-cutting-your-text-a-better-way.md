@@ -1,4 +1,4 @@
-Editorializing your texts : cutting your text a better way
+Editorializing Your Texts : Cutting Your Text a Better Way
 ===
 
 Nemo is a fit-them-all digital library system that unfortunately is quite stupid when it comes to how to present your text. Because Nemo should fit them all, it makes no assumption on how to present your text and will most likely behave in a way you won't like at all.
@@ -16,24 +16,24 @@ To understand chunkers, we are gonna need to understand a little how Nemo works.
 
 Nemo is only aware of that at the beginning. The way Nemo works is then simple : it feeds this information to a chunker that will automatically request available references to build the excerpts presented to the users.
 
-### Default behaviour
+### Default Behaviour
 
 By default, Nemo would be showing those texts by grouping them by 20 at their lowest level. So you would have :
 
-- **for Medea** : Lines 1-20, Lines 21-40, Lines 41-60
+- **For Medea** : Lines 1-20, Lines 21-40, Lines 41-60
 - **for the Odyssey**: Book 1 Lines 1-20, Book 1 Lines 21-40, Book 1 Lines 41-60
-- **for Das Kapital**: Volume 1 Part 1 Chapter 1 Section 1 Subsection 1-20.
-- **for the Priapeia**: Poem 1 line 1-20, Poem 1 Lines 21-25, Poem 2 line 1-20 etc.
+- **for Das Kapital**: Volume 1 Part 1 Chapter 1 Section 1 Subsections 1-20.
+- **for the Priapeia**: Poem 1 lines 1-20, Poem 1 Lines 21-25, Poem 2 lines 1-20, etc.
 
 *Note that the default system would not span over lines if Poem 1 stops at line 25 !*
 
 ### Issues
 
 This is great, except that :
-- it might cut sentences in half (In fact, the Odyssey sentence on Book 1 Line 20 ends at Book 1 Line 21)
-- it might not be meaningful : Medea is a play, dialogs are meant to be displayed together for the reader to grasp some sense. Scenes and act might be a better cutting scheme ?
-- it might simply fails: Das Kapital does not have subsection everywhere in all chapter. So it might not show all of them...
-- it might make the reading heavy : Priapeia are really short poems, it might be more meaningful to show them fully one by one.
+- it might cut sentences in half (In fact, the Odyssey sentence on Book 1 line 20 ends at Book 1 line 21)
+- It might not be meaningful : Medea is a play, dialogues are meant to be displayed together for the reader to grasp some sense. Scenes and act might be a better-cutting scheme ?
+- It might simply fail: Das Kapital does not have subsection everywhere in all chapter. So it might not show all of them...
+- It might make the reading heavy : Priapeia are really short poems, it might be more meaningful to show them fully one by one.
 
 ## Let's build our own chunker for the Priapeia !
 
@@ -41,7 +41,7 @@ So the Priapeia would be better displayed as poems only. How do we achieve that 
 
 ### Structure of a Chunker
 
-Well it's pretty simple. You see, Nemo Chunkers are simple python functions, whose skeleton is something like the following
+Well, it's pretty simple. You see, Nemo Chunkers are simple python functions, whose skeleton is something like the following.
 
 ```python
 def nemo_chunker(text, getreffs):
@@ -54,10 +54,10 @@ def nemo_chunker(text, getreffs):
     """
 ```
 
-The Nemo Chunker is always feed these two informations. The GetReffs function is a function such that you can :
+The Nemo Chunker is always fed these two parameters. The GetReffs function is a function such that you can :
 - run `getreffs(level=1)` and get all reference at the level 1 (For the Priapeia, all poems)
-- run `getreffs(level=2)` and get all reference at the level 2 (For the Priapeia, all lines accros Poems)
-- run `getreffs(level=len(text.citation))` and get all reference at the deepest level of citation (For the Priapeia, level 2 : lines)
+- run `getreffs(level=2)` and get all reference at the level 2 (For the Priapeia, all lines across poems)
+- run `getreffs(level=len(text.citation))` and get all reference at the deepest level of citations (For the Priapeia, level 2 : lines)
 
 ![Schema of the inner working](images-for-md/chunker.png)
 
@@ -81,7 +81,7 @@ def priapeia_chunker(text, getreffs):
 
 ### Feeding the chunker to Nemo
 
-Great. Should works. To affect a chunker to a specific text, Nemo does the same way that it does for XSL (See *[Playing with the JavaScript, the CSS, the statics and the XSLTs](2-playing-with-js-css-xslt.md)*), using a dictionnary :
+Great. Should works. To affect a chunker to a specific text, Nemo does the same way that it does for XSL (See *[Playing with the JavaScript, the CSS, the statics and the XSLTs](2-playing-with-js-css-xslt.md)*), using a dictionary :
 
 
 #### Step 1 - app.py
@@ -98,7 +98,7 @@ def priapeia_chunker(text, getreffs):
     poems = []
     for poem_number in range(1, 80):  # Range in Python stops before its end limit
         poems.append(
-            (  # Tuple are written with a () in python
+            (  # Tuple are written with an () in python
                 str(poem_number),                   # First the reference for the URI as string
                 "Priapeia "+ str(poem_number)  # Then the readable format for humans
             )
@@ -145,9 +145,9 @@ def get_citation_scheme(text):
     return citation_types
 ```
 
-Now, if you'd use it on Priapeia, you'd get `["poem", line"]`. But if it where the Epigrammata of Martial, you'd get `["book", poem", "line"]`. Thing is, these kind of structure often means that the poems are short (unlike `["book", "line"]` that generally indicate epic matter and long poems). So we could probably build a generic poem_chunker that builds onto that. 
+Now, if you'd use it on Priapeia, you'd get `["poem", line"]`. But if it were the Epigrammata of Martial, you'd get `["book", poem", "line"]`. Thing is, these kind of structure often means that the poems are short (unlike `["book", "line"]` that generally indicate epic matter and long poems). So we could probably build a generic poem_chunker that builds onto that. 
 
-We can automatically list poems as we have the ability to use the function `getreffs(level=1)` which will returns us parsed reference : for Priapeia, the list would be built by `getreffs(level=1)`, for the Epigrammata  `getreffs(level=2)`. That level can be easily computed in python with the previous information :
+We can automatically list poems as we have the ability to use the function `getreffs(level=1)` which will return us parsed reference : for Priapeia, the list would be built by `getreffs(level=1)`, for the Epigrammata  `getreffs(level=2)`. That level can be easily computed in python with the previous information :
 
 ```python
 citation_types = get_citation_scheme(some_text)
@@ -156,7 +156,7 @@ if "poem" in citation_types:
     level = citation_types.index("poem") + 1
 ```
 
-With this is mind, we could also create a chunker by default. For example, the original default groups by 20 from the lowest level, we might simply want to get to the lowest level everytime and see later how to group them :
+With this is mind, we could also create a chunker by default. For example, the original default groups by 20 from the lowest level, we might simply want to get to the lowest level every time and see later how to group them :
 
 ```python
 else:
@@ -220,7 +220,7 @@ from flask_nemo import Nemo
 def get_citation_scheme(text):
     # We create an empty list to store citations level names
     citation_types = []
-    #  We loop over the citation scheme of the Text
+    #  We loop over the citation scheme of the text
     for citation in text.citation:
         # We append the name of the citation level in the list we created
         citation_types.append(citation.name)
@@ -268,7 +268,7 @@ if __name__ == "__main__":
 
 ### Reusing original chunker
 
-One last thing before talking about when you should do manual or semi-automatic selection : we really recommend to reuse if you do semi-automatic selection the original chunkers from CapiTainS to build your own. 
+One last thing before talking about when you should do manual or semi-automatic selection : we really recommend reusing if you do semi-automatic selection the original chunkers from CapiTainS to build your own. 
 
 Let's think about a text built so there is the following citations :
 
@@ -289,9 +289,9 @@ Let's think about a text built so there is the following citations :
 | 2 | 2 |
 | 2 | 3 |
 | 2 | 4 |
-| 2 | etc |
+| 2 | etc. |
 
-If you'd decide to group lines automatically by 20, you might have a problem where 685 spans then over Book 2 while both are not necessarly following each other in a good reading environment.
+If you'd decide to group lines automatically by 20, you might have a problem where 685 spans then over Book 2 while both are not necessarily following each other in a good reading environment.
 
 The `flask_nemo.chunkers.level_grouper` provide a simple, already coded way to group passages in a clever yet semi-automatic way. For example, it would result in `Book 1 Line 655-675`, `Book 1 Line 675-685` (so only ten lines because there is not enough other lines), `Book 2 Line 1-20`, *etc.* 
 
@@ -301,7 +301,7 @@ The `level_grouper` takes 4 parameters :
 - level : the level at which you want to group your texts
 - groupby : the length of the excerpt you want to build
 
-We can from there build the following chunker :
+We can from here build the following chunker :
 
 ```python
 def generic_chunker(text, getreffs):
@@ -391,14 +391,14 @@ if __name__ == "__main__":
 
 ### When should you choose one against the other
 
-We would like to end this tutorial section by a simple note : when should you use a hard-coded chunker over a semi-automatic one.
+We would like to end this tutorial section by a simple note : when you should use a hard-coded chunker over a semi-automatic one.
 
 Hard-coded chunkers (with a specific handcrafted list of passages) are really good if :
 1. Your text structure is not gonna change :
-	- If you have, say, Book 1 Line 770-790 and then Book 2 Line 1-20 and add later a 790a, it won't be displayed
-2. Your text structure need a nice editorialization
-	- If things are not as simple as poems sequence such as dialogs, acts and scenes that overcross lines (two competing citation scheme that makes sense together)
-3. Your text has uneven depth: this will need some more complicated build from the semi-automatic work. I would recommend to craft it manually if you have this kind of situation (such that you want to show `["Chapter Introduction", "Chapter 1 Part 1", "Chapter 1 Part 2", "Chapter 2", ...]`)
+	- If you have, say, Book 1 Line 770-790 and then Book 2 Line 1-20 and adds later a 790a, it won't be displayed
+2. Your text structure needs a nice editing
+	- If things are not as simple as poems sequence such as dialogs, acts and scenes that cross over lines (two competing citations scheme that makes sense together)
+3. Your text has uneven depth: this will need some more complicated build from the semi-automatic work. I would recommend crafting it manually if you have this kind of situation (such that you want to show `["Chapter Introduction", "Chapter 1 Part 1", "Chapter 1 Part 2", "Chapter 2", ...]`)
 
 Semi-automatic chunkers are good with :
 
