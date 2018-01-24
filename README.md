@@ -23,7 +23,7 @@ We highly recommend to read the following blogs and articles about Capitains and
 3. [Modifying the templates](3-modifying-the-templates.md)
 4. [Editorializing your texts : cutting your text a better way](4-editorializing-your-texts-cutting-your-text-a-better-way.md)
 5. [Editorializing your texts : building virtual collections to arrange your texts](5-editorializing-your-texts-building-virtual-collections-to-arrange-your-texts.md)
-6. Time to put online ! Example with Heroku and Documentations
+6. [Time to put online ! Example with Heroku and Documentations](6-setting-up-heroku.md)
 7. Extanding Nemo : how should you add new routes (The simple way)
 
 #### Not as important but we should write it some day#

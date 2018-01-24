@@ -405,3 +405,8 @@ Semi-automatic chunkers are good with :
 1. Collection of short forms of texts (Letters, Poems, etc.)
 2. Collection of evolving texts
 3. Large corpora of automatically transformed texts (although it might be good to move to hard-coded at some point)
+
+
+## Next
+
+You're not happy with the collections displayed on your left menu ? [Let's organize this](5-editorializing-your-texts-building-virtual-collections-to-arrange-your-texts.md)
