@@ -90,10 +90,10 @@ python-3.6.4
 **Careful**, `Procfile` has no extension. The Procfile is simply telling Heroku which command should run the app. Fairly simple !
 
 ```Procfile
-web: gunicorn app:app
+web: gunicorn app:flask_app
 ```
 
-What we said here is : for the web, please run `gunicorn` over `#app.py` where you'll find the `app` variable. You can simply again copy and paste
+What we said here is : for the web, please run `gunicorn` over `#app.py` where you'll find the `flask_app` variable. You can simply again copy and paste
 
 ### `requirements.txt`
 
