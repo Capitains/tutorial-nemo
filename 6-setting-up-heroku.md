@@ -93,7 +93,7 @@ python-3.6.4
 web: gunicorn app:app
 ```
 
-What we said here is : for the web, please run `gunicorn` over `app.py` where you'll find the `app` variable. You can simply again copy and paste
+What we said here is : for the web, please run `gunicorn` over `#app.py` where you'll find the `app` variable. You can simply again copy and paste
 
 ### `requirements.txt`
 
@@ -107,3 +107,7 @@ gunicorn
 ```
 
 And you're all set. Add everything, commit and go back to your app link : it works !
+
+### Note
+
+Because Heroku is a free service, it has some limits. We recommend removing from the test data the folder `stoa0289`, `stoa0213c` and `stoa0159`
