@@ -1,7 +1,7 @@
 Preparing your environment
 ===
 
-**Important:** For commodity, the following command will assume we are working in a folder named `nemo-app` at the root of your home folder (so that `cd ~/nemo-app` would work and leads you at the root of your application)
+**Important:** For convenience, the following command will assume we are working in a folder named `nemo-app` at the root of your home folder (so that `cd ~/nemo-app` would work and leads you at the root of your application)
 
 # Setting up python
 
@@ -17,7 +17,7 @@ Make sure to type this command on a terminal.
 sudo apt-get install python3 libfreetype6-dev python3-pip python3-virtualenv libxml2 libxml2-dev python3-dev libxslt1-dev
 ```
 
-Once it has been done, in the directory where you will develop your application, you'll set-up a [virtual environment](http://docs.python-guide.org/en/latest/dev/virtualenvs/#lower-level-virtualenv). A virtual environment is - to make it simple - a closed, independant version of python that will only be used in the context of your project.
+Once it has been done, in the directory where you will develop your application, you'll set up a [virtual environment](http://docs.python-guide.org/en/latest/dev/virtualenvs/#lower-level-virtualenv). A virtual environment is - to make it simple - a closed, independent version of python that will only be used in the context of your project.
 
 ```shell
 virtualenv env -p python3
@@ -31,7 +31,7 @@ source env/bin/activate
 
 If you type `which python` it should now show `/home/USERNAME/nemo-app/env/bin/python` where USERNAME is your username. Also, your shell might probably move from `USERNAME@COMPUTERNAME $:` to `(env) USERNAME@COMPUTERNAME $:`. You will need to type this command everytime you want to work with your Nemo-App
 
-# Setting up the dependencies
+# Setting Up the Dependencies
 
 This tutorial has been developed with Nemo (Version: 1.0.1) and Nautilus (Version: 1.0.1). To install them, while in your virtual environment, type
 
@@ -64,7 +64,7 @@ You can do that manually via your OS graphical interface or this can be executed
 mkdir corpora
 # Downloading Priapeia corpora
 wget https://github.com/lascivaroma/priapeia/archive/master.zip
-# Unziping the zip : results in corpora/priapeia-master instead of corpora/priapeia
+# Unzipping the zip : results in corpora/priapeia-master instead of corpora/priapeia
 unzip master.zip -d corpora/
 # Moving corpora/priapeia-master to corpora/priapeia
 mv corpora/priapeia-master corpora/priapeia

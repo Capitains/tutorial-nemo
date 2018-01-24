@@ -1,20 +1,20 @@
-Modifying the templates
+Modifying the Templates
 ===
 
-**Important:** If you want to do nice and powerful editions, we highly recommend that you learn the templating system of Flask (named Jinja2). The reference tutorial on Flask is the one from Miguel Grinberg, that you can support by buying for 15$ (~12.5€) [here](https://learn.miguelgrinberg.com/) or read from [his blog ](https://blog.miguelgrinberg.com/). The article about template is already [online](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-ii-templates)
+**Important:** If you want to do nice and powerful editions, we highly recommend that you learn the templating system of Flask (named Jinja2). The reference tutorial on Flask is the one from Miguel Grinberg, that you can support by buying for 15$ (~12.5€) [here](https://learn.miguelgrinberg.com/) or read from [his blog ](https://blog.miguelgrinberg.com/). The article about the template is already [online.](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-ii-templates)
 
 Let's say you are not really happy of the title of the application. And to be frank, the welcome page message is not really good for you regarding your funder. 
 
-Well, we thought about you ! In the same manners than CSS/JS, it is possible to modify, add or completely replace the templates in Nemo. Let's start with editing.
+Well, we thought about you ! In the same manners as CSS/JS, it is possible to modify, add or completely replace the templates in Nemo. Let's start with editing.
 
-## Editing a template
+## Editing a Template
 
 Templates are documented in the [Nemo Documentation](http://flask-capitains-nemo.readthedocs.io/en/latest/Nemo.templates.html#nemo-default-templates). But when it comes to editing a template,
-I'd largely recommend to 
+I'd largely recommend to :
 
 1. Copy the original template from [the original source](https://github.com/Capitains/flask-capitains-nemo/tree/master/flask_nemo/data/templates)
 2. Edit the copied template
-3. Set-up Nemo to use the edited template.
+3. set up Nemo to use the edited template.
 
 ### Write the template
 
@@ -27,32 +27,32 @@ Let's see how it goes for the header. The original header is already contained i
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!-- The above 3 metatags *must* come first in the head; any other head content must come *after* these tags. -->
     <title>Capitains Nemo</title>
     {% block metadata %}
       {% include "main::metadata.html" %}
-    {% endblock %}
+    {% and block %}.
 
     <!-- Bootstrap --><!-- Latest compiled and minified CSS -->
-    <!--<link rel="stylesheet" href="{{url_for('.static', filename='css/teibp.min.css')}}">-->
+    <!--<link rel="stylesheet" href="{{url_for('.static', filename='css/teibp.min.css's)}}">-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{{url_for('.static', filename='css/theme.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('.static', filename='css/theme.min.css's)}}">
     {% for filename, directory in assets["css"].items() %}
-      {% if directory %}<link rel="stylesheet" href="{{url_for('.secondary_assets', filetype='css', asset=filename)}}">
+      {% if directory %}<link rel="stylesheet" href="{{url_for('.secondary _assets', filetype='css', asset=filename)}}">
       {% else %}<link rel="stylesheet" href="{{ filename }}">
-      {% endif %}
+      {% and if %}
     {% endfor %}
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+    <!--[if lit IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <![edit]-->
   </head>
   ...
 ```
 
-Because we are working on our specific corpora, we are gonna change the title line and add some `<meta/>` tags
+Because we are working on our specific corpora, we are gonna change the title line and add some `<meta/>` tags.
 
 ```html
 <!DOCTYPE html>
@@ -61,7 +61,7 @@ Because we are working on our specific corpora, we are gonna change the title li
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!-- The above 3 metatags *must* come first in the head; any other head content must come *after* these tags. -->
     <meta name="description" content="Simple classical Latin texts made available in the Capitains Format">
     <meta name="keywords" content="XML,TEI,Capitains,Priapeia,latin,classical,classics">
     <meta name="author" content="Thibault Clérice">
@@ -69,7 +69,7 @@ Because we are working on our specific corpora, we are gonna change the title li
 ```
 
 We register the file in the directory `templates/main/` and name it `container.html` (See the result [here](templates/main/container.html)) (as we want to modify the template, we need to use the same name). 
-Once it is done, we are gonna need to setup Nemo.
+Once it is done, we are gonna need to set up Nemo.
 
 ### Set-up Nemo
 
@@ -137,12 +137,12 @@ As for the `main::container.html` template, here is how it is built :
 
 *If you're happy with what we saw and do not want to get much more technical, do not bother reading this part.*
 
-See, the thing is, if you want to be really free, I'd recommend to replace all the templates yourself, reading each of them carefully.
+See, the thing is, if you want to be really free, I'd recommend replacing all the templates yourself, reading each of them carefully.
 
 The option up there is mostly good if you want to the kind of design that we introduced for Nemo. The conditions to check are :
 
 - You need to have the page templates have the same name and namespace : `main::collection.html`, `main::references.html`, `main::text.html` and `main::index.html`. 
-- After having make sure that you understood them, including their variables, write your owns. You cannot simply change the variable names
+- After having made sure that you understood them, including their variables, write your owns. You cannot simply change the variable names.
 
 Once that's done, you can use the `template_folder` parameters at initiation. The value should be a string leading to a folder containing the templates for the namespace `main::`
 
@@ -156,4 +156,4 @@ nemo = Nemo(
 
 ## Next
 
-Texts are presented in awful chunks ? [Let's go modify them](4-editorializing-your-texts-cutting-your-text-a-better-way.md)
+Texts are presented in awful chunks ? [Let's go to modify them](4-editorializing-your-texts-cutting-your-text-a-better-way.md)

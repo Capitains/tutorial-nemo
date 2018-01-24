@@ -4,7 +4,7 @@ Playing with the JavaScript, the CSS, the statics and the XSLTs
 You can add or overwrite the Nemo default CSS and Javascript files. There is many way to do so, but the simplest is
 most probably to do so at the set-up of the Nemo object.
 
-## Adding CSS or Javascripts
+## Adding CSS or Javascript
 
 I am not a super huge fan of the capitalization Nemo adds by default to the menu on the left. For this reason, I have
 created the file `theme.css` at the path `/assets/css/theme.css`.
@@ -63,7 +63,7 @@ if __name__ == "__main__":
 
 ### Adding Javascript and static (eg. images)
 
-Javascript and static images works the same way : you set up the parameters of `Nemo()` instantiation using `js=` and `statics=` : 
+Javascript and static images work the same way : you set up the parameters of `Nemo()` instantiation using `js=` and `statics=` : 
 
 ```python
 nemo = Nemo(
@@ -79,7 +79,7 @@ nemo = Nemo(
 
 The CSS and JS files are automatically added to every pages. However, for the static, is is possible to call them from your JS or CSS files using the result of the *Flask* function `url_for(".secondary_assets", filetype="js", asset="empty.js")` where filetype can either be `js`, `css` or `static`. This will result in URIs such as `/assets/nemo.secondary/css/theme.css`,  `/assets/nemo.secondary/js/empty.js` and  `/assets/nemo.secondary/static/logo.jpg`.
 
-**Version 1.0.1:** Note that the folder path is not taken into account : path are limited to the file name. *[See the issue for this](https://github.com/Capitains/flask-capitains-nemo/issues/110)*
+**Version 1.0.1:** Note that the folder path is not taken into account : path is limited to the file name. *[See the issue for this](https://github.com/Capitains/flask-capitains-nemo/issues/110)*
 
 
 #### Step 2 - app.py
@@ -112,7 +112,7 @@ if __name__ == "__main__":
 
 ## Replace entirely the static folders of Nemo
 
-**Important**: Note that doing so might result in **missing file** if you do not replace all files by file having the same name. You might want to edit templates to avoid calling removed statics. See the chapter about changing templates
+**Important**: Note that doing so might result in **missing files** if you do not replace all file by file having the same name. You might want to edit templates to avoid calling removed statics. See the chapter about changing templates.
 
 You can replace the default statics used by Nemo by changing the static folder of Nemo. To do so, you need to create a static folder and link to it at the instantiation of the object. For example, if we wanted to overwrite them by using our newly created `assets` folder, we would do :
 
@@ -168,10 +168,10 @@ Now that we have an XSLT, we can simply add it to Nemo. Nemo takes a parameter `
 - any other key should be an identifier for a specific text, in case you have a transformation routine specific to each of your text or one single text in all your texts
 
 and value behaves such as :
-- as string, they represent the path to an XSLT of your choice. Nemo will makes the parsing itself and will run it automatically. For us, this means we'll use `/components/main.xsl` as the value
+- As string, they represent the path to an XSLT of your choice. Nemo will make the parsing itself and will run it automatically. For us, this means we'll use `/components/main.xsl` as the value.
 - [*Advanced Users only*] as *Callable* (function or object), they will transform the XML objet itself. The callable is passed four parameters in the following order: a [Collection object](http://mycapytain.readthedocs.io/en/2.0.6/MyCapytain.classes.html#collection), a [lxml.etree.Element object](http://lxml.de/tutorial.html#the-element-class), the identifier of the current object as string, the identifier of the subreference as a string.
 
-In our case, the result of the instantiation will be 
+In our case, the result of the instantiation will be: 
 
 ```python
 nemo = Nemo(

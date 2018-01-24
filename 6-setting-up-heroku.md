@@ -21,7 +21,7 @@ You should broadly have something like the following picture :
 
 - Click on `New` > `New Pipeline`.
 
-#### Set-up the pipeline
+#### Set up the pipeline
 
 You are now on a "Create a new Pipeline" page. 
 
@@ -34,7 +34,7 @@ On this page :
 
 ![Create a new Pipeline filled form](./images-for-md/heroku.filledform.png)
 
-And after connect has been pressed 
+And after Connect has been pressed 
 
 ![Create a new pipeline filled form after hitting connect](./images-for-md/heroku.filledform2.png)
 
@@ -44,7 +44,7 @@ Hit `Create Pipeline` and let's go to the next page !
 
 You should be on your dashboard : 
 
-![Dashbord](./images-for-md/heroku.aftercreatepipeline.png)
+![Dashboard](./images-for-md/heroku.aftercreatepipeline.png)
 
 Under `Production`, click `Add App`. A small double choice pops-up :
 
@@ -74,7 +74,7 @@ You should be able to click on `Open App` on the top right corner of the page. F
 
 ![Doesn't work until it does !](./images-for-md/heroku.notworking.png)
 
-No, it does not. Because what we did was merely telling to Heroku "Hey, I got this app, can you host it" but we did not tell it how to run the app. Though, it's fairly easy : we need to add two new files to our github repository : `runtime.txt` and `Procfile`. Let's see the content of these files
+No, it does not. Because what we did was merely telling to Heroku "Hey, I got this app, can you host it" but we did not tell it how to run the app. Though, it's fairly easy : we need to add two new files to our github repository : `runtime.txt` and `Procfile`. Let's see the content of these files.
 
 ### `runtime.txt`
 
@@ -93,7 +93,7 @@ python-3.6.4
 web: gunicorn app:flask_app
 ```
 
-What we said here is : for the web, please run `gunicorn` over `#app.py` where you'll find the `flask_app` variable. You can simply again copy and paste
+What we said here is : for the web, please run `gunicorn` over `#app.py` where you'll find the `flask_app` variable. You can simply again copy and paste.
 
 ### `requirements.txt`
 
