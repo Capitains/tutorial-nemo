@@ -81,7 +81,7 @@ No, it does not. Because what we did was merely telling to Heroku "Hey, I got th
 The runtime file only includes the version of python you want to use, so the file is quite simple : 
 
 ```text
-python-3.6.3
+python-3.6.4
 ```
 
 

@@ -1,2 +1,4 @@
 flask-nemo==1.0.1
-capitains_nautilus==1.0.2
+capitains_nautilus==1.0.1
+# For gunicorn !
+gunicorn
