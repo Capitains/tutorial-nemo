@@ -49,7 +49,7 @@ Have you seen ? Once we have an inventory, we can actually give it labels in dif
 
 We know have something that look likes that : a main collection, three subcollections to display, and a set of textgroups that need to be organized :
 
-![Representation of the situation : a main collection, three subcollections to display, and a set of textgroups that need to be organized.](./images-for-md/before.dispatcher.png)
+![Representation of the situation : a main collection, three subcollections to display, and a set of textgroups that need to be organized.](./images-for-md/dispatcher.before.png)
 
 ## Feeding the texts to virtual collections
 
@@ -104,7 +104,7 @@ def organize_my_poetry(collection, path=None, **kwargs):
     - In the citation scheme, if the text has poetry in it, we return `True.`
 
 
-![If the textgroup has a text with lines in citation scheme, it goes to Poetry](./images-for-md/dispatcher.firstfunction.png)
+![If the textgroup has a text with lines in citation scheme, it goes to Poetry](./images-for-md/dispatcher.complete.png)
 
 ## Connecting everything
 
