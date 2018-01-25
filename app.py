@@ -39,7 +39,6 @@ def generic_chunker(text, getreffs):
     return reffs
 
 
-
 flask_app = Flask("Flask Application for Nemo")
 nautilus_api = FlaskNautilus(name="Nautilus", prefix="/api", app=flask_app, resolver=resolver)
 nemo = MyNemo(

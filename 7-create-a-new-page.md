@@ -185,3 +185,11 @@ The route description is written in a tuple where elements :
 1. is a flask route description
 2. is the name of the function it should lead to
 3. is a list of methods it responds to
+
+### Last thing last : add a link to it somewhere
+
+To add the link, I simply went to the template `templates/collection.html` and added a nice little link :
+
+```html
+<a class="card-link" href="{{url_for('.r_full_text', objectId=coll.id)}}">Full Text</a>
+```

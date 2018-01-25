@@ -23,25 +23,6 @@
     </xsl:template>
 
     <xsl:template match="t:teiHeader" />
-
-    <xsl:template match="//t:div[@type = 'translation']">
-    <div>
-      <xsl:attribute name="id">
-        <xsl:text>translation</xsl:text>
-        <xsl:if test="@xml:lang"><xsl:text>_</xsl:text></xsl:if>
-        <xsl:value-of select="@xml:lang"/>
-      </xsl:attribute>
-      
-      <xsl:attribute name="class">
-        <xsl:text>translation lang_</xsl:text>
-        <xsl:value-of select="@xml:lang"/>
-      </xsl:attribute>
-      
-      
-      <xsl:apply-templates/>
-    
-    </div>
-  </xsl:template>
     
     <xsl:template match="t:w">
         <xsl:element name="span">
@@ -59,30 +40,15 @@
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
-
-    <xsl:template match="//t:div[@type = 'commentary']">
-    <div>
-      <xsl:attribute name="id">
-        <xsl:text>commentary</xsl:text>
-        <xsl:if test="@xml:lang"><xsl:text>_</xsl:text></xsl:if>
-        <xsl:value-of select="@xml:lang"/>
-      </xsl:attribute>
-      
-      <xsl:attribute name="class">
-        <xsl:text>commentary lang_</xsl:text>
-        <xsl:value-of select="@xml:lang"/>
-      </xsl:attribute>
-      
-      
-      <xsl:apply-templates/>
     
-    </div>
-  </xsl:template>
-    
-    <xsl:template match="t:div[@type = 'edition']">
-        <div id="edition">
+    <xsl:template match="t:div[@type = 'edition' or @type = 'translation' or @type='commentary']">
+        <div>
+            <xsl:attribute name="id">
+                <xsl:value-of select="./@type" />
+            </xsl:attribute>
             <xsl:attribute name="class">
-                <xsl:text>edition lang_</xsl:text>
+                <xsl:value-of select="./@type" />
+                <xsl:text> lang_</xsl:text>
                 <xsl:value-of select="@xml:lang"/>
             </xsl:attribute>
             <xsl:attribute name="data-lang"><xsl:value-of select="./@xml:lang"/></xsl:attribute>
@@ -91,7 +57,16 @@
                     <xsl:text>rtl</xsl:text>
                 </xsl:attribute>
             </xsl:if>
-            <xsl:apply-templates/>
+            <xsl:choose test="./t:l">
+                <xsl:when test="./t:l">
+                    <ol>
+                        <xsl:apply-templates/>
+                    </ol>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:apply-templates/>
+                </xsl:otherwise>
+            </xsl:choose>
         </div>
     </xsl:template>
     
