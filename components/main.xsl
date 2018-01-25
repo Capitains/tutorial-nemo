@@ -93,7 +93,7 @@
                </xsl:element>
             </xsl:if>
             <xsl:choose>
-                <xsl:when test="child::t:l">
+                <xsl:when test="./t:l or ./t:said/t:l">
                     <ol><xsl:apply-templates /></ol>
                 </xsl:when>
                 <xsl:otherwise>
