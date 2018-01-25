@@ -22,6 +22,8 @@
         </xsl:if>
     </xsl:template>
 
+    <xsl:template match="t:teiHeader" />
+
     <xsl:template match="//t:div[@type = 'translation']">
     <div>
       <xsl:attribute name="id">
