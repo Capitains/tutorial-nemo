@@ -103,6 +103,9 @@ def organize_my_poetry(collection, path=None, **kwargs):
 - We loop over each of its editions, commentary and translations.
     - In the citation scheme, if the text has poetry in it, we return `True.`
 
+#### Important Note
+
+The code block displayed to filter collection upon their citation scheme is not valid as of yet, as we awaits an update to Nautilus 2.0.0 to take into account the descendants before dispatching.
 
 ![If the textgroup has a text with lines in citation scheme, it goes to Poetry](./images-for-md/dispatcher.complete.png)
 
