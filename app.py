@@ -5,7 +5,7 @@ from MyCapytain.resources.prototypes.cts.inventory import CtsTextInventoryCollec
 from MyCapytain.resolvers.utils import CollectionDispatcher
 
 
-from capitains_nautilus.cts.resolver import NautilusCTSResolver
+from capitains_nautilus.cts.resolver import NautilusCtsResolver
 from capitains_nautilus.flask_ext import FlaskNautilus
 from flask_nemo.chunker import level_grouper
 from flask_nemo import Nemo
@@ -80,7 +80,7 @@ def organize_my_poetry(collection, path=None, **kwargs):
 
 
 # Parsing the data
-resolver = NautilusCTSResolver(["corpora/additional-texts", "corpora/priapeia"], dispatcher=organizer)
+resolver = NautilusCtsResolver(["corpora/additional-texts", "corpora/priapeia"], dispatcher=organizer)
 resolver.parse()
 
 
