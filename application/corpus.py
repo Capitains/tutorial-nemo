@@ -2,7 +2,7 @@ from MyCapytain.resources.prototypes.cts.inventory import CtsTextInventoryCollec
 from MyCapytain.resolvers.utils import CollectionDispatcher
 
 
-from capitains_nautilus.cts.resolver import NautilusCTSResolver
+from capitains_nautilus.cts.resolver import NautilusCtsResolver
 
 # Setting up the collections
 
@@ -41,5 +41,5 @@ def organize_my_poetry(collection, path=None, **kwargs):
 
 
 # Parsing the data
-resolver = NautilusCTSResolver(["corpora/additional-texts", "corpora/priapeia"], dispatcher=organizer)
+resolver = NautilusCtsResolver(["corpora/additional-texts", "corpora/priapeia"], dispatcher=organizer)
 resolver.parse()
