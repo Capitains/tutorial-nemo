@@ -34,7 +34,7 @@ def generic_chunker(text, getreffs):
         reffs = level_grouper(text, getreffs, level, excerpt_length)
     else:
         reffs = getreffs(level=level)
-        reffs = [(reff, level_name + " " + reff) for reff in reffs]
+        reffs = [(str(reff), level_name + " " + str(reff)) for reff in reffs]
 
     return reffs
 
